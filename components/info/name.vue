@@ -35,8 +35,8 @@ export default {
   border-radius: 20px;
   outline-offset: 4px;
   background: #ddd;
-  -webkit-box-shadow: 0px 12px 20px 2px #B9C5CD; 
-  box-shadow: 0px 12px 20px 2px #B9C5CD;
+  -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
+  box-shadow: 0px 12px 20px 2px #b9c5cda5;
 }
 
 .text-name{

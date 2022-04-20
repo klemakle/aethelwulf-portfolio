@@ -76,7 +76,7 @@ export default {
 <style>
 
 .kals{
-  background-color:#d9e1e6a0;
+  background-color:#f7f7f744;
   height: 100vh;
   padding: 0.1rem;
 }
@@ -116,9 +116,9 @@ export default {
 
 @keyframes bounceSmooth{
   0%   { background-position: 50% 50%;}
-  25%  { background-position: 50% 45%; }
+  25%  { background-position: 50% 47%; }
   50%  { background-position: 50% 50%; }
-  75%  { background-position: 50% 55%; }
+  75%  { background-position: 50% 53%; }
   100% { background-position: 50% 50%; }
 }
 
