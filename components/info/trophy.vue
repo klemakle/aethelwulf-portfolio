@@ -2,7 +2,7 @@
    <div class="trophy">
     <img src="../../assets/images/award.png" alt="">
       <div class="flag-sn">
-        <img src="../../assets/images/senegal2.png" alt=""/>
+        <img src="../../assets/images/senegal2.png" alt="sn-flag"/>
         <span class="afcon">AFCON winners</span>
       </div>
   </div>

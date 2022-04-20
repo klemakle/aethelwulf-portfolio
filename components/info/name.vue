@@ -3,7 +3,7 @@
     <div class="card-name">
       <div class="text-name">
         <div class="hello-icon">
-          <img src="~/assets/images/goodbye2.png" alt="hello icon">
+          <img src="~/assets/images/goodbye.png" alt="hello icon">
         </div>
         <div class="hello">
           <p class="hello-text">Hello, I'm</p>
@@ -72,6 +72,10 @@ export default {
 .logo-social{
   width: 40px;
   height: auto;
+  position: absolute;
+  transform: translate(-50%, -20%);
+  opacity:.3;
+  transition: all .5s cubic-bezier(0.25, 0, 0, 1);
 }
 
 .logo-social img{
@@ -81,21 +85,20 @@ export default {
 
 
 .twitter{
-  position: absolute;
-  top: -60px;
-  left: 10px;
-  display: none;
+  left:45.5%;
+  top:18.75%;
+
 }
 
 .facebook{
-  position: absolute;
-  top: -30px;
-  left: -45px;
-  display: none;
+  left:15.75%;
+  top:39.5%;
 }
 
 .card-name:hover .logo-social{
   display: block;
+  transform: translate(-190%, -190%);
+  opacity: .8;
 }
 
 </style>
