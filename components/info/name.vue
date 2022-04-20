@@ -10,6 +10,12 @@
           <h5>Kalidou Dia</h5>
         </div>
       </div>
+       <div class="logo-social facebook">
+        <img src="../../assets/images/facebook.png" alt="">
+      </div>
+      <div class="twitter logo-social">
+        <img src="../../assets/images/twitter.png" alt="">
+      </div>
     </div>  
   </div>
 </template>
@@ -23,6 +29,7 @@ export default {
 <style>
 .name{
   transform: rotate(-5deg);
+  cursor: pointer;
 }
 
 .card-name{
@@ -37,6 +44,7 @@ export default {
   background: #ddd;
   -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
   box-shadow: 0px 12px 20px 2px #b9c5cda5;
+  position: relative;
 }
 
 .text-name{
@@ -59,6 +67,35 @@ export default {
   opacity: .7;
   margin-bottom:5px ;
   font-size: 8pt;
+}
+
+.logo-social{
+  width: 40px;
+  height: auto;
+}
+
+.logo-social img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.twitter{
+  position: absolute;
+  top: -60px;
+  left: 10px;
+  display: none;
+}
+
+.facebook{
+  position: absolute;
+  top: -30px;
+  left: -45px;
+  display: none;
+}
+
+.card-name:hover .logo-social{
+  display: block;
 }
 
 </style>

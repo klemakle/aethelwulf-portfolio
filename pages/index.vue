@@ -1,5 +1,6 @@
 <template>
   <div class="global-body">
+    <div class="header"></div>
     <div class="tete">
       <aethelwulf/>
     </div>
@@ -37,11 +38,16 @@ export default Vue.extend({
   /* margin: auto 50px; */
 }
 
+.header{
+  height: 70px;
+  background-color: green;
+}
+
 .tete{
   background-image: url('../assets/images/blob-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 30% 50%;
+  background-size: contain;
+  background-position: 30% 40%;
 }
 
 </style>

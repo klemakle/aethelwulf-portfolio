@@ -1,9 +1,9 @@
 <template>
    <div class="trophy">
-    <img src="../../assets/images/trophy2.png" alt="">
+    <img src="../../assets/images/award.png" alt="">
       <div class="flag-sn">
-        <span class="afcon">CAN 2022</span>
         <img src="../../assets/images/senegal2.png" alt=""/>
+        <span class="afcon">AFCON winners</span>
       </div>
   </div>
 </template>
@@ -26,9 +26,10 @@ export default {
 }
 
 .afcon{
-  font-size: 8pt;
+  font-size: 7pt;
   text-align: center;
   color: #6b7688;
+  font-weight: 600;
 }
 
 .flag-sn{

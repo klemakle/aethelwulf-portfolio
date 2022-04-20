@@ -129,7 +129,7 @@ export default {
 
 #layer-1{
   position: absolute;
-  top: 70px;
+  top: 100px;
   left: 100px;
   float: left;
 }
