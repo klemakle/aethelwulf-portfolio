@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="card">
     <div class="card-profession">
       <div class="title">
         Software engineer
@@ -19,21 +19,31 @@ export default {
 
 <style>
 
+.card{
+  transform:rotate(-5deg);
+  width: 170px;
+  height: auto;
+  background-color: #fff;
+  padding: 0;
+  border: none;
+  border-radius: 20px;
+  outline-offset: 4px;
+  background: #efefef;
+   -webkit-box-shadow: 0px 12px 20px 2px #B9C5CD; 
+  box-shadow: 0px 12px 20px 2px #B9C5CD;
+}
+
 .card-profession{
-  margin-top: 40px;
   width: 170px;
   color: #6b7688;
-  max-width: 300px;
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #eee;
+  background-color: #fff;
   border-radius: 20px;
   padding: 10px 15px;
-  -webkit-box-shadow: 0px 20px 16px -2px rgba(239,239,239,0.68); 
-  box-shadow: 0px 20px 16px -2px rgba(239,239,239,0.68);
+  transform: translateY(-8px);
 }
 
 .card-profession .title{

@@ -2,22 +2,12 @@
   <div class="kals">
     
     <div class="parent">
-      <div class="div1">
-        <!-- <Location/>
-        <Profession/>
-        <Country/>
-        <Trophy/> -->
-       </div>
-      <div class="div2">
-        <div class="photo-kals" id="parallax">
-          <div class="relat">
-            <Name/>
-          </div>
-        </div> 
-      </div>
-      <div class="div3"> 
-        <div class="paragraph-text">
-        </div>
+      <div class="div2" id="wrapper">
+        <div class="photo-kals relat bounce" id="parallax" ></div> 
+        <div  id="layer-1"><Name/></div>
+        <div  id="layer-2"><Location/></div>
+        <div  id="layer-3"><Profession/></div>
+        <div  id="layer-4"><Trophy/></div>
       </div>
     </div>
   </div>
@@ -39,14 +29,14 @@ export default {
     Trophy,
   },
   mounted(){
-    this.parallac();
-
+    this.parallax();
+    // this.parallac();
   },
   methods:{
     parallac() {
     // Add event listener
-    document.addEventListener("mousemove", parallax);
-    const elem = document.querySelector("#parallax");
+      const elem = document.querySelector("#parallax");
+      elem.addEventListener("mousemove", parallax);
     // Magic happens here
       function parallax(e) {
           let _w = window.innerWidth/2;
@@ -59,6 +49,24 @@ export default {
           let x = `${_depth3}, ${_depth2}, ${_depth1}`;
           elem.style.backgroundPosition = x;
       }
+    },
+
+    parallax() {
+      let wrapper = document.querySelector('#wrapper')
+		  let	layerOne = document.querySelector('#layer-1'),
+			layerTwo = document.querySelector('#layer-2'),
+			layerThree = document.querySelector('#layer-3'),
+			layerFour = document.querySelector('#layer-4');
+
+      document.addEventListener('mousemove',para)
+      function para(e){
+        let pageX = e.clientX - window.innerWidth/2,
+            pageY = e.clientY - window.innerHeight/2;
+        layerOne.style.transform = 'translateX(-' + (50 + pageX/20) + '%) translateY(-' + (50 + pageY/40) + '%)';
+        layerTwo.style.transform = 'translateX(' + (50 + pageX/55) + '%) translateY(' + (50 + pageY/55) +  '%)';
+        layerThree.style.transform = 'translateX(-' + (50 + pageX/20) + '%) translateY(' + (50 + pageY/50) +  '%)';
+        layerFour.style.transform = 'translateX(-' + (50 + pageX/50) + '%) translateY(-' + (50 + pageY/50) + '%)';
+	    };
     }
   }
   
@@ -68,56 +76,80 @@ export default {
 <style>
 
 .kals{
-  background-color:#fff;
+  background-color:#d9e1e6a0;
   height: 100vh;
   padding: 0.1rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .parent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  height: 80%;
-  border:solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  height: 90%;
+  margin: 20px ;
 }
 
-.div1 { grid-area: 1 / 1 / 3 / 2; }
 .div2 {
-  grid-area: 1 / 2 / 4 / 3;
+  height:100%;
   position: relative;
-}
-.div3 { grid-area: 1 / 3 / 3 / 4; }
-
-.text{
-  width: 50%;
-  color: #060609;
 }
 
 .photo-kals {
-  /* position: relative; */
   width: 600px;
+  max-width: 100%;
   height: 100%;
+  text-align: center;
   background-image: url('~/assets/images/meditation.png');
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
+  /* background-blend-mode: multiply; */
   background-position: 50% 50%;
 }
 
-.paragraph-text{
-  display: flex;
-  flex-direction: column;
-  gap: -10px;
-  justify-content: center;
-  align-items: flex-start;
+.bounce{
+  animation-name: bounceSmooth;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-fill-mode: both;
 }
 
-.relat{
-  position: relative;
+@keyframes bounceSmooth{
+  0%   { background-position: 50% 50%;}
+  25%  { background-position: 50% 45%; }
+  50%  { background-position: 50% 50%; }
+  75%  { background-position: 50% 55%; }
+  100% { background-position: 50% 50%; }
+}
+
+
+.rela{
+  position: absolute;
+}
+
+#layer-1{
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  float: left;
+}
+
+#layer-2{
+  position: absolute;
+  top:300px;
+  right: 20px;
+}
+
+#layer-3{
+  position:absolute;
+  top: 250px;
+  left: 20px;
+}
+
+#layer-4{
+  position:absolute;
+  top: 120px;
+  right: 40px;
 }
 
 </style>

@@ -22,7 +22,7 @@ export default {
 
 <style>
 .name{
-  /* transform: rotate(-20deg); */
+  transform: rotate(-5deg);
 }
 
 .card-name{
@@ -35,8 +35,8 @@ export default {
   border-radius: 20px;
   outline-offset: 4px;
   background: #ddd;
-  -webkit-box-shadow: 0px 32px 28px 5px #dad7d7; 
-  box-shadow: 0px 32px 28px 5px #dad7d7;
+  -webkit-box-shadow: 0px 12px 20px 2px #B9C5CD; 
+  box-shadow: 0px 12px 20px 2px #B9C5CD;
 }
 
 .text-name{
@@ -46,7 +46,7 @@ export default {
   justify-content: space-around;
   border-radius: 20px;
   padding: 10px 5px;
-  background-color: #eee;
+  background-color: #fefefe;
   transform: translateY(-6px);
 }
 

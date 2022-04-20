@@ -34,7 +34,7 @@ export default Vue.extend({
 
 <style>
 .global-body{
-  margin: auto 50px;
+  /* margin: auto 50px; */
 }
 
 </style>

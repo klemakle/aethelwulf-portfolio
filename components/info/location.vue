@@ -36,7 +36,8 @@ export default {
 }
 
 .location-text{
-  opacity:.7 ;
+  opacity:1 ;
+  font-weight: 500;
   font-size: 9pt;
 }
 
