@@ -54,11 +54,5 @@ export default {
   height: 100%;
 }
 
-/* max-width 350px */
-@media (max-width: 350px) { 
-  .trophy{
-    transform: rotate(0deg);
-  }
-}
 
 </style>

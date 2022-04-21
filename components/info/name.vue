@@ -127,7 +127,7 @@ export default {
 
 
 /* max-width 350px */
-@media (max-width: 450px) { 
+@media (max-width: 400px) { 
   .name{
     transform: rotate(0deg);
   }

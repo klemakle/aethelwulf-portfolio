@@ -196,6 +196,15 @@ export default {
   .div2{width: 85%;}
 }
 
+/* min-width 1500px */
+@media (min-width: 1500px) { 
+  .div2{ width: 40% !important;}
+}
+
+/* min-width 2000px */
+@media (min-width: 1899px){
+  .div2{width: 30% !important;}
+}
 
 /* max-width 350px */
 @media (max-width: 400px) { 
@@ -215,17 +224,6 @@ export default {
   #layer-4{
     display: none;
   }
-}
-
-
-/* min-width 1500px */
-@media (min-width: 1500px) { 
-  .div2{ width: 40% !important;}
-}
-
-/* min-width 2000px */
-@media (min-width: 1899px){
-  .div2{width: 30% !important;}
 }
 
 </style>

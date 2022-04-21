@@ -59,7 +59,7 @@ export default Vue.extend({
 }
 
 .tete{
-  padding-top: 100px ;
+  padding-top: 60px ;
 }
 
 .tete1{
