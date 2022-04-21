@@ -23,7 +23,6 @@ export default {
   transform:rotate(-5deg);
   width: 170px;
   height: auto;
-  background-color: #fff;
   padding: 0;
   border: none;
   border-radius: 20px;

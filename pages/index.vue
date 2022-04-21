@@ -1,8 +1,12 @@
 <template>
   <div class="global-body">
-    <div class="header"></div>
+    <div class="header">
+      <Header/>
+    </div>
     <div class="tete">
-      <aethelwulf/>
+      <div>
+        <Aethelwulf/>
+      </div>
     </div>
       <!-- <no-ssr>
         <full-page :options="options" id="fullpage">
@@ -23,27 +27,28 @@
 <script lang="ts">
 import Vue from 'vue'
 import Aethelwulf from '~/components/aethelwulf.vue'
+import Header from '~/components/header/header.vue'
 import KeleLek from '~/components/projects/keleLek.vue'
 import kweli from '~/components/projects/kweli.vue'
 import SenDiabete from '~/components/projects/senDiabete.vue'
 
+
 export default Vue.extend({
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf },
+  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header },
   name: 'IndexPage'
 })
 </script>
 
 <style>
 .global-body{
-  /* margin: auto 50px; */
+   background-image: url('../assets/images/blob-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 30% 50%;
+  height: 100vh;
 }
 
-.header{
-  height: 70px;
-  background-color: green;
-}
-
-.tete{
+.tete1{
   background-image: url('../assets/images/blob-bg.png');
   background-repeat: no-repeat;
   background-size: contain;

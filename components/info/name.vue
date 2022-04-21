@@ -10,11 +10,20 @@
           <h5>Kalidou Dia</h5>
         </div>
       </div>
-       <div class="logo-social facebook">
-        <img src="../../assets/images/facebook.png" alt="">
+       <div class="logo-social github">
+        <a href="https://github.com/klemakle" target="_blank">
+          <img src="../../assets/images/icones/github.png" alt="github">
+        </a>
       </div>
-      <div class="twitter logo-social">
-        <img src="../../assets/images/twitter.png" alt="">
+      <div class="logo-social twitter">
+        <a href="https://twitter.com/ka___lidou" target="_blank">
+          <img src="../../assets/images/icones/twitter.png" alt="twitter">
+        </a>
+      </div>
+      <div class="logo-social linkedin">
+        <a href="https://www.linkedin.com/in/kalidou-dia-b0b63614a/" target="_blank">
+          <img src="../../assets/images/icones/linkedin.png" alt="linkedin">
+        </a>
       </div>
     </div>  
   </div>
@@ -29,7 +38,7 @@ export default {
 <style>
 .name{
   transform: rotate(-5deg);
-  cursor: pointer;
+  cursor: unset;
 }
 
 .card-name{
@@ -41,7 +50,7 @@ export default {
   border: none;
   border-radius: 20px;
   outline-offset: 4px;
-  background: #ddd;
+  background: #ededed;
   -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
   box-shadow: 0px 12px 20px 2px #b9c5cda5;
   position: relative;
@@ -70,35 +79,47 @@ export default {
 }
 
 .logo-social{
-  width: 40px;
+  width: 35px;
   height: auto;
   position: absolute;
-  transform: translate(-50%, -20%);
-  opacity:.3;
-  transition: all .5s cubic-bezier(0.25, 0, 0, 1);
+  transform: translate(10%, -40%);
+  opacity:0;
+  cursor: pointer;
+  transition: transform .65s cubic-bezier(0.25, 0, 0, 1), opacity .25s cubic-bezier(0.25, 0, 0, 1);
+}
+
+.card-name:hover .logo-social{
+  transform: translate(-190%, -190%);
+  opacity: 1;
 }
 
 .logo-social img{
   width: 100%;
   height: 100%;
+  filter: invert(70%);
+  transition: .25s ease;
+}
+
+.logo-social a > img:hover{
+  filter: invert(0);
 }
 
 
 .twitter{
-  left:45.5%;
+  left:50.5%;
   top:18.75%;
-
+}
+.github{
+  left:23.75%;
+  top:18.5%;
+}
+.linkedin{
+  left: 10%;
+  top: 62%;
 }
 
-.facebook{
-  left:15.75%;
-  top:39.5%;
-}
 
-.card-name:hover .logo-social{
-  display: block;
-  transform: translate(-190%, -190%);
-  opacity: .8;
-}
+
+
 
 </style>

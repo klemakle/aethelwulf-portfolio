@@ -1,7 +1,9 @@
 <template>
   <div class="kals">
-    
     <div class="parent">
+      <div class="div1">
+        <Social/>
+      </div>
       <div class="div2" id="wrapper">
         <div class="photo-kals relat bounce" id="parallax" ></div> 
         <div  id="layer-1"><Name/></div>
@@ -19,6 +21,7 @@ import Location from './info/location.vue';
 import Name from './info/name.vue'
 import Profession from './info/profession.vue';
 import Trophy from './info/trophy.vue';
+import Social from './info/social.vue'
 
 export default {
   components:{
@@ -27,6 +30,7 @@ export default {
     Profession,
     Country,
     Trophy,
+    Social,
   },
   mounted(){
     this.parallax();
@@ -77,7 +81,7 @@ export default {
 
 .kals{
   background-color:#f7f7f744;
-  height: 100vh;
+  height: 90vh;
   padding: 0.1rem;
 }
 
@@ -85,13 +89,20 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: auto; */
   height: 90%;
   margin: 20px ;
+  position: relative;
+}
+
+.div1{
+  position: absolute;
+  left: 20px;
+  bottom:20px;
 }
 
 .div2 {
   height:100%;
+  justify-self: center;
   position: relative;
 }
 
@@ -104,6 +115,8 @@ export default {
   background-repeat: no-repeat;
   /* background-blend-mode: multiply; */
   background-position: 50% 50%;
+  position:auto;
+  z-index: 2;
 }
 
 .bounce{
@@ -136,20 +149,22 @@ export default {
 
 #layer-2{
   position: absolute;
-  top:300px;
-  right: 20px;
+  top:280px;
+  right: 70px;
+  z-index:1;
 }
 
 #layer-3{
   position:absolute;
   top: 250px;
-  left: 20px;
+  left: 40px;
+  z-index:3;
 }
 
 #layer-4{
   position:absolute;
   top: 120px;
-  right: 40px;
+  right: 50px;
 }
 
 </style>

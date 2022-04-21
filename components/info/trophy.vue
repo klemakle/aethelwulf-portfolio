@@ -20,9 +20,15 @@ export default {
   height: auto;
 }
 
-.trophy img{
+.trophy > img{
   width: 100%;
   height: 100%;
+  filter: grayscale(1);
+  transition: .25s cubic-bezier(0.25, 0, 0, 1);
+}
+
+.trophy:hover > img{
+  filter: grayscale(0);
 }
 
 .afcon{

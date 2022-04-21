@@ -33,7 +33,14 @@ export default {
 .location-icon img{
   width: 100%;
   height: 100%;
+  filter: grayscale(1);
+  transform:  all .25s ease-out;
 }
+.location:hover  img{
+  filter: grayscale(0);
+}
+
+
 
 .location-text{
   opacity:1 ;
