@@ -18,17 +18,23 @@ export default {
 .trophy{
   width: 100px;
   height: auto;
+  transform: rotate(-5deg);
+}
+.trophy:hover{
+  transform: rotate(0deg);
 }
 
 .trophy > img{
   width: 100%;
   height: 100%;
+  transform: rotate(-25deg);
   filter: grayscale(1);
-  transition: .25s cubic-bezier(0.25, 0, 0, 1);
+  transition: all .25s cubic-bezier(0.25, 0, 0, 1);
 }
 
 .trophy:hover > img{
   filter: grayscale(0);
+  transform: rotate(-20deg);
 }
 
 .afcon{
@@ -46,6 +52,13 @@ export default {
 .flag-sn img{
   width: 20px;
   height: 100%;
+}
+
+/* max-width 350px */
+@media (max-width: 350px) { 
+  .trophy{
+    transform: rotate(0deg);
+  }
 }
 
 </style>

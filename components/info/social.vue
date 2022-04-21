@@ -52,4 +52,10 @@ a{
   opacity:.9;
 }
 
+@media (max-width: 750px) { 
+  .social{
+    flex-direction: row;
+  }
+}
+
 </style>

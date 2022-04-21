@@ -37,8 +37,13 @@ export default {
 
 <style>
 .name{
-  transform: rotate(-5deg);
+  transform: rotate(5deg);
+  transition: transform .2s ease-out;
   cursor: unset;
+}
+
+.name:hover{
+  transform: rotate(0deg);
 }
 
 .card-name{
@@ -54,6 +59,7 @@ export default {
   -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
   box-shadow: 0px 12px 20px 2px #b9c5cda5;
   position: relative;
+  z-index: 10;
 }
 
 .text-name{
@@ -82,6 +88,7 @@ export default {
   width: 35px;
   height: auto;
   position: absolute;
+  z-index: -1;
   transform: translate(10%, -40%);
   opacity:0;
   cursor: pointer;
@@ -119,7 +126,12 @@ export default {
 }
 
 
-
+/* max-width 350px */
+@media (max-width: 450px) { 
+  .name{
+    transform: rotate(0deg);
+  }
+}
 
 
 </style>

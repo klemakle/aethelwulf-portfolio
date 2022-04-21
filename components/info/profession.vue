@@ -20,16 +20,21 @@ export default {
 <style>
 
 .card{
-  transform:rotate(-5deg);
+  transform:rotate(5deg);
   width: 170px;
   height: auto;
   padding: 0;
   border: none;
   border-radius: 20px;
   outline-offset: 4px;
+  transition: transform .2s ease-out;
   background: #efefef;
    -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
   box-shadow: 0px 12px 20px 2px #b9c5cda5;
+}
+
+.card:hover{
+  transform:rotate(0deg);
 }
 
 .card-profession{
@@ -52,6 +57,13 @@ export default {
 .card-profession .dev{
   font-size: 7pt;
   opacity: .8;
+}
+
+/* max-width 350px */
+@media (max-width: 450px) { 
+  .card{
+    transform: rotate(0deg);
+  }
 }
 
 </style>

@@ -22,7 +22,11 @@ export default {
   width: 130px;
   max-width: 150px;
   color: #6b7688;
-  /* transform: rotate(20deg); */
+  transform: rotate(-5deg);
+  transition: transform .2s ease-out;
+}
+.location:hover{
+  transform: rotate(0deg);
 }
 
 .location-icon{
@@ -46,6 +50,13 @@ export default {
   opacity:1 ;
   font-weight: 500;
   font-size: 9pt;
+}
+
+/* max-width 350px */
+@media (max-width: 350px) { 
+  .location{
+    transform: rotate(0deg);
+  }
 }
 
 </style>
