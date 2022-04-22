@@ -182,7 +182,7 @@ export default {
   left: 0;
   bottom: 0;
   position: absolute;
-  z-index: 0;
+  z-index:-1;
   transition: all .25s ease-in;
 }
 .mobile-visible{
