@@ -50,6 +50,7 @@ export default {
         components: [],
         directives: [],
     },
+
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         babel: { compact: true }
