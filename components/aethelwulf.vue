@@ -8,9 +8,13 @@
         <div class="photo-kals relat bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
         <div class="info-presentation" id="layer-2"><Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/></div>
-        <div class="info-presentation" id="layer-3"><Profession :title="'Javascript addict'" :desc="'problem solver'"/></div>
+        <div class="info-presentation" id="layer-3"><Profession :title="'CS graduate'" :desc="'Ecole Polytechnique de Thies'"/></div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>
         <div class="info-presentation" id="layer-5"><Name/></div>
+      </div>
+
+      <div class="location-mobile div3">
+        <Location/>
       </div>
     </div>
   </div>
@@ -87,6 +91,14 @@ export default {
   width: 55%;
 }
 
+.div3{
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  transform: rotate(-5deg);
+}
+
 .photo-kals {
   width: 100%;
   height: 100%;
@@ -113,10 +125,6 @@ export default {
   100% { background-position: 50% 50%; }
 }
 
-
-.rela{
-  position: absolute;
-}
 
 #layer-1{
   position: absolute;
@@ -195,6 +203,10 @@ export default {
 /* max-width 400px */
 @media (max-width: 410px) { 
   .info-presentation{animation-name: bounceinfo2;}
+
+  .div3{
+    display: flex;
+  }
 
   #layer-1{
    display: none;
