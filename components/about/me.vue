@@ -106,7 +106,6 @@ export default {
   gap: 0px;
   width: 100%;
   height: auto;
-  /* background-color:#f7f7f744; */
 }
 
 .gras-text,
@@ -158,8 +157,8 @@ export default {
   border-right: solid 1.5px #80a6b0;
   height: 10px;
   width: 10px;
-  left: 60%;
-  top: -1px;
+  left: 75%;
+  top: -10%;
   transform: rotate(45deg);
   transition: all .15s ease-in-out;
 }
@@ -168,7 +167,7 @@ export default {
   transform: translateX(10px);
 }
 .my-resume:hover .fleche::before{
-  left: 50%;
+  left: 59%;
   border-top:2px solid #80a6b0;
   border-right:2px solid #80a6b0;
 }
