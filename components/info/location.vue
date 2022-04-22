@@ -22,7 +22,7 @@ export default {
   width: 130px;
   max-width: 150px;
   color: #6b7688;
-  transform: rotate(5deg);
+  transform: rotate(0deg);
   transition: transform .2s ease-out;
 }
 .location:hover{

@@ -18,7 +18,7 @@ export default {
 .trophy{
   width: 100px;
   height: auto;
-  transform: rotate(-5deg);
+  transform: rotate(0deg);
 }
 .trophy:hover{
   transform: rotate(0deg);
