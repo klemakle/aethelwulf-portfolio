@@ -3,24 +3,44 @@
     <p class="about-me-title">
       About
     </p>
-    <div class="about-me">
-      <div class="my-photo">
-        <div class="cloud-photo">
-          <img src="~/assets/images/cool.png" alt="">
+    <div class="bg-about">
+      <div class="about-me">
+        <div class="my-photo">
+          <div class="cloud-photo">
+            <img src="~/assets/images/cool.png" alt="">
+          </div>
+        </div>
+        <div class="my-presentation">
+          <p>
+            My name is <span class="gras-text">Kalidou Dia</span> (put the sound), I am <span class="gras-text">23 years old</span>. I am from Senegal (West Africa).
+            I'm passionate about everything related to computer engineering, I love challenges and it's always a joy to solve problems.
+          </p>
+          <p>
+            I started doing web development in 2017. 
+            Currently I am evolving in web application development with the <span class="gras-text">Javascript ecosystem</span>.</p>
+          <p>
+            Today I am still finishing my training in <span class="gras-text">computer engineering</span> at the <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">Polytechnic School of Thies</a>.
+            During these last years I was able to work with <span class="gras-text">companies</span> and <span class="gras-text">startups</span> on interesting projects. 
+            I'm learning a lot and I'm always learning new things that I'll put to good use. </p>
+          <div class="my-resume"> <span class="fleche">|</span><span class="text">Resume</span></div>
         </div>
       </div>
-      <div class="my-presentation">
-        <p>My name is <span class="gras-text">Kalidou Dia</span> (put the sound), I am 23 years old. I am from Senegal (West Africa). I'm passionate about everything related to computer engineering, I like to share tips. I love challenges and it's always a joy to solve a problem that seemed unsolvable.</p>
-        <p>I started doing web development in 2017 with the basics (Html/Css). And this is my favorite area.</p>
-        <p>Today I had the chance to benefit from a <span class="gras-text">computer engineering</span> training for 5 years. During these last years I was able to work with <span class="gras-text">companies</span> and <span class="gras-text">startups</span> on interesting projects. I learn a lot of things that I will always put to good use. </p>
+
+      <div class="skills">
+        <Skills/>
       </div>
     </div>
+
+   
   </div>
 </template>
 
 <script>
+import Skills from './skills.vue'
 export default {
-
+  components:{
+    Skills
+  }
 }
 </script>
 
@@ -70,26 +90,88 @@ export default {
   left: 0;
 }
 
+.skills{
+  margin-top: 60px ;
+  margin-left: 60px;
+  padding: 20px;
+}
+.bg-about{
+  padding: 50px 10px;
+  background-color: #81b2cf1c;
+}
+
 .about-me{
   display: flex;
   justify-content: space-around;
   gap: 0px;
-  padding: 50px 10px;
   width: 100%;
   height: auto;
   /* background-color:#f7f7f744; */
-  background-color: #81b2cf1c;
 }
 
-.gras-text{
+.gras-text,
+.gras-text:hover{
   font-weight: 900;
   color: #0e1720;
-  font-size: 13pt;
+  font-size: 12pt;
   opacity: 1;
   font-family: Montserrat-Regular;
+}
+.underline-text{
+  opacity:1;
   text-decoration: underline;
   text-decoration-style: dashed;
-  text-decoration-color: #33496192;
+  text-decoration-color: #33496183;
+  transition: all .25s ease-in-out;
+}
+.underline-text:hover{
+  text-decoration-style: dashed;
+  text-decoration-color: #101922;
+}
+.my-resume{
+  cursor: pointer;
+}
+.my-resume .text{
+  opacity:.8;
+  color: #80a6b0;
+  font-weight: bold;
+  font-size: 12pt;
+  transition: all .15s ease-in-out;
+}
+.fleche{
+  margin-right:10px ;
+  position: relative;
+  font-size: 20pt;
+  writing-mode: vertical-lr;
+  font-weight: 900;
+  color:#80a6b0;
+  transition: all .25s ease-in-out;
+}
+.fleche::before{
+  content: "";
+  position: absolute;
+  border-top: solid 1.5px #80a6b0;
+  border-right: solid 1.5px #80a6b0;
+  height: 10px;
+  width: 10px;
+  left: 60%;
+  top: -1px;
+  transform: rotate(45deg);
+  transition: all .15s ease-in-out;
+}
+
+.my-resume:hover .fleche{
+  transform: translateX(10px);
+}
+.my-resume:hover .fleche::before{
+  left: 50%;
+  border-top:2px solid #80a6b0;
+  border-right:2px solid #80a6b0;
+}
+.my-resume:hover .text{
+  opacity:1;
+  font-family: Montserrat-bold;
+  font-weight: 900;
 }
 
 .my-photo{
