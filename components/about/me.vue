@@ -40,7 +40,7 @@ export default {
 
 @font-face {
     font-family: Montserrat-bold;
-    src: url("~/assets/fonts/Montserrat/Montserrat-bold.ttf");
+    src: url("~/assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
 .me{
