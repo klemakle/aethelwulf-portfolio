@@ -23,6 +23,9 @@
           </full-page>
         </no-ssr> -->
     </div>
+    <div id="about">
+      <Me/>
+    </div>
 </div>
 </template>
 
@@ -33,10 +36,10 @@ import Header from '~/components/header/header.vue'
 import KeleLek from '~/components/projects/keleLek.vue'
 import kweli from '~/components/projects/kweli.vue'
 import SenDiabete from '~/components/projects/senDiabete.vue'
-
+import Me from '~/components/about/me.vue';
 
 export default Vue.extend({
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header },
+  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me },
   name: 'IndexPage'
 })
 </script>

@@ -5,7 +5,7 @@
     </div>
     <div class="menu">
       <div class="menu-item"> <a class="active" href="#">CASES</a> </div>
-      <div class="menu-item"> <a href="#">ABOUT</a> </div>
+      <div class="menu-item"> <a href="#about">ABOUT</a> </div>
       <div class="menu-item"> <a href="#">PROJECTS</a> </div>
       <div class="menu-item"> <a href="#">RESUME</a> </div>
     </div>

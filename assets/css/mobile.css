@@ -1,11 +1,11 @@
 @font-face {
     font-family: Ubuntu-Medium;
-    src: url("../../assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
+    src: url("~/assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
 }
 
 @font-face {
     font-family: Montserrat-Regular;
-    src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+    src: url("~/assets/fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 .menu-container {
@@ -29,6 +29,7 @@
     letter-spacing: 0.15em;
     display: inline-block;
     padding: 10px 5px;
+    z-index: 0;
     position: relative;
 }
 
@@ -45,7 +46,8 @@
     width: 0;
 }
 
-.menu-container a:hover:after {
+.menu-container a:hover:after,
+.menu-container a:focus:after {
     width: 100%;
     left: 0;
 }

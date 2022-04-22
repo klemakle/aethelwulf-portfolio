@@ -8,7 +8,7 @@
         <div class="photo-kals relat bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
         <div class="info-presentation" id="layer-2"><Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/></div>
-        <div class="info-presentation" id="layer-3"><Profession :title="'CS graduate'" :desc="'Ecole Polytechnique de Thies'"/></div>
+        <div class="info-presentation" id="layer-3"><Profession :title="'Mbaxal Saloum'" :desc="'Meilleur plat du monde'" :end="true"/></div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>
         <div class="info-presentation" id="layer-5"><Name/></div>
       </div>
@@ -103,7 +103,7 @@ export default {
   width: 100%;
   height: 100%;
   text-align: center;
-  background-image: url('~/assets/images/meditation.png');
+  background-image: url('~/assets/images/icones/medite.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position:auto;

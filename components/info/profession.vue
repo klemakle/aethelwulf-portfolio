@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card-profession">
+    <div :class="end ? 'card-profession align-end' :'card-profession'">
       <div class="title">
         {{title}}
       </div>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  props:["title", "desc"]
+  props:["title", "desc","end"]
 }
 </script>
 
@@ -48,6 +48,10 @@ export default {
   border-radius: 20px;
   padding: 10px 15px;
   transform: translateY(-8px);
+}
+
+.align-end{
+  align-items: flex-end !important;
 }
 
 .card-profession .title{

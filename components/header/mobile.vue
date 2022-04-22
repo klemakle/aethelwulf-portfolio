@@ -3,7 +3,7 @@
     <div class="menu-list-mobile" id="menu-list-mobile">
       <div class="menu-container">
         <a href="#" class="menu-list-item">Cases</a>
-        <a href="#" class="menu-list-item">About</a>
+        <a href="#about" class="menu-list-item">About</a>
         <a href="#" class="menu-list-item">Projects</a>
         <a href="#" class="menu-list-item">Resume</a>
       </div>
