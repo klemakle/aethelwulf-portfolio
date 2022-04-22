@@ -19,7 +19,7 @@ export default {
 <style>
 @font-face {
   font-family: Montserrat-Light;
-  src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("~/assets/fonts/Montserrat/Montserrat-Regular.ttf");
 }
 /* CSS */
 .button-82-pushable {
@@ -60,13 +60,6 @@ export default {
   height: 100%;
   border-radius: 12px;
   background: #becbd39c;
-  /* background: linear-gradient(
-    to left,
-    hsl(340deg 100% 16%) 0%,
-    hsl(340deg 100% 32%) 8%,
-    hsl(340deg 100% 32%) 92%,
-    hsl(340deg 100% 16%) 100%
-  ); */
 }
 
 .button-82-front {
@@ -76,7 +69,6 @@ export default {
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
-  /* background: hsl(345deg 100% 47%); */
   background: #81B2CF;
   will-change: transform;
   transform: translateY(-4px);

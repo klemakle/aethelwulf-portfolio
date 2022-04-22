@@ -43,7 +43,7 @@ export default Vue.extend({
 
 <style>
 .global-body{
-   background-image: url('../assets/images/blob-bg.png');
+   background-image: url('~/assets/images/blob-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 30% 50%;
@@ -59,14 +59,10 @@ export default Vue.extend({
 }
 
 .tete1{
-  background-image: url('../assets/images/blob-bg.png');
+  background-image: url('~/assets/images/blob-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 30% 40%;
-}
-
-@media (max-width: 750px) { 
-
 }
 
 </style>

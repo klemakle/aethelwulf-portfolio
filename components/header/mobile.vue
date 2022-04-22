@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style>
-  @import '../../assets/css/mobile.css';
+  @import '~/assets/css/mobile.css';
 </style>

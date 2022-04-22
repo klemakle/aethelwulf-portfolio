@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="icon-left icon">
-      <img src="../../assets/images/cool.png" alt="cool">
+      <img src="~/assets/images/cool.png" alt="cool">
     </div>
     <div class="menu">
       <div class="menu-item"> <a class="active" href="#">CASES</a> </div>
@@ -58,19 +58,20 @@ export default {
 </script>
 
 <style>
+@import '~/assets/css/hamburger.css';
 @font-face {
   font-family: Montserrat-Light;
-  src: url("../../assets/fonts/Montserrat/Montserrat-Light.ttf");
+  src: url("~/assets/fonts/Montserrat/Montserrat-Light.ttf");
 }
 
 @font-face {
   font-family: Ubuntu-Light;
-  src: url("../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
+  src: url("~/assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
 @font-face {
   font-family: Ubuntu-Medium;
-  src: url("../../assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
+  src: url("~/assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
 }
 
 .header{
@@ -197,7 +198,6 @@ export default {
 
 /* max width 950px */
 @media (max-width: 930px) {
-  @import '../../assets/css/hamburger.css';
   .header .menu{display: none;}
 
   .icon-right{display: none;}

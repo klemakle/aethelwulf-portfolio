@@ -2,17 +2,17 @@
   <div class="social">
      <div class="social-network">
       <a href="https://twitter.com/ka___lidou" target="_blank">
-        <img src="../../assets/images/header/twitter.png" alt="twitter">
+        <img src="~/assets/images/header/twitter.png" alt="twitter">
       </a>
     </div>
     <div class="social-network">
       <a href="https://github.com/klemakle" target="_blank">
-        <img src="../../assets/images/header/github.png" alt="github">
+        <img src="~/assets/images/header/github.png" alt="github">
       </a>
     </div>
     <div class="social-network">
       <a href="https://www.linkedin.com/in/kalidou-dia-b0b63614a/" target="_blank">
-        <img src="../../assets/images/header/linkedin.png" alt="linkedin">
+        <img src="~/assets/images/header/linkedin.png" alt="linkedin">
       </a>
     </div>
   </div>
