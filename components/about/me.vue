@@ -129,6 +129,10 @@ export default {
   text-decoration-color: #101922;
 }
 .my-resume{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   cursor: pointer;
 }
 .my-resume .text{
