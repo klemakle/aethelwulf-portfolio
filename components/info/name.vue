@@ -37,7 +37,7 @@ export default {
 
 <style>
 .name{
-  transform: rotate(5deg);
+  /* transform: rotate(7deg); */
   transition: transform .2s ease-out;
   cursor: unset;
 }
@@ -56,8 +56,8 @@ export default {
   border-radius: 20px;
   outline-offset: 4px;
   background: #ededed;
-  -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
-  box-shadow: 0px 12px 20px 2px #b9c5cda5;
+  -webkit-box-shadow: 0px 10px 20px 1px #b9c5cda5; 
+  box-shadow: 0px 10px 20px 1px #b9c5cda5;
   position: relative;
   z-index: 10;
 }
@@ -126,7 +126,7 @@ export default {
 }
 
 
-/* max-width 350px */
+/* max-width 400px */
 @media (max-width: 400px) { 
   .name{
     transform: rotate(0deg);

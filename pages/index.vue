@@ -48,18 +48,14 @@ export default Vue.extend({
   background-size: contain;
   background-position: 30% 50%;
   height: 100vh;
-  position: relative;
   z-index: 0;
 }
 
 .header{
   background-color: rgba(255, 255, 255, 0.328);
-  position: fixed;
-  border: solid 1px red;
 }
 
 .tete{
-  padding-top: 60px ;
 }
 
 .tete1{

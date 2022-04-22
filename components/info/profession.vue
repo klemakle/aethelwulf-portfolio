@@ -2,10 +2,10 @@
   <div class="card">
     <div class="card-profession">
       <div class="title">
-        Software engineer
+        {{title}}
       </div>
       <div class="dev">
-        Fullstack Javascript developer
+        {{desc}}
       </div>
     </div>
   </div>
@@ -13,14 +13,14 @@
 
 <script>
 export default {
-
+  props:["title", "desc"]
 }
 </script>
 
 <style>
 
 .card{
-  transform:rotate(5deg);
+  /* transform:rotate(7deg); */
   width: 170px;
   height: auto;
   padding: 0;
@@ -29,8 +29,8 @@ export default {
   outline-offset: 4px;
   transition: transform .2s ease-out;
   background: #efefef;
-   -webkit-box-shadow: 0px 12px 20px 2px #b9c5cda5; 
-  box-shadow: 0px 12px 20px 2px #b9c5cda5;
+   -webkit-box-shadow: 0px 10px 20px 1px #b9c5cda5; 
+  box-shadow: 0px 10px 20px 1px #b9c5cda5;
 }
 
 .card:hover{

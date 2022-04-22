@@ -6,17 +6,17 @@
       </div>
       <div class="div2" id="wrapper">
         <div class="photo-kals relat bounce" id="parallax" ></div> 
-        <div class="info-presentation" id="layer-1"><Name/></div>
-        <div class="info-presentation" id="layer-2"><Location/></div>
-        <div class="info-presentation" id="layer-3"><Profession/></div>
+        <div class="info-presentation" id="layer-1"><Location/></div>
+        <div class="info-presentation" id="layer-2"><Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/></div>
+        <div class="info-presentation" id="layer-3"><Profession :title="'Javascript addict'" :desc="'problem solver'"/></div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>
+        <div class="info-presentation" id="layer-5"><Name/></div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Country from './info/country.vue';
 import Location from './info/location.vue';
 import Name from './info/name.vue'
 import Profession from './info/profession.vue';
@@ -28,33 +28,13 @@ export default {
     Name,
     Location,
     Profession,
-    Country,
     Trophy,
     Social,
   },
   mounted(){
     this.parallax();
-    // this.parallac();
   },
   methods:{
-    // parallac() {
-    // // Add event listener
-    //   const elem = document.querySelector("#parallax");
-    //   elem.addEventListener("mousemove", parallax);
-    // // Magic happens here
-    //   function parallax(e) {
-    //       let _w = window.innerWidth/2;
-    //       let _h = window.innerHeight/2;
-    //       let _mouseX = e.clientX;
-    //       let _mouseY = e.clientY;
-    //       let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
-    //       let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
-    //       let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
-    //       let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-    //       elem.style.backgroundPosition = x;
-    //   }
-    // },
-
     parallax() {
       let wrapper = document.querySelector('#wrapper')
 		  let	layerOne = document.querySelector('#layer-1'),
@@ -140,27 +120,33 @@ export default {
 
 #layer-1{
   position: absolute;
-  top: 15%;
-  left: 9%;
+  top: 20%;
+  left: 17%;
 }
 
 #layer-2{
   position: absolute;
-  top: 48%;
-  right: 12%;
+  top: 50%;
+  right: 7%;
 }
 
 #layer-3{
   position:absolute;
   top: 50%;
-  left:7% ;
+  left:8% ;
   z-index:0;
 }
 
 #layer-4{
   position:absolute;
-  top: 15%;
+  top: 12%;
   right: 16%;
+}
+
+#layer-5{
+  position: absolute;
+  top: 5%;
+  left: 36%;
 }
 
 .info-presentation{
@@ -206,24 +192,52 @@ export default {
   .div2{width: 30% !important;}
 }
 
-/* max-width 350px */
-@media (max-width: 400px) { 
+/* max-width 400px */
+@media (max-width: 410px) { 
   .info-presentation{animation-name: bounceinfo2;}
 
   #layer-1{
-    top: 17%;
-    left:25% ;
+   display: none;
   }
   #layer-2{
-    display: none;
-  }
-  #layer-3{
     top: 60%;
     left:25% ;
+  }
+  #layer-3{
+    display: none;
   }
   #layer-4{
     display: none;
   }
+   #layer-5{
+    top: 7%;
+    left:25% ;
+  }
 }
+
+
+@media (min-width: 411px) and  (max-width: 420px) {
+  #layer-1{
+    top: 30%;
+    left: 0%;
+  }
+  #layer-2{
+    top: 50%;
+    right: -1%;
+  }
+  #layer-3{
+    top: 51%;
+    left:0% ;
+  }
+  #layer-4{
+    top: 22%;
+    right: 1%;
+  }
+  #layer-5{
+  top: 5%;
+  left: 27%;
+}
+} 
+
 
 </style>

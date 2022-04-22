@@ -6,19 +6,54 @@
     <div class="menu">
       <div class="menu-item"> <a class="active" href="#">CASES</a> </div>
       <div class="menu-item"> <a href="#">ABOUT</a> </div>
+      <div class="menu-item"> <a href="#">PROJECTS</a> </div>
       <div class="menu-item"> <a href="#">RESUME</a> </div>
-      <div class="menu-item"> <a href="#">CONTACT</a> </div>
     </div>
     <div class="icon-right">
       <Contact/>
     </div>
+
+    <!-- hamburger menu -->
+    <div class="menu-btn">
+      <!-- <Hamburger/> -->
+      <button id="hamburger-btn" class="hamburger">
+          <span class="line hamburger-top"></span>
+          <span class="line hamburger-middle"></span>
+          <span class="line hamburger-bottom"></span>
+      </button>
+    </div>
+
+    <!-- mobile-menu -->
+    <div id="mobile-menu-id" class="mobile-invisible">
+      <Mobile/>
+    </div>
+    
   </div>
 </template>
 
 <script>
 import Contact from './contact.vue'
+import Mobile from './mobile.vue'
 export default {
-components:{Contact}
+  components:{
+    Contact,
+    Mobile
+  },
+  mounted(){
+    this.openMenu;
+  },
+  computed:{
+    openMenu (){
+      const btn = document.querySelector('#hamburger-btn');
+      const mobile = document.querySelector("#mobile-menu-id");
+
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('open')
+        mobile.classList.toggle('mobile-invisible');
+        mobile.classList.toggle('mobile-visible');
+      })
+    }  
+  }
 }
 </script>
 
@@ -135,4 +170,43 @@ components:{Contact}
   opacity: 1;
 }
 
+/* hamburger-menu */
+.menu-btn{display: none;}
+.mobile-invisible{
+  width: 100%;
+  height: 0px ;
+  opacity: 0;
+  right:-90%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 0;
+  transition: all .25s ease-in;
+}
+.mobile-visible{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  opacity: 1;
+  z-index: 4;
+}
+
+/* max width 950px */
+@media (max-width: 930px) {
+  @import '../../assets/css/hamburger.css';
+  .header .menu{display: none;}
+
+  .icon-right{display: none;}
+
+  .menu-btn{
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+
+}
 </style>
