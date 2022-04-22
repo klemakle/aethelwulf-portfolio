@@ -43,6 +43,13 @@ export default {
         'nuxt-fullpage.js',
     ],
 
+    bootstrapVue: {
+        icons: false,
+        componentPlugins: [],
+        directivePlugins: [],
+        components: [],
+        directives: [],
+    },
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         babel: { compact: true }
