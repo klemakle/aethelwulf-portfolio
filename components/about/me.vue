@@ -12,7 +12,7 @@
         </div>
         <div class="my-presentation">
           <p>
-            My name is <span class="gras-text">Kalidou Dia</span> (put the sound), I am <span class="gras-text">23 years old</span>. I am from Senegal (West Africa).
+            My name is <span class="gras-text">Kalidou Dia</span> (put sound), I am <span class="gras-text">23 years old</span>. I am from Senegal (West Africa).
             I'm passionate about everything related to computer engineering, I love challenges and it's always a joy to solve problems.
           </p>
           <p>
@@ -29,6 +29,10 @@
       <div class="skills">
         <Skills/>
       </div>
+
+      <div class="tech">
+        <Tech/>
+      </div>
     </div>
 
    
@@ -37,9 +41,11 @@
 
 <script>
 import Skills from './skills.vue'
+import Tech from './tech.vue'
 export default {
   components:{
-    Skills
+    Skills,
+    Tech
   }
 }
 </script>
@@ -91,10 +97,16 @@ export default {
 }
 
 .skills{
-  margin-top: 60px ;
-  margin-left: 60px;
+  margin-top: 80px ;
+  margin-left: 0px;
   padding: 20px;
 }
+
+.tech{
+  margin: 10px auto 10px 0px;
+  padding: 20px;
+}
+
 .bg-about{
   padding: 50px 10px;
   background-color: #81b2cf1c;
@@ -158,7 +170,7 @@ export default {
   height: 10px;
   width: 10px;
   left: 75%;
-  top: -10%;
+  top: -12%;
   transform: rotate(45deg);
   transition: all .15s ease-in-out;
 }
@@ -210,6 +222,7 @@ export default {
 }
 
 .my-presentation > p {
+  text-align: justify;
   color: #334961;
   opacity: .8;
   line-height: 18pt;
@@ -225,13 +238,18 @@ export default {
     gap: 20px;
     align-items: center;
   }
-
   .my-photo{
+    background-size: contain;
     width: 30%;
   }
-
   .my-presentation{
     width: 85%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 950px) {
+  .my-photo{
+    background-size: contain;
   }
 }
 

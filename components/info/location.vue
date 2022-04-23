@@ -52,11 +52,5 @@ export default {
   font-size: 9pt;
 }
 
-/* max-width 350px */
-@media (max-width: 350px) { 
-  .location{
-    transform: rotate(0deg);
-  }
-}
 
 </style>
