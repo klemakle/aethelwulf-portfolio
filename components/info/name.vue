@@ -40,6 +40,8 @@ export default {
   /* transform: rotate(7deg); */
   transition: transform .2s ease-out;
   cursor: unset;
+  position: relative;
+  z-index: 15;
 }
 
 .name:hover{

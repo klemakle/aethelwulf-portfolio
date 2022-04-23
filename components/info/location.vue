@@ -44,8 +44,6 @@ export default {
   filter: grayscale(0);
 }
 
-
-
 .location-text{
   opacity:1 ;
   font-weight: 500;

@@ -95,7 +95,6 @@ export default {
   justify-content: space-around;
   align-items: flex-end;
   padding: 0 20px;
-  /* gap: 60px; */
   flex-wrap: wrap;
 }
 

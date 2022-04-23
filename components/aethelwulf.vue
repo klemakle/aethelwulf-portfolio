@@ -5,7 +5,7 @@
         <Social/>
       </div>
       <div class="div2" id="wrapper">
-        <div class="photo-kals relat bounce" id="parallax" ></div> 
+        <div class="photo-kals bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
         <div class="info-presentation" id="layer-2"><Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/></div>
         <div class="info-presentation" id="layer-3"><Profession :title="'Mbaxal Saloum'" :desc="'Meilleur plat du monde'" :end="true"/></div>
@@ -96,7 +96,6 @@ export default {
   position: absolute;
   bottom: 20px;
   right: 10px;
-  transform: rotate(-5deg);
 }
 
 .photo-kals {

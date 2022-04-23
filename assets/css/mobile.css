@@ -22,7 +22,7 @@
     background-color: #6b7688af;
 }
 
-.menu-container a {
+.menu-container>a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;

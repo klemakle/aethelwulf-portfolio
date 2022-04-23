@@ -1,17 +1,17 @@
 <template>
   <div class="social">
      <div class="social-network">
-      <a href="https://twitter.com/ka___lidou" target="_blank">
+      <a href="https://twitter.com/ka___lidou" target="blank">
         <img src="~/assets/images/header/twitter.png" alt="twitter">
       </a>
     </div>
     <div class="social-network">
-      <a href="https://github.com/klemakle" target="_blank">
+      <a href="https://github.com/klemakle" target="blank">
         <img src="~/assets/images/header/github.png" alt="github">
       </a>
     </div>
     <div class="social-network">
-      <a href="https://www.linkedin.com/in/kalidou-dia-b0b63614a/" target="_blank">
+      <a href="https://www.linkedin.com/in/kalidou-dia-b0b63614a/" target="blank">
         <img src="~/assets/images/header/linkedin.png" alt="linkedin">
       </a>
     </div>
@@ -26,9 +26,11 @@ export default {
 
 <style>
 .social{
-   display: flex;
+  display: flex;
   flex-direction: column;
   gap: 15px;
+  position: relative;
+  z-index: 15;
 }
 
 a{
@@ -39,7 +41,7 @@ a{
   width: 40px;
   height: auto;
 }
-.social-network  img{
+.social-network > a img{
   width: 100%;
   height: 100%;
   filter: grayscale(1);
