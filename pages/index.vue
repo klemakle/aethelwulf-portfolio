@@ -29,7 +29,7 @@
 </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 import Aethelwulf from '~/components/aethelwulf.vue'
 import Header from '~/components/header/header.vue'

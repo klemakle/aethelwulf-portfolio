@@ -22,7 +22,7 @@
             Today I am still finishing my training in <span class="gras-text">computer engineering</span> at the <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">Polytechnic School of Thies</a>.
             During these last years I was able to work with <span class="gras-text">companies</span> and <span class="gras-text">startups</span> on interesting projects. 
             I'm learning a lot and I'm always learning new things that I'll put to good use. </p>
-          <div class="my-resume"> <span class="fleche">|</span><span class="text">Resume</span></div>
+          <NuxtLink to="/resume" class="my-resume"> <span class="fleche">|</span><span class="text">Resume</span></NuxtLink>
         </div>
       </div>
 
@@ -230,6 +230,10 @@ export default {
   font-weight: 100;
 }
 
+.my-presentation > a {
+  text-decoration: none;
+}
+
 /* max-width 400px */
 @media (max-width: 500px) { 
   .about-me{
@@ -237,6 +241,9 @@ export default {
     justify-content: center;
     gap: 20px;
     align-items: center;
+  }
+  .about-me-title{
+    font-size: 55pt;
   }
   .my-photo{
     background-size: contain;
