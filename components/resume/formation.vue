@@ -8,16 +8,16 @@
 				<div class="content">
 					<h3>High-School Degree</h3>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Scientific baccalaureate in S2 series (experimental sciences) at 'College Yavuz Selim Bosphore' with honors.
 					</p>
 				</div>
 			</li>
 			<li>
 				<span>November 2017</span>
 				<div class="content">
-					<h3>Computer Science Degree</h3>
+					<h3>Computer Science</h3>
 					<p>
-						I studied computer and telecom engineering at the Ecole Polytechnique de Thiès
+						I studied computer and telecom engineering at the Ecole Polytechnique de Thiès (at the end of my training).
 					</p>
 				</div>
 			</li>
@@ -39,13 +39,15 @@ export default {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	gap: 20px;
 	align-items: center;
+	gap: 1px;
+	margin-bottom: 20px;
 }
 .formation-title{
 	color: #9cc0c9;
 	font-weight: 700;
 	font-family: Montserrat-Regular;
+	text-decoration: underline;
 }
 
 </style>

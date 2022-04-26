@@ -23,8 +23,15 @@
           </full-page>
         </no-ssr> -->
     </div>
+
+    <!-- about section -->
     <div id="about">
       <Me/>
+    </div>
+
+    <!-- contact me section -->
+    <div id="contact-me">
+      <ContactMe/>
     </div>
 </div>
 </template>
@@ -37,9 +44,10 @@ import KeleLek from '~/components/projects/keleLek.vue'
 import kweli from '~/components/projects/kweli.vue'
 import SenDiabete from '~/components/projects/senDiabete.vue'
 import Me from '~/components/about/me.vue';
+import ContactMe from '~/components/contactme/index.vue'
 
 export default Vue.extend({
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me },
+  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, ContactMe },
   name: 'IndexPage'
 })
 </script>

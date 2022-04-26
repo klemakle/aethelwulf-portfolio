@@ -1,13 +1,13 @@
 <template>
   <div class="header">
-    <div class="icon-left icon">
-      <img src="~/assets/images/cool.png" alt="cool">
-    </div>
+    <NuxtLink to="/" class="icon-left icon ">
+        <img src="~/assets/images/cool.png" alt="cool">
+    </NuxtLink>
     <div class="menu">
-      <div class="menu-item"> <a class="active" href="#">CASES</a> </div>
-      <div class="menu-item"> <a href="#about">ABOUT</a> </div>
-      <div class="menu-item"> <a href="#">PROJECTS</a> </div>
-      <div class="menu-item"> <a href="#">RESUME</a> </div>
+      <div class="menu-item"> <NuxtLink to="/" class="active" id="cases">CASES</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink to="/#about" id="about-header">ABOUT</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink to="/" id="projects">PROJECTS</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink to="/resume" id="resume">RESUME</NuxtLink></div>
     </div>
     <div class="icon-right">
       <Contact/>
@@ -81,6 +81,7 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
+  border: solid 1px red;
 }
 
 .header > .icon{

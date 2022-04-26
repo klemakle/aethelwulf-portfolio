@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="global-resume">
     <div class="resume-page">
 
       <div class="formation">
@@ -8,11 +8,13 @@
       <div class="experience-pro">
         <ExperiencePro/>
       </div>
-      <div class="experience-social">
+      <!-- <div class="experience-social">
         <ExperienceSocial/>
-      </div>
-
+      </div> -->
     </div>
+    <!-- <div class="download">
+      <a href="/cv.pdf">Download my CV</a>
+    </div> -->
 </div>
 </template>
 
@@ -30,7 +32,11 @@ export default {
 </script>
 
 <style>
+.global-resume{
+  position: relative;
+}
 .resume-page{
+  margin-top:30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,6 +44,13 @@ export default {
 }
 
 .formation{
+}
+
+.download{
+  /* border: solid 1px red; */
+  position: absolute;
+  top: 0px;
+  right: 10px;
 }
 
 </style>

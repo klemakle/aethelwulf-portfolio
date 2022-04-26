@@ -1,6 +1,9 @@
 <template>
   <div class="experience-social-page">
-    Experience Sociale
+    <div class="experience-social-title">Social Experience</div>
+    <div class="social-experience">
+
+    </div>
   </div>
 </template>
 
@@ -11,5 +14,11 @@ export default {
 </script>
 
 <style>
+
+.experience-social-title{
+  color: #9cc0c9;
+	font-weight: 700;
+	font-family: Montserrat-Regular;
+}
 
 </style>

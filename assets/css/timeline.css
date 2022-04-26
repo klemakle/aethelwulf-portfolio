@@ -1,25 +1,38 @@
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("~/assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+
 .timeline {
-    width: 80%;
+    width: 97%;
     height: auto;
-    /* background-color:#0727363e; */
     color: #fff;
     padding: 30px 20px;
-    /* box-shadow:0px 0px 10px rgba(0,0,0,.5); */
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
 }
+
+
+/* .timeline:hover {
+    background-color: #0727363e;
+    border-radius: 10px;
+    box-shadow: 0px 10px 21px 2px #00000055;
+} */
 
 .timeline ul {
     list-style-type: none;
     border-left: 2px solid #1685b8;
     padding: 10px 5px;
+    width: 100%;
 }
 
 .timeline ul li {
     margin-left: 10px;
     padding: 20px 20px;
     position: relative;
-    cursor: pointer;
     height: auto;
     transition: .5s;
+    width: 600px;
 }
 
 .timeline ul li span {
@@ -32,21 +45,42 @@
 }
 
 .timeline ul li .content {
-    width: 100%;
+    width: 550px;
 }
 
 .timeline ul li .content h3 {
     color: #34ace0;
     font-size: 17px;
-    padding-top: 5px;
+    padding-top: 12px;
+    padding-left: 5px;
     font-weight: 700;
     font-family: Montserrat-Regular;
 }
 
-.timeline ul li .content>p {
-    padding: 5px 0px 15px 0px;
-    font-size: 15px;
+.timeline ul li .content>p,
+.timeline ul li .content>div {
+    padding: 1px 10px 1px 7px;
+    opacity: .8;
+    width: 100%;
     font-family: Montserrat-Light;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.technos {
+    font-size: 8.5pt;
+    color: #adc9d0;
+    font-style: italic;
+    margin: -5px 0 10px 5px;
+}
+
+.technos>span {
+    background-color: #ffffff00 !important;
+    color: #80a6b0;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: underline dotted;
+    font-size: 8.5pt !important;
 }
 
 .timeline ul li:before {
@@ -56,15 +90,16 @@
     height: 10px;
     background-color: #34ace0;
     border-radius: 50%;
-    left: -21px;
+    left: -21.5px;
     top: 28px;
     transition: .5s;
 }
 
-.timeline ul li:hover {
+
+/* .timeline ul li:hover {
     background-color: #071f2a2a;
     border-radius: 10px;
-}
+} */
 
 .timeline ul li:hover:before {
     background-color: #80a6b0;
@@ -72,14 +107,20 @@
 }
 
 
-/* max width 500px  */
+/* max width 700px  */
 
-@media (min-width:301px) and (max-width: 550px) {
+@media (min-width:301px) and (max-width:700px) {
     .formation-page {
         flex-direction: column;
     }
     .timeline {
         width: 80%;
+    }
+    .timeline ul li {
+        width: 100%;
+    }
+    .timeline ul li .content {
+        width: 100%;
     }
 }
 
@@ -91,8 +132,14 @@
         width: 100%;
         padding: 30px 5px 30px 10px;
     }
+    .timeline ul li {
+        width: 100%;
+    }
     .timeline ul li .content h3 {
         color: #34ace0;
         font-size: 15px;
+    }
+    .timeline ul li .content {
+        width: 100%;
     }
 }
