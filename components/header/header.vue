@@ -10,7 +10,9 @@
       <div class="menu-item"> <NuxtLink to="/resume" id="resume">RESUME</NuxtLink></div>
     </div>
     <div class="icon-right">
-      <Contact/>
+      <NuxtLink to="/#contact-me">
+        <Contact/>
+      </NuxtLink>
     </div>
 
     <!-- hamburger menu -->
@@ -81,7 +83,6 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  border: solid 1px red;
 }
 
 .header > .icon{

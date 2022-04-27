@@ -44,7 +44,7 @@ textarea:valid~label {
     width: 100%;
     margin: 1rem 0;
     position: relative;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .styled-input label {
@@ -65,13 +65,14 @@ textarea:valid~label {
 
 input,
 textarea {
+    border-radius: 20px;
     padding: 30px;
     border: 0;
     width: 100%;
     font-size: 1rem;
     background-color: #3a3f4036;
     color: white;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 input:focus,
@@ -111,12 +112,14 @@ textarea {
     cursor: pointer;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
     -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+    transition: all 300ms ease-in-out;
 }
 
 .submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+    transform: translateY(2px);
+    background-color: #95b8c1;
+    color: #334961;
+    box-shadow: 0 1px 1px 1px #edecec7a, 0 1px 1px 0 #c0c0c0aa;
 }
 
 @media (max-width: 768px) {

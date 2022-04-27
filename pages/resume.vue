@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .global-resume{
   background-color: #334961;
