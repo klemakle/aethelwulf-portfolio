@@ -13,6 +13,7 @@
 import header from '~/components/header/header.vue'
 import Resume from '~/components/resume/index.vue'
 export default {
+  transition: 'page',
 // layout:'headerLayout'
   components:{
     header,

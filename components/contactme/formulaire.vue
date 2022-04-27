@@ -5,7 +5,7 @@
         <!-- <h1>Contact me</h1> -->
     </div>
     <div class="row love-hear">
-        <h4 style="text-align:center">I'd love to hear from you!</h4>
+        <h4 style="text-align:center ">I'd love to hear from you!</h4>
     </div>
     <div class="row input-container">
       <div class="col-md-6 col-xs-6 col-sm-12">

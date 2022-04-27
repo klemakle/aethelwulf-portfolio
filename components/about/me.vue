@@ -81,7 +81,6 @@ export default {
   width: fit-content;
   padding: auto 10px;
   font-size: 60pt;
-  /* color: #BBD3D9; */
   color: #334961;
   position: relative;
 }

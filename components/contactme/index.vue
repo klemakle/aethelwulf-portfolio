@@ -1,7 +1,7 @@
 <template>
   <div class="global-contact">
     <div class="contact-me-title">
-     Contact me
+     Contact
     </div>
     <div class="contact-me-page">
       <div class="contact-form">

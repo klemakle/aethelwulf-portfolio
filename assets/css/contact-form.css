@@ -15,7 +15,7 @@ h1 {
 h4 {
     font-weight: 400;
     font-size: 20px;
-    color: #9b9b9b;
+    color: #ccc;
     line-height: 1.5;
 }
 
@@ -23,6 +23,8 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    color: #fff;
 }
 
 

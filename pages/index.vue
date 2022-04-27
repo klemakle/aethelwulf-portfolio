@@ -47,6 +47,10 @@ import Me from '~/components/about/me.vue';
 import ContactMe from '~/components/contactme/index.vue'
 
 export default Vue.extend({
+  transition: {
+   name: 'page',
+    mode: 'out-in'
+  },
   components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, ContactMe },
   name: 'IndexPage'
 })
