@@ -23,13 +23,18 @@
       </div>
 
       <div class="tech-line"> 
+        <div class="tech-image"><img src="~/assets/images/technos/react.png" alt="React"></div>
+        <div class="tech-label">React</div>
+      </div>
+
+      <div class="tech-line"> 
         <div class="tech-image"><img src="~/assets/images/technos/vue.png" alt="Vue"></div>
         <div class="tech-label">Vue</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/react.png" alt="React"></div>
-        <div class="tech-label">React</div>
+        <div class="tech-image grayscale"><img src="~/assets/images/technos/nuxt.png" alt="Nuxt js"></div>
+        <div class="tech-label">Nuxt js</div>
       </div>
 
       <div class="tech-line"> 
@@ -48,7 +53,7 @@
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/mongodb.png" alt="Mongo DB"></div>
+        <div class="tech-image grayscale"><img src="~/assets/images/technos/mongodb.png" alt="Mongo DB"></div>
         <div class="tech-label">Mongo</div>
       </div>
 
@@ -68,12 +73,12 @@
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/bitbucket1.png" alt="Bitbucket"></div>
+        <div class="tech-image grayscale"><img src="~/assets/images/technos/bitbucket1.png" alt="Bitbucket"></div>
         <div class="tech-label">Bitbucket</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/jira.png" alt="Jira"></div>
+        <div class="tech-image grayscale"><img src="~/assets/images/technos/jira.png" alt="Jira"></div>
         <div class="tech-label">Jira</div>
       </div>
 
@@ -102,10 +107,10 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: 1px;
   align-items: center;
   padding-bottom: 40px;
-  flex: 1 1 17%;
+  flex: 1 1 22%;
 }
 
 .tech-line .tech-image{
@@ -117,7 +122,7 @@ export default {
   height: 100%;
 }
 .grayscale{
-  filter: grayscale(1);
+  filter: grayscale(.7);
 }
 
 .tech-line .tech-label{

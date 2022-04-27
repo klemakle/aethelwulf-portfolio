@@ -2,7 +2,7 @@
   <div>
     <div class="global-body">
       <div class="header">
-        <Header/>
+        <Header :resume="false"/>
       </div>
       <div class="tete">
         <div>
@@ -33,6 +33,10 @@
     <div id="contact-me">
       <ContactMe/>
     </div>
+
+    <div id="footer">
+      <Footer/>
+    </div>
 </div>
 </template>
 
@@ -44,14 +48,15 @@ import KeleLek from '~/components/projects/keleLek.vue'
 import kweli from '~/components/projects/kweli.vue'
 import SenDiabete from '~/components/projects/senDiabete.vue'
 import Me from '~/components/about/me.vue';
-import ContactMe from '~/components/contactme/index.vue'
+import ContactMe from '~/components/contactme/index.vue';
+import Footer from '~/components/footer/index.vue'
 
 export default Vue.extend({
   transition: {
    name: 'page',
     mode: 'out-in'
   },
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, ContactMe },
+  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, ContactMe, Footer },
   name: 'IndexPage'
 })
 </script>

@@ -1,15 +1,17 @@
 <template>
   <div class="global-contact">
-    <div class="contact-me-title">
-     Contact
-    </div>
-    <div class="contact-me-page">
-      <div class="contact-form">
-       <Formulaire/>
+    <div class="contact-me-section">
+      <div class="contact-me-title">
+      Contact
       </div>
-      <div class="contact-me-photo">
-        <div class="call-me">
-          <img src="~/assets/images/call-me.png" alt="call me">
+      <div class="contact-me-page">
+        <div class="contact-form">
+        <Formulaire/>
+        </div>
+        <div class="contact-me-photo">
+          <div class="call-me">
+            <img src="~/assets/images/call-me.png" alt="call me">
+          </div>
         </div>
       </div>
     </div>
@@ -25,7 +27,7 @@ export default {
 
 <style>
 
-.global-contact{
+.contact-me-section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

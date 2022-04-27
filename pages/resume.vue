@@ -1,7 +1,7 @@
 <template>
   <div class="global-resume">
     <div class="header">
-      <Header/>
+      <Header :resume="true"/>
     </div>
     <div class="resume">
         <Resume/>
@@ -14,7 +14,6 @@ import header from '~/components/header/header.vue'
 import Resume from '~/components/resume/index.vue'
 export default {
   transition: 'page',
-// layout:'headerLayout'
   components:{
     header,
     Resume

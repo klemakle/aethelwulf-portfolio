@@ -4,10 +4,10 @@
         <img src="~/assets/images/cool.png" alt="cool">
     </NuxtLink>
     <div class="menu">
-      <div class="menu-item"> <NuxtLink to="/" class="active" id="cases">CASES</NuxtLink></div>
-      <div class="menu-item"> <NuxtLink to="/#about" id="about-header">ABOUT</NuxtLink></div>
-      <div class="menu-item"> <NuxtLink to="/" id="projects">PROJECTS</NuxtLink></div>
-      <div class="menu-item"> <NuxtLink to="/resume" id="resume">RESUME</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink :class="resume==false?'active item-link-text':'item-link-text'" to="/" id="cases-header">CASES</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink class="item-link-text" to="/#about" id="about-header">ABOUT</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink class="item-link-text" to="/" id="projects-header">PROJECTS</NuxtLink></div>
+      <div class="menu-item"> <NuxtLink :class="resume==true?'active item-link-text':'item-link-text'" to="/resume" id="resume-header">RESUME</NuxtLink></div>
     </div>
     <div class="icon-right">
       <NuxtLink to="/#contact-me">
@@ -29,7 +29,6 @@
     <div id="mobile-menu-id" class="mobile-invisible">
       <Mobile/>
     </div>
-    
   </div>
 </template>
 
@@ -41,8 +40,10 @@ export default {
     Contact,
     Mobile
   },
+  props:['resume'],
   mounted(){
     this.openMenu;
+    // this.changeActiveLink;
   },
   computed:{
     openMenu (){
@@ -54,9 +55,19 @@ export default {
         mobile.classList.toggle('mobile-invisible');
         mobile.classList.toggle('mobile-visible');
       })
-    }  
-  }
+    },
+    changeActiveLink(){
+      const activeLink = document.querySelector('.active')
+      const items = document.querySelectorAll('.menu-item')
+      items.addEventListener('click', () => {
+        console.log('bonjour', activeLink)
+      }) 
+    }
+  },
+  methods:{
+  }, 
 }
+
 </script>
 
 <style>
@@ -148,6 +159,7 @@ export default {
   background: #8DBBD5;
   opacity: 1;
 }
+
 
 .menu-item a:not(.active)::after { 
   content: "";

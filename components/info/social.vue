@@ -54,7 +54,7 @@ a{
   opacity:.9;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 650px) { 
   .social{
     flex-direction: row;
   }
