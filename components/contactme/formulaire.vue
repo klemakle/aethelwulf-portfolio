@@ -79,7 +79,7 @@ export default {
         this.errorMessageText = " Please fill in all fields !"
         setTimeout(()=>{
           this.errorMessage=false
-        }, 5000)
+        }, 10000)
         return;
       }
       this.sendingMessage=true;
