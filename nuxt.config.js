@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-console.log(' my email : ', process.env.MY_EMAIL)
+console.log(' my email : ', process.env.NUXT_ENV_MY_EMAIL)
 
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -59,7 +59,7 @@ export default {
         '@nuxtjs/dotenv',
         '@nuxtjs/axios', ['nuxt-mail', {
             message: {
-                to: `${process.env.MY_EMAIL}`,
+                to: `${process.env.NUXT_ENV_MY_EMAIL}`,
             },
             // smtp: {
             //     host: "smtp.mailtrap.io",
@@ -73,8 +73,8 @@ export default {
             smtp: {
                 service: 'gmail',
                 auth: {
-                    user: `${process.env.MY_EMAIL}`,
-                    pass: `${process.env.MY_MDP}`,
+                    user: `${process.env.NUXT_ENV_MY_EMAIL}`,
+                    pass: `${process.env.NUXT_ENV_MY_MDP}`,
                 },
             },
         }],
