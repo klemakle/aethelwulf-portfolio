@@ -70,6 +70,7 @@ export default {
             //     }
             // }
 
+
             smtp: {
                 service: 'gmail',
                 auth: {
