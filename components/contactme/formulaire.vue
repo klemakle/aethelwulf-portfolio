@@ -83,7 +83,7 @@ export default {
         return;
       }
       this.sendingMessage=true;
-      this.$mail.send({
+      this.$axios.$post('/mail/send',{
         from: this.email, 
         subject: `PORTFOLIO - ${this.subject} -  from ${this.email} `,
         text: `- Name : ${this.fullName}\n - Message : ${this.message}`,
