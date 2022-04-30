@@ -1,10 +1,13 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'aethelwulf-portfolio',
+        title: 'aethelwulf',
         htmlAttrs: {
             lang: 'en'
         },
@@ -23,6 +26,11 @@ export default {
     css: [
         '~/assets/main.css'
     ],
+    env: {
+        EMAIL: process.env.EMAIL,
+        USER: process.env.USER,
+        PASS: process.env.PASS
+    },
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
@@ -36,6 +44,7 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/typescript
         '@nuxt/typescript-build',
+        '@nuxtjs/dotenv'
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
@@ -43,6 +52,27 @@ export default {
         // https://go.nuxtjs.dev/bootstrap
         'bootstrap-vue/nuxt',
         'nuxt-fullpage.js',
+        '@nuxtjs/axios', ['nuxt-mail', {
+            message: {
+                to: `${process.env.EMAIL}`,
+            },
+            // smtp: {
+            //     host: "smtp.mailtrap.io",
+            //     port: 2525,
+            //     auth: {
+            //         user: process.env.USER,
+            //         pass: process.env.PASS
+            //     }
+            // }
+
+            smtp: {
+                service: 'gmail',
+                auth: {
+                    user: `${process.env.EMAIL}`,
+                    pass: `${process.env.MDP}`,
+                },
+            },
+        }],
     ],
 
     bootstrapVue: {
