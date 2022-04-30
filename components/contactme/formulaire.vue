@@ -87,7 +87,6 @@ export default {
         from: this.email, 
         subject: `PORTFOLIO - ${this.subject} -  from ${this.email} `,
         text: `- Name : ${this.fullName}\n - Message : ${this.message}`,
-        to: process.env.MY_EMAIL
       })
       .then(() => {
         this.sendingMessage=false;
