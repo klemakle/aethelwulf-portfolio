@@ -199,6 +199,7 @@ export default {
   text-align: justify;
   padding: 10px 20px;
   opacity: .7;
+  line-height: 1.75rem;
   height: 100%;
   transition: all .25s ;
 }
@@ -207,5 +208,18 @@ export default {
   font-family: Montserrat-Light;
   opacity: .9;
   padding: 10px 20px;
+}
+
+
+@media (max-width:700px) {
+
+  .project-title{
+    font-size: 45pt;
+      margin-bottom: -20px;
+  }
+
+  .project-title::after{
+    height: 10px;
+  }
 }
 </style>
