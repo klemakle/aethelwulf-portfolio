@@ -28,6 +28,10 @@
     <div id="about">
       <Me/>
     </div>
+    
+    <div id="projects">
+      <Projects/>
+    </div>
 
     <!-- contact me section -->
     <div id="contact-me">
@@ -48,6 +52,7 @@ import KeleLek from '~/components/projects/keleLek.vue'
 import kweli from '~/components/projects/kweli.vue'
 import SenDiabete from '~/components/projects/senDiabete.vue'
 import Me from '~/components/about/me.vue';
+import Projects from '~/components/projects/index.vue';
 import ContactMe from '~/components/contactme/index.vue';
 import Footer from '~/components/footer/index.vue'
 
@@ -56,7 +61,7 @@ export default Vue.extend({
    name: 'page',
     mode: 'out-in'
   },
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, ContactMe, Footer },
+  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects,ContactMe, Footer },
   name: 'IndexPage'
 })
 </script>

@@ -207,7 +207,8 @@ export default {
   bottom: 0;
   height: 100vh;
   opacity: 1;
-  z-index: 4;
+  z-index: 1;
+  overflow: hidden;
 }
 
 /* max width 950px */
