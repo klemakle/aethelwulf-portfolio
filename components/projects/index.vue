@@ -12,7 +12,7 @@
           </div>
           <div class="project-description">
             Kele lek is a culinary blog where you can share your most delicious recipes. It is a class project counting for the 'NoSQL database' course that I developed alone in 2019.
-            <p class="view-more">View more</p>
+           <p><nuxt-link :to="'/projects/kele-lek'" class="view-more">View more</nuxt-link></p>
           </div>
            <div class="project-image">
             <img src="../../assets/images/kele-lek.png" alt="kele-lek">
@@ -25,7 +25,7 @@
           <div class="project-description">
             Sen Diabete is a health-tech that helps patients with diabetes.
 I participated in the development of this project as a front-end developer during my first immersion in a company ( TeamX-GROUP).
-            <p class="view-more">View more</p>
+            <p><nuxt-link :to="'/projects/sen-diabete'" class="view-more">View more</nuxt-link></p>
           </div>
           <div class="project-image">
             <img src="../../assets/images/sen-diabete.png" alt="sen diabete">
@@ -111,10 +111,10 @@ export default {
   margin: 20px 2px;
   gap: 10px;
   align-items: flex-start;
-  background-color: #fff;
+  background-color: #ffffff6f;
   border-radius: 4px;
   padding: 20px 10px;
-  transition: all .25s ease;
+  transition: all .25s ;
   width: 400px;
   height: 330px;
   position: relative;
@@ -135,9 +135,13 @@ export default {
   text-decoration: underline dotted;
   cursor: pointer;
 }
+.view-more:hover{
+  font-family: Montserrat-Regular;
+}
 
 .one-project:hover{
   font-family: Montserrat-Regular;
+  background-color: #ffffffd0;
 }
 
 .one-project > .project-image{
@@ -151,10 +155,12 @@ export default {
   border-radius: 10px;
   filter: grayscale(.8);
   overflow: hidden;
+  opacity: .6;
   transition: all .25s ease;
 }
 .one-project:hover .project-image{
   filter: grayscale(0);
+  opacity: 1;
 }
 
 .project-image > img{
@@ -199,7 +205,7 @@ export default {
   text-align: justify;
   padding: 10px 20px;
   opacity: .7;
-  line-height: 1.75rem;
+  line-height: 1.5rem;
   height: 100%;
   transition: all .25s ;
 }
@@ -218,8 +224,5 @@ export default {
       margin-bottom: -20px;
   }
 
-  .project-title::after{
-    height: 10px;
-  }
 }
 </style>

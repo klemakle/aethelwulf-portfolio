@@ -2,7 +2,7 @@
   <div>
     <div class="global-body">
       <div class="header">
-        <Header :resume="false"/>
+        <Header :resume="false" :projects="false"/>
       </div>
       <div class="tete">
         <div>
@@ -29,7 +29,7 @@
       <Me/>
     </div>
     
-    <div id="projects">
+    <div id="project">
       <Projects/>
     </div>
 
