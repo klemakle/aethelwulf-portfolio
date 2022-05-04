@@ -5,22 +5,39 @@
     </div>
     <div class="project-info">
       <div class="image">
-        <img src="~/assets/images/kele-lek.png" alt="">
+        <!-- <video-player src="https://www.youtube.com/watch?v=J0k0bjiOwtk" class="video-playing"/> -->
+        <video-player src="https://www.youtube.com/watch?v=zouE6P7pusY" class="video-playing"/>
       </div>
       <div class="icon-views">
         <div class="icon">
-          <img src="~/assets/images/project/eye.png" alt="github">
+         View source
         </div>
-        <div class="icon">
+        <!-- <div class="icon">
           <img src="~/assets/images/project/github2.png" alt="github">
-        </div>
+        </div> -->
       </div>
       <div class="description">
         <div class="role"> 
           <span class="role-text">Role</span>  < Fullstack developer />
         </div>
         <div class="bref-desc">
-         Kele lek is a culinary blog where you can share your most delicious recipes. It is a class project counting for the 'NoSQL database' course that I developed alone in 2019.
+          <p> Kele lek is a culinary blog where you can share your most delicious recipes.</p>
+        <p>
+          You can also see other people's recipes and posts and leave a little "like" or comment.
+          You can consult the dishes according to their category (dessert, lunch, meat, vegan, coffee, pastry...) or their author.
+        </p>
+        <p>
+          This is a project that I developed alone with a template on which I based myself. It was part of our "NoSQL Database" course and I finished it in less than 2 weeks.
+          It was developed with a monolithic architecture.
+        </p>
+
+          <div class="tech-skills">
+            <span class="tech-text">Stack</span>
+            <span class="skill">HTML & CSS</span>
+            <span class="skill">Ejs template</span>
+            <span class="skill">Express js</span>
+            <span class="skill">Mongo DB</span> 
+          </div>
         </div>
       </div>
     </div>
@@ -28,15 +45,21 @@
 </template>
 
 <script>
-import Header from '~/components/header/header.vue'
+import Header from '~/components/header/header.vue';
+import VideoPlayer from 'nuxt-video-player';
+require('nuxt-video-player/src/assets/css/main.css')
 export default {
   components:{
-    Header
+    Header,
+    VideoPlayer
   }
 }
 </script>
 
 <style scoped>
+body{
+  background-color: #334961;
+}
 .global-project{
   background-color: #334961;
   color: #fff;
@@ -57,11 +80,11 @@ export default {
 }
 
 .project-info .image{
-  width: 60%;
+  width: 70%;
   height: auto;
 }
 
-.project-info .image > img{
+.project-info .image > .video-playing{
   width: 100%;
   height: 100%;
   border-radius: 4px;
@@ -73,14 +96,22 @@ export default {
   justify-content: space-between;
   align-items: flex-end;
   gap: 20px;
-  margin-right: 20% ;
-  margin-top: 10px;
+  margin-right: 15% ;
+  margin-top: 15px;
 }
 
 .project-info .icon-views .icon{
-  width: 40px;
   height: auto;
-  text-decoration: none;
+  text-decoration: underline dotted;
+  font-style: italic;
+  color: #69c8d3;
+  opacity: .8;
+}
+
+.project-info .icon-views .icon:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 1;
 }
 
 .project-info .icon-views .icon > img{
@@ -103,7 +134,6 @@ export default {
 }
 
 .project-info .description .role{
-  font-family: Montserrat-Thin;
   font-size: 11pt;
   font-style: italic;
   color: #8CC2E1;
@@ -112,7 +142,7 @@ export default {
 
 .project-info .description .role .role-text{
   color: #fff;
-  font-style: normal;
+  font-style: italic;
   font-weight: 700;
   font-family: Montserrat-Regular;
   background-color: #1685b8;
@@ -121,10 +151,42 @@ export default {
 }
 
 .project-info .description .bref-desc{
-  font-family: Montserrat-Thin;
   margin: 20px auto ;
   font-size: 12pt;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+
 }
 
+.project-info .description .bref-desc  p{
+  line-height: 1.75rem;
+  text-align: justify;
+  font-family: Montserrat-Thin;
+  font-weight: 900;
+}
+
+.bref-desc .tech-skills .tech-text{
+  text-decoration: underline #1685b8;
+  font-size: 20pt;
+  font-family: Montserrat-Regular;
+}
+
+.bref-desc .tech-skills .skill{
+  background-color:#69c8d3;
+  color: #fff;
+  font-family: Montserrat-Light;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 11pt;
+}
+
+
+@media (max-width:700px) {
+    .project-info .image{
+      width: 100%;
+    }
+}
 
 </style>

@@ -104,14 +104,13 @@ export default {
 
 .one-project{
   font-family: Montserrat-Light;
-  border-top: #334961 solid 2px ;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 20px 2px;
   gap: 10px;
   align-items: flex-start;
-  background-color: #ffffff6f;
+  background-color: #ffffffab;
   border-radius: 4px;
   padding: 20px 10px;
   transition: all .25s ;
@@ -204,7 +203,7 @@ export default {
   margin: 0 auto;
   text-align: justify;
   padding: 10px 20px;
-  opacity: .7;
+  opacity: .8;
   line-height: 1.5rem;
   height: 100%;
   transition: all .25s ;
@@ -212,7 +211,7 @@ export default {
 
 .one-project:hover  > .project-description{
   font-family: Montserrat-Light;
-  opacity: .9;
+  opacity: 1;
   padding: 10px 20px;
 }
 

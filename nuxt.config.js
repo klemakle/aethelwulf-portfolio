@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-console.log(' my email : ', process.env.EMAIL)
+// console.log(' my email : ', process.env.EMAIL)
 
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
