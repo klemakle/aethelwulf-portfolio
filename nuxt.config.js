@@ -82,7 +82,7 @@ export default {
     ],
 
     axios: {
-        baseURL: process.env.NODE_ENV === 'dev' ?
+        baseURL: process.env.NODE_ENV === 'development' ?
             'http://localhost:3000' : 'https://aethelwulf13.netlify.app/',
     },
 
