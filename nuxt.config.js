@@ -79,6 +79,9 @@ export default {
                 },
             },
         }],
+        axios: {
+            baseURL: "https://aethelwulf13.netlify.app/"
+        }
     ],
 
     bootstrapVue: {
