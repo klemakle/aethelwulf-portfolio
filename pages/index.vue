@@ -80,14 +80,5 @@ export default Vue.extend({
   background-color: rgba(255, 255, 255, 0.328);
 }
 
-.tete{
-}
-
-.tete1{
-  background-image: url('~/assets/images/blob-bg.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 30% 40%;
-}
 
 </style>

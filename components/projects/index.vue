@@ -25,7 +25,7 @@
           <div class="project-description">
             Sen Diabete is a health-tech that helps patients with diabetes.
 I participated in the development of this project as a front-end developer during my first immersion in a company ( TeamX-GROUP).
-            <p><nuxt-link to="/projects/sen-diabete" class="view-more">View more</nuxt-link></p>
+            <p><nuxt-link to="/projects/senDiabete" class="view-more">View more</nuxt-link></p>
           </div>
           <div class="project-image">
             <img src="~/assets/images/sen-diabete.png" alt="sen diabete">

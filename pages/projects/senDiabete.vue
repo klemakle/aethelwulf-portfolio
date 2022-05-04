@@ -14,7 +14,7 @@
       </div>
       <div class="description">
         <div class="role"> 
-          <span class="role-text">Role</span>  < Back-end developer />
+          <span class="role-text">Role</span>  < Frontend developer />
         </div>
         <div class="bref-desc">
           <p> It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates...</p>
@@ -34,11 +34,13 @@ The team consisted of 4 members: a React developer, an Android developer, a Node
           <div class="tech-skills">
             <span class="tech-text">Tools</span>
             <span class="skill">Express js</span>
-            <span class="skill">React js</span>
-            <span class="skill">Android</span>
-            <span class="skill">Material-Ui</span>
+            <span class="skill">Angular js</span>
+            <span class="skill">Ionic</span>
             <span class="skill">Mongo DB</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">Slack</span>
             <span class="skill">Heroku</span>
+            <span class="skill">Bitbucket</span>
           </div>
         </div>
       </div>
