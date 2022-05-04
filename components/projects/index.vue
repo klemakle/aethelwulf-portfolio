@@ -25,7 +25,7 @@
           <div class="project-description">
             Sen Diabete is a health-tech that helps patients with diabetes.
 I participated in the development of this project as a front-end developer during my first immersion in a company ( TeamX-GROUP).
-            <p><nuxt-link :to="'/projects/sen-diabete'" class="view-more">View more</nuxt-link></p>
+            <p><nuxt-link to="/projects/sen-diabete" class="view-more">View more</nuxt-link></p>
           </div>
           <div class="project-image">
             <img src="~/assets/images/sen-diabete.png" alt="sen diabete">
@@ -33,14 +33,15 @@ I participated in the development of this project as a front-end developer durin
         </div>
         <div id="kwely-id" class="one-project">
           <div class="project-name">
-            Kwely
+            Malabe
           </div>
           <div class="project-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum perferendis earum quidem culpa ipsum nulla, atque dolorem, minus quasi natus quam aliquid voluptas doloribus eaque quibusdam tenetur voluptatibus, eos adipisci?
-            <p class="view-more">View more</p>
+          It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates.
+          We presented it at the UNODC hackathon (United Nations Office on Drugs and Crime) of 2021.
+            <p><nuxt-link to="/projects/malabe" class="view-more">View more</nuxt-link></p>
           </div>
            <div class="project-image">
-            <img src="~/assets/images/kweli.png" alt="kwely">
+            <img src="~/assets/images/malabe.jpg" alt="kwely">
           </div>
         </div>
       </div>
