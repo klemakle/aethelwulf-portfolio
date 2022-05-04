@@ -98,12 +98,12 @@ export default {
 @media (max-width:700px) {
 
   .contact-me-title{
-    font-size: 45pt;
-      margin-bottom: -20px;
+    font-size: 50pt;
   }
 
   .contact-me-title::after{
-    height: 10px;
+    height: 11pt;
+    width: 105%;
   }
   .contact-me-page{
     flex-direction: column-reverse;

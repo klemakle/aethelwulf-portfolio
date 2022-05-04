@@ -116,7 +116,7 @@ export default {
   padding: 20px 10px;
   transition: all .25s ;
   width: 400px;
-  height: 330px;
+  height: 350px;
   position: relative;
 }
 
@@ -220,8 +220,11 @@ export default {
 @media (max-width:700px) {
 
   .project-title{
-    font-size: 45pt;
-      margin-bottom: -20px;
+    font-size: 50pt;
+  }
+
+  .project-title::after{
+    height:11pt;
   }
 
 }
