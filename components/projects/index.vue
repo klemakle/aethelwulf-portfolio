@@ -12,10 +12,10 @@
           </div>
           <div class="project-description">
             Kele lek is a culinary blog where you can share your most delicious recipes. It is a class project counting for the 'NoSQL database' course that I developed alone in 2019.
-           <p><nuxt-link :to="'/projects/kele-lek'" class="view-more">View more</nuxt-link></p>
+           <p><nuxt-link :to="'/projects/kele'" class="view-more">View more</nuxt-link></p>
           </div>
            <div class="project-image">
-            <img src="../../assets/images/kele-lek.png" alt="kele-lek">
+            <img src="~/assets/images/kele-lek.png" alt="kele-lek">
           </div>
         </div>
         <div id="sen-diabete-id" class="one-project">
@@ -28,7 +28,7 @@ I participated in the development of this project as a front-end developer durin
             <p><nuxt-link :to="'/projects/sen-diabete'" class="view-more">View more</nuxt-link></p>
           </div>
           <div class="project-image">
-            <img src="../../assets/images/sen-diabete.png" alt="sen diabete">
+            <img src="~/assets/images/sen-diabete.png" alt="sen diabete">
           </div>
         </div>
         <div id="kwely-id" class="one-project">
@@ -40,7 +40,7 @@ I participated in the development of this project as a front-end developer durin
             <p class="view-more">View more</p>
           </div>
            <div class="project-image">
-            <img src="../../assets/images/kweli.png" alt="kwely">
+            <img src="~/assets/images/kweli.png" alt="kwely">
           </div>
         </div>
       </div>

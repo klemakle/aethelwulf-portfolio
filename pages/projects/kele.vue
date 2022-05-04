@@ -10,7 +10,7 @@
       </div>
       <div class="icon-views">
         <div class="icon">
-         View source
+          <a href="https://github.com/klemakle/Projet-Mongo-KELE-LEK-" target="_blank">View source</a>
         </div>
         <!-- <div class="icon">
           <img src="~/assets/images/project/github2.png" alt="github">
@@ -32,7 +32,7 @@
         </p>
 
           <div class="tech-skills">
-            <span class="tech-text">Stack</span>
+            <span class="tech-text">Tools</span>
             <span class="skill">HTML & CSS</span>
             <span class="skill">Ejs template</span>
             <span class="skill">Express js</span>
@@ -100,7 +100,7 @@ body{
   margin-top: 15px;
 }
 
-.project-info .icon-views .icon{
+.project-info .icon-views .icon > a{
   height: auto;
   text-decoration: underline dotted;
   font-style: italic;
@@ -162,21 +162,21 @@ body{
 
 .project-info .description .bref-desc  p{
   line-height: 1.75rem;
-  text-align: justify;
-  font-family: Montserrat-Thin;
+  font-family: Montserrat-Light;
   font-weight: 900;
 }
 
 .bref-desc .tech-skills .tech-text{
-  text-decoration: underline #1685b8;
+  text-decoration: underline #56adb6;
   font-size: 20pt;
   font-family: Montserrat-Regular;
 }
 
 .bref-desc .tech-skills .skill{
-  background-color:#69c8d3;
+  background-color:#56adb6;
   color: #fff;
   font-family: Montserrat-Light;
+  font-weight: 900;
   padding: 7px 15px;
   border-radius: 20px;
   font-size: 11pt;
@@ -186,6 +186,12 @@ body{
 @media (max-width:700px) {
     .project-info .image{
       width: 100%;
+      height: 400px;
+    }
+
+    .project-info .icon-views{
+      margin-right: 5%;
+      margin-bottom: 20px;
     }
 }
 
