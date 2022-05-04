@@ -1,0 +1,135 @@
+body {
+    background-color: #334961;
+}
+
+.global-project {
+    background-color: #334961;
+    color: #fff;
+    height: 100%;
+}
+
+.header {
+    background-color: #334961;
+}
+
+.project-info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.project-info .image {
+    width: 70%;
+    height: auto;
+}
+
+.project-info .image>.video-playing {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.project-info .icon-views {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+
+.project-info .icon-views .icon>a {
+    height: auto;
+    text-decoration: underline dotted;
+    font-style: italic;
+    color: #69c8d3;
+    opacity: .8;
+}
+
+.project-info .icon-views .icon:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.project-info .icon-views .icon>img {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+.project-info .icon-views .icon>img:hover {
+    opacity: .9;
+}
+
+.project-info .description {
+    color: #fff;
+    margin: 20px 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info .description .role {
+    font-size: 11pt;
+    font-style: italic;
+    color: #8CC2E1;
+    font-family: Montserrat-Regular;
+}
+
+.project-info .description .role .role-text {
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    font-family: Montserrat-Regular;
+    background-color: #1685b8;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.project-info .description .bref-desc {
+    margin: 20px auto;
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+
+.project-info .description .bref-desc p {
+    line-height: 1.75rem;
+    font-family: Montserrat-Light;
+    font-weight: 900;
+}
+
+.bref-desc .tech-skills .tech-text {
+    text-decoration: underline #56adb6;
+    font-size: 20pt;
+    font-family: Montserrat-Regular;
+}
+
+.bref-desc .tech-skills .skill {
+    background-color: #56adb6;
+    color: #fff;
+    font-family: Montserrat-Light;
+    font-weight: 900;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 11pt;
+}
+
+@media (max-width:700px) {
+    .project-info .image {
+        width: 100%;
+        height: 400px;
+    }
+    .project-info .icon-views {
+        margin-right: 5%;
+        margin-bottom: 20px;
+    }
+}
