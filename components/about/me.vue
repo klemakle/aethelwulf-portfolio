@@ -19,7 +19,7 @@
             I started doing web development in 2017. 
             Currently I am evolving in web application development with the <span class="gras-text">Javascript ecosystem</span>.
           </p>
-          <p>Most projects I developed are based on <span class="gras-text">Node Js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span> or <span class="gras-text">Nest js</span>  </p>
+          <p>Most projects I developed are based on <span class="gras-text">Node Js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span> or Nest js </p>
           <p>
             Today I am still finishing my training in <span class="gras-text">computer engineering</span> at the <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">Polytechnic School of Thies</a>.
             During these last years I was able to work with <span class="gras-text">companies</span> and <span class="gras-text">startups</span> on interesting projects. 
