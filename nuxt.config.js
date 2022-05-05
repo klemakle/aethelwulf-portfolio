@@ -61,21 +61,14 @@ export default {
             message: {
                 to: `${process.env.EMAIL}`,
             },
-            // smtp: {
-            //     host: "smtp.mailtrap.io",
-            //     port: 2525,
-            //     auth: {
-            //         user: '2ace4244d339fb',
-            //         pass: '8156e3103068b6'
-            //     }
-            // }
             smtp: {
-                service: 'gmail',
+                host: "smtp.mailtrap.io",
+                port: 2525,
                 auth: {
-                    user: `${process.env.EMAIL}`,
-                    pass: `${process.env.MDP}`,
-                },
-            },
+                    user: `${process.env.USER}`,
+                    pass: `${process.env.PASS}`,
+                }
+            }
         }],
     ],
 
