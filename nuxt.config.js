@@ -59,25 +59,23 @@ export default {
         'nuxt-fullpage.js',
         '@nuxtjs/axios', ['nuxt-mail', {
             message: {
-                to: `kalidou1309@gmail.com`,
+                to: `${process.env.EMAIL}`,
             },
-            smtp: {
-                host: "smtp.mailtrap.io",
-                port: 2525,
-                auth: {
-                    user: '2ace4244d339fb',
-                    pass: '8156e3103068b6'
-                }
-            }
-
-
             // smtp: {
-            //     service: 'gmail',
+            //     host: "smtp.mailtrap.io",
+            //     port: 2525,
             //     auth: {
-            //         user: `kalidou1309@gmail.com`,
-            //         pass: `console.log(Klema1309)`,
-            //     },
-            // },
+            //         user: '2ace4244d339fb',
+            //         pass: '8156e3103068b6'
+            //     }
+            // }
+            smtp: {
+                service: 'gmail',
+                auth: {
+                    user: `${process.env.EMAIL}`,
+                    pass: `${process.env.MDP}`,
+                },
+            },
         }],
     ],
 
