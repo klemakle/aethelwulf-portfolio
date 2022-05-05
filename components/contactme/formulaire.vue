@@ -85,8 +85,8 @@ export default {
       this.sendingMessage=true;
       this.$axios.$post('/mail/send',{
         from: this.email, 
-        subject: `PORTFOLIO - ${this.subject} -  from ${this.email} `,
-        text: `- Name : ${this.fullName}\n - Message : ${this.message}`,
+        subject: `PORTFOLIO - ${this.subject}`,
+        text: `- <u>Name</u> : ${this.fullName} | <u>Email</b>: ${this.email} \n-<b>Subject :${this.subject}</b>\n\n - Message : ${this.message}`,
       })
       .then(() => {
         this.sendingMessage=false;
@@ -94,7 +94,7 @@ export default {
         setTimeout(()=>{
           this.successMessage=false
           this.clearFields();
-        }, 5000)
+        }, 7000)
       }).catch((err) => {
         this.errorMessage = true;
         this.sendingMessage=false;

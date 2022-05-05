@@ -31,7 +31,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: #e6f1f7;
+  /* background: #e6f1f7; */
+  background: #fff;
 }
 
 .contact-me-title{

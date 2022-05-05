@@ -66,7 +66,8 @@ export default {
   justify-content: flex-start;
   background-color: #F1F7FA;
   color: #334961;
-  /* background: #e6f1f7; */
+  margin-bottom: 0;
+  /* background: #fff; */
 }
 
 
@@ -94,13 +95,14 @@ export default {
 
 .projects-page{
   /* margin-top:20px;  */
-  padding: 60px 40px;
+  padding: 60px 40px 70px 40px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex: 1 1 30%;
   align-items: flex-start;
-  background: #e6f1f7;
+  /* background: #e6f1f7; */
+  background: #fff;
 }
 
 .one-project{
@@ -108,7 +110,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px 2px;
+  margin: 40px 2px;
   gap: 10px;
   align-items: flex-start;
   background-color: #ffffffab;
@@ -118,6 +120,8 @@ export default {
   width: 400px;
   height: 350px;
   position: relative;
+  -webkit-box-shadow: 0px 0px 10px 3px #dad8d87d; 
+  box-shadow: 0px 0px 10px 3px #dad8d87d;
 }
 
 #kele-lek-id{border-top: solid 3px #e87e51;}
@@ -142,6 +146,8 @@ export default {
 .one-project:hover{
   font-family: Montserrat-Regular;
   background-color: #ffffffd0;
+  box-shadow: 0px 0px 10px 3px #c1c0c07d;
+  -webkit-box-shadow: 0px 0px 10px 3px #c1c0c07d; 
 }
 
 .one-project > .project-image{
