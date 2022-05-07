@@ -115,7 +115,7 @@
         flex-direction: column;
     }
     .timeline {
-        width: 80%;
+        width: 100%;
     }
     .timeline ul li {
         width: 100%;

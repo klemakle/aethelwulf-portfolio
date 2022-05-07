@@ -104,7 +104,7 @@ body {
 .project-info .description .bref-desc p {
     line-height: 1.75rem;
     font-family: Montserrat-Light;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .bref-desc .tech-skills .tech-text {
@@ -124,12 +124,25 @@ body {
 }
 
 @media (max-width:700px) {
+    .project-info {
+        padding: 20px;
+    }
     .project-info .image {
         width: 100%;
-        height: 400px;
+        height: 300px;
     }
     .project-info .icon-views {
         margin-right: 5%;
         margin-bottom: 20px;
+    }
+    .project-info .description {
+        margin: 10px;
+        text-align: justify;
+    }
+    .bref-desc .tech-skills .tech-text {
+        font-size: 18pt;
+    }
+    .bref-desc .tech-skills .skill {
+        font-size: 9pt;
     }
 }
