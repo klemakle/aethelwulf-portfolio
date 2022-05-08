@@ -23,7 +23,7 @@ body {
 
 .project-info .image {
     width: 70%;
-    height: auto;
+    height: 500px;
 }
 
 .project-info .image>.video-playing {

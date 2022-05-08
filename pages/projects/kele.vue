@@ -5,7 +5,8 @@
     </div>
     <div class="project-info">
       <div class="image">
-        <video-player src="https://www.youtube.com/watch?v=zouE6P7pusY" class="video-playing"/>
+        <!-- <video-player src="https://www.youtube.com/watch?v=zouE6P7pusY" class="video-playing"/> -->
+        <iframe frameBorder='0' class="video-playing" height='360' webkitallowfullscreen mozallowfullscreen allowfullscreen src="https://www.awesomescreenshot.com/embed?id=8788599&shareKey=47e78f9e9ea38a79f341ffcd9cf3e756"></iframe>
       </div>
       <div class="icon-views">
         <div class="icon">
