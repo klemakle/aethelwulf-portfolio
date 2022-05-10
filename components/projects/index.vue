@@ -81,27 +81,28 @@ export default {
   font-size: 60pt;
   color: #334961;
   position: relative;
+  z-index: 10;
 }
 
 .project-title::after{
   content: "";
   background: #BBD3D9;
-  height: 12pt;
+  height: 15pt;
   width: 110%;
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 0;
+  opacity: .9;
+  z-index: -1;
 }
 
 .projects-page{
-  /* margin-top:20px;  */
   padding: 60px 40px 70px 40px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex: 1 1 30%;
   align-items: flex-start;
-  /* background: #e6f1f7; */
   background: #fff;
 }
 
@@ -230,7 +231,8 @@ export default {
   }
 
   .project-title::after{
-    height:11pt;
+    /* height:11pt; */
+    width: 105%;
   }
 
 }

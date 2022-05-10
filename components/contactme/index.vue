@@ -45,16 +45,18 @@ export default {
   font-size: 60pt;
   color: #334961;
   position: relative;
+  z-index: 10;
 }
 
 .contact-me-title::after{
   content: "";
   background: #BBD3D9;
-  height: 12pt;
+  height: 15pt;
   width: 110%;
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 0;
+  z-index: -1;
 }
 
 

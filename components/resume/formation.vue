@@ -1,6 +1,6 @@
 <template>
   <div class="formation-page">
-     <div class="formation-title">TRAINING</div>
+     <div class="formation-title">EDUCATION</div>
     <div class="timeline">
 		<ul>
 			<li>
