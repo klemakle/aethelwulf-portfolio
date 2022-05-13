@@ -7,7 +7,9 @@
       <div class="div2" id="wrapper" >
         <div class="photo-kals bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
-        <div class="info-presentation" id="layer-2"><Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/></div>
+        <div class="info-presentation" id="layer-2">
+          <Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/>
+        </div>
         <div class="info-presentation" id="layer-3">
           <Profession :title="'Freelancer'" :desc="'Available for work'" :end="true"/>
         </div>
