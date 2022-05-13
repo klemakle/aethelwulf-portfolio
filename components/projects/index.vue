@@ -1,11 +1,11 @@
 <template>
   <div class="global-project">
     <div class="project-section">
-      <div class="project-title">
+      <div class="project-title" data-aos="fade-right" data-aos-duration="1600">
         Projects
       </div>
 
-      <div class="projects-page">
+      <div class="projects-page" data-aos="zoom-out-down" data-aos-duration="1900">
         <div id="kele-lek-id" class="one-project">
           <div class="project-name">
             Kele lek
@@ -50,8 +50,12 @@ I participated in the development of this project as a front-end developer durin
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default {
-
+  mounted() {
+    AOS.init({});
+  }
 }
 </script>
 

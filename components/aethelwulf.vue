@@ -4,11 +4,13 @@
       <div class="div1">
         <Social/>
       </div>
-      <div class="div2" id="wrapper">
+      <div class="div2" id="wrapper" >
         <div class="photo-kals bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
         <div class="info-presentation" id="layer-2"><Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/></div>
-        <div class="info-presentation" id="layer-3"><Profession :title="'Mbaxal Saloum'" :desc="'Meilleur plat du monde'" :end="true"/></div>
+        <div class="info-presentation" id="layer-3">
+          <Profession :title="'Freelancer'" :desc="'Available for work'" :end="true"/>
+        </div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>
         <div class="info-presentation" id="layer-5"><Name/></div>
       </div>
@@ -106,6 +108,7 @@ export default {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position:auto;
+  filter: drop-shadow(5px 8px 10px #000);
 }
 
 .bounce{

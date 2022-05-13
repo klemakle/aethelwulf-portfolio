@@ -1,14 +1,14 @@
 <template>
   <div class="global-contact">
     <div class="contact-me-section">
-      <div class="contact-me-title">
+      <div class="contact-me-title" data-aos="fade-right" data-aos-duration="1600">
       Contact
       </div>
       <div class="contact-me-page">
-        <div class="contact-form">
+        <div class="contact-form" data-aos="fade-right" data-aos-duration="2400">
         <Formulaire/>
         </div>
-        <div class="contact-me-photo">
+        <div class="contact-me-photo" data-aos="fade-left" data-aos-duration="2000">
           <div class="call-me">
             <img src="~/assets/images/call-me.png" alt="call me">
           </div>
@@ -19,9 +19,14 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Formulaire from './formulaire.vue'
 export default {
-  components:{ Formulaire}
+  components:{ Formulaire},
+  mounted() {
+    AOS.init({});
+  }
 }
 </script>
 
