@@ -54,7 +54,7 @@ import SenDiabete from '~/components/projects/senDiabete.vue'
 import Me from '~/components/about/me.vue';
 import Projects from '~/components/projects/index.vue';
 import ContactMe from '~/components/contactme/index.vue';
-import Footer from '~/components/footer/index.vue'
+import Footer from '~/components/footer/index.vue';
 
 export default Vue.extend({
   transition: {
@@ -62,11 +62,19 @@ export default Vue.extend({
     mode: 'out-in'
   },
   components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects,ContactMe, Footer },
-  name: 'IndexPage'
+  name: 'IndexPage',
+  created(){
+    Weglot.initialize({
+        api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
+    });
+  }
 })
 </script>
 
 <style>
+body{
+  overflow-x:hidden !important ;
+}
 .global-body{
    background-image: url('~/assets/images/blob-bg.png');
   background-repeat: no-repeat;

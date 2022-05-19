@@ -255,7 +255,7 @@ export default {
     align-items: center;
   }
   .about-me-title{
-    font-size: 55pt;
+    font-size: 45pt;
   }
   .my-photo{
     background-size: contain;

@@ -20,7 +20,11 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-        ]
+        ],
+        script: [{
+            type: 'text/javascript',
+            src: "https://cdn.weglot.com/weglot.min.js",
+        }, ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
