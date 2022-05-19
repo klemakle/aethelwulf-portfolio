@@ -63,10 +63,10 @@ export default Vue.extend({
   },
   components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects,ContactMe, Footer },
   name: 'IndexPage',
-  created(){
-    Weglot.initialize({
-        api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
-    });
+  mounted(){
+    // Weglot.initialize({
+    //     api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
+    // });
   }
 })
 </script>
@@ -86,6 +86,12 @@ body{
 
 .header{
   background-color: rgba(255, 255, 255, 0.328);
+}
+
+@media (max-width: 500px) { 
+  body{
+    overflow-x: hidden;
+  }
 }
 
 
