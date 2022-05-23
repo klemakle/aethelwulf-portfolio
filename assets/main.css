@@ -16,6 +16,4 @@ body {
 .wg-default .country-selector {
     bottom: 0;
     position: fixed;
-    left: 0 !important;
-    right: auto !important;
 }
