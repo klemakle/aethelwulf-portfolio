@@ -41,7 +41,7 @@ export default {
   color: #80a6b0;
   font-family: Montserrat-bold;
   font-weight: 900;
-
+  width: max-content;
 }
 
 .tech-skills{
@@ -65,6 +65,10 @@ export default {
 }
 
 @media (max-width: 450px){
+  .title-skills{
+    font-size:25pt;
+  }
+
   .line-skill{
     font-size: 8pt;
   }

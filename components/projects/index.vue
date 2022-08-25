@@ -7,6 +7,7 @@
 
       <div class="projects-page" data-aos="zoom-out-down" data-aos-duration="1900">
         <div id="kele-lek-id" class="one-project">
+          <div class="project-numero">01</div>
           <div class="project-name">
             Kele lek
           </div>
@@ -19,6 +20,7 @@
           </div>
         </div>
         <div id="sen-diabete-id" class="one-project">
+          <div class="project-numero">02</div>
           <div class="project-name">
             Sen diabete
           </div>
@@ -32,6 +34,7 @@ I participated in the development of this project as a front-end developer durin
           </div>
         </div>
         <div id="kwely-id" class="one-project">
+          <div class="project-numero">03</div>
           <div class="project-name">
             Malabe
           </div>
@@ -96,7 +99,7 @@ export default {
   position: absolute;
   bottom: 15px;
   left: 0;
-  opacity: .9;
+  opacity: 1;
   z-index: -1;
 }
 
@@ -117,6 +120,7 @@ export default {
   justify-content: space-between;
   margin: 40px 2px;
   gap: 10px;
+  opacity:1;
   align-items: flex-start;
   background-color: #ffffffab;
   border-radius: 4px;
@@ -155,6 +159,19 @@ export default {
   -webkit-box-shadow: 0px 0px 10px 3px #c1c0c07d; 
 }
 
+.one-project > .project-numero{
+  background-color: #334961;
+  padding: 15px 10px 15px 20px;
+  font-family: Montserrat-Bold;
+  font-size: 16pt;
+  border-radius:4px;
+  text-align: right;
+  color: #fff;
+  position: absolute;
+  top:-25px;
+  right: -10px;
+}
+
 .one-project > .project-image{
   position: absolute;
   bottom: 5px;
@@ -166,7 +183,7 @@ export default {
   border-radius: 10px;
   filter: grayscale(.8);
   overflow: hidden;
-  opacity: .6;
+  opacity: .7;
   transition: all .25s ease;
 }
 .one-project:hover .project-image{
@@ -186,6 +203,7 @@ export default {
 }
 
 .one-project .project-name{
+  font-family: Ubuntu-Medium;
   margin: 0 20px;
   position: relative;
 }
@@ -196,7 +214,7 @@ export default {
   bottom: 0;
   content: "";
   display: block;
-  height: .2px;
+  height: 1px;
   right: 100%;
   position: absolute;
   background: #334961;
@@ -210,12 +228,12 @@ export default {
 }
 
 .project-description{
-  font-family: Montserrat-Thin;
+  font-family: Montserrat-Light;
   font-size: 11pt;
   margin: 0 auto;
   text-align: justify;
   padding: 10px 20px;
-  opacity: .8;
+  opacity: 1;
   line-height: 1.5rem;
   height: 100%;
   transition: all .25s ;

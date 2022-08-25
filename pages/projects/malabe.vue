@@ -56,9 +56,9 @@ export default {
     VideoPlayer
   },
   mounted(){
-    Weglot.initialize({
-        api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
-    });
+    // Weglot.initialize({
+    //     api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
+    // });
   }
 }
 </script>

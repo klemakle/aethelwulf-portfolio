@@ -88,7 +88,7 @@ export default {
   font-family: Montserrat-Regular;
   font-weight: 900;
   margin-bottom: -30px;
-  margin-left:50px ;
+  margin-left:40px ;
   width: fit-content;
   padding: auto 10px;
   font-size: 60pt;
