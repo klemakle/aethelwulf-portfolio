@@ -56,6 +56,7 @@ a{
 
 @media (max-width: 650px) { 
   .social{
+    /* border:solid 1px red; */
     flex-direction: row;
   }
 }

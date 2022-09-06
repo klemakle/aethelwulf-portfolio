@@ -4,7 +4,7 @@
         Testimonials
       </div>
         <section class="text-gray-600 body-font bg-gray-100">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-24 mx-auto" data-aos="fade-up" data-aos-duration="1900">
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div class="h-full text-center">

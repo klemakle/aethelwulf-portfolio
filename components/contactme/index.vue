@@ -5,10 +5,10 @@
       Contact
       </div>
       <div class="contact-me-page">
-        <div class="contact-form" data-aos="fade-right" data-aos-duration="2400">
+        <div class="contact-form" data-aos="fade-up" data-aos-duration="2400">
         <Formulaire/>
         </div>
-        <div class="contact-me-photo" data-aos="fade-left" data-aos-duration="2000">
+        <div class="contact-me-photo" data-aos="fade-up" data-aos-duration="2000">
           <div class="call-me">
             <img src="~/assets/images/call-me.png" alt="call me">
           </div>

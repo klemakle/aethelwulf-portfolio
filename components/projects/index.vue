@@ -5,35 +5,48 @@
         Projects
       </div>
 
-      <div class="projects-page" data-aos="zoom-out-down" data-aos-duration="1900">
-        <div id="kele-lek-id" class="one-project">
+      <div class="projects-page" data-aos="fade-up" data-aos-duration="1900">
+        <nuxt-link id="kele-lek-id" class="one-project" to="/projects/kele">
           <div class="project-numero">01</div>
-          <div class="project-name">
+          <div class="project-image">
+            <img class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/kele-lek.png" alt="kele-lek">
+          </div>
+          <div class="project-name mt-4">
             Kele lek
           </div>
-          <div class="project-description">
+          <div class="project-description py-2">
             Kele lek is a culinary blog where you can share your most delicious recipes. It is a class project counting for the 'NoSQL database' course that I developed alone in 2019.
-           <p><nuxt-link :to="'/projects/kele'" class="view-more">View more</nuxt-link></p>
           </div>
-           <div class="project-image">
-            <img src="~/assets/images/kele-lek.png" alt="kele-lek">
-          </div>
-        </div>
-        <div id="sen-diabete-id" class="one-project">
+        </nuxt-link>
+
+        <nuxt-link id="sen-diabete-id" class="one-project" to="/projects/senDiabete">
           <div class="project-numero">02</div>
-          <div class="project-name">
+          <div class="project-image">
+            <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/sen-diabete.png" alt="kele-lek">
+          </div>
+          <div class="project-name mt-4">
             Sen diabete
           </div>
-          <div class="project-description">
+          <div class="project-description py-2">
             Sen Diabete is a health-tech that helps patients with diabetes.
-I participated in the development of this project as a front-end developer during my first immersion in a company ( TeamX-GROUP).
-            <p><nuxt-link to="/projects/senDiabete" class="view-more">View more</nuxt-link></p>
           </div>
+        </nuxt-link>
+
+        <nuxt-link id="kwely-id" class="one-project" to="/projects/capla">
+          <div class="project-numero">03</div>
           <div class="project-image">
-            <img src="~/assets/images/sen-diabete.png" alt="sen diabete">
+            <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/malabe.jpg" alt="kele-lek">
           </div>
-        </div>
-        <div id="kwely-id" class="one-project">
+          <div class="project-name mt-4">
+            Malabe
+          </div>
+          <div class="project-description py-2">
+          It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates.
+          We presented it at the UNODC hackathon of 2021.
+          </div>
+        </nuxt-link>
+
+        <!-- <div id="kwely-id" class="one-project">
           <div class="project-numero">03</div>
           <div class="project-name">
             Malabe
@@ -46,7 +59,7 @@ I participated in the development of this project as a front-end developer durin
            <div class="project-image">
             <img src="~/assets/images/malabe.jpg" alt="kwely">
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -63,6 +76,10 @@ export default {
 </script>
 
 <style>
+  a:hover{
+    text-decoration: none !important;
+    color:#334961;
+  }
 @font-face {
     font-family: Montserrat-Thin;
     src: url("~/assets/fonts/Montserrat/Montserrat-Thin.ttf");
@@ -127,7 +144,7 @@ export default {
   padding: 20px 10px;
   transition: all .25s ;
   width: 400px;
-  height: 350px;
+  height: 450px;
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 3px #dad8d87d; 
   box-shadow: 0px 0px 10px 3px #dad8d87d;
@@ -170,37 +187,30 @@ export default {
   position: absolute;
   top:-25px;
   right: -10px;
+  z-index: 12;
 }
 
 .one-project > .project-image{
-  position: absolute;
-  bottom: 5px;
-  right: 2px;
-  width: 200px;
-  height: 100px;
-  margin: 0 auto;
-  padding: 0 10px;
-  border-radius: 10px;
-  filter: grayscale(.8);
-  overflow: hidden;
+  filter: grayscale(.1);
   opacity: .7;
-  transition: all .25s ease;
+  transition: all .25s ;
 }
 .one-project:hover .project-image{
   filter: grayscale(0);
+  transform: scale(1.01);
   opacity: 1;
 }
 
-.project-image > img{
+/* .project-image > img{
   border-radius: 10px;
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
+} */
 
-.one-project:hover .project-image  img{
+/* .one-project:hover .project-image  img{
   transform: scale(1.03);
-}
+} */
 
 .one-project .project-name{
   font-family: Ubuntu-Medium;

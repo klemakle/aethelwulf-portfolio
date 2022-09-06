@@ -84,8 +84,8 @@ export default {
 
 .div1{
   position: absolute;
-  left: 20px;
-  bottom:20px;
+  left: 5px;
+  bottom:-25px;
 }
 
 .div2 {
@@ -98,8 +98,8 @@ export default {
 .div3{
   display: none;
   position: absolute;
-  bottom: 20px;
-  right: 10px;
+  bottom: -25px;
+  right: 5px;
 }
 
 .photo-kals {

@@ -10,7 +10,7 @@
             <img src="~/assets/images/cool.png" alt="">
           </div>
         </div>
-        <div class="my-presentation" data-aos="fade-left" data-aos-duration="1800">
+        <div class="my-presentation" data-aos="fade-up" data-aos-duration="1800">
           <p>
             My name is <span class="gras-text">Kalidou Dia</span>, I am <span class="gras-text">23 years old</span>. I am from Senegal (West Africa).
             I'm passionate about everything related to computer engineering, I love challenges and it's always a joy to solve problems.
@@ -36,7 +36,7 @@
         <Skills/>
       </div>
 
-      <div class="tech" data-aos="zoom-in-up" data-aos-easing="ease-in-cubic" data-aos-duration="1600">
+      <div class="tech" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1600">
         <Tech/>
       </div>
     </div>
