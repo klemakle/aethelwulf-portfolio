@@ -145,7 +145,7 @@ export default {
 #kwely-id .view-more{color: #477d80;}
 
 .view-more{
-  text-decoration: underline dotted;
+  text-decoration: underline ;
   cursor: pointer;
 }
 .view-more:hover{

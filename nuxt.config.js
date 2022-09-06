@@ -19,12 +19,11 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         ],
-        script: [{
-            type: 'text/javascript',
-            src: "https://cdn.weglot.com/weglot.min.js",
-        }, ],
+        script: [
+            { type: 'text/javascript', src: "https://cdn.weglot.com/weglot.min.js" },
+        ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
@@ -46,12 +45,14 @@ export default {
         // https://go.nuxtjs.dev/typescript
         '@nuxt/typescript-build',
         '@nuxtjs/dotenv',
-        '@nuxtjs/axios'
+        '@nuxtjs/axios',
+        // '@nuxtjs/tailwindcss',
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         // https://go.nuxtjs.dev/bootstrap
+        '@nuxtjs/tailwindcss',
         'bootstrap-vue/nuxt',
         'nuxt-fullpage.js',
         '@nuxtjs/axios', ['nuxt-mail', {

@@ -1,6 +1,6 @@
 <template>
   <div class="global-contact">
-    <div class="contact-me-section">
+    <div class="contact-me-section bg-gray-100">
       <div class="contact-me-title" data-aos="fade-right" data-aos-duration="1600">
       Contact
       </div>
@@ -37,7 +37,6 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   /* background: #e6f1f7; */
-  background: #fff;
 }
 
 .contact-me-title{

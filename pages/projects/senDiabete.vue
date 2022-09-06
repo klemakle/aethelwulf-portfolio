@@ -4,8 +4,11 @@
       <Header :resume="false" :projects="true"/>
     </div>
     <div class="project-info">
-      <div class="image">
-        <video-player src="https://www.youtube.com/watch?v=J0k0bjiOwtk" class="video-playing"/>
+        <!-- <vueper-slides class="vue-slider-perso">
+          <vueper-slide v-for="i in 5" :key="i" :title="i.toString()" />
+        </vueper-slides> -->
+      <!-- <div class="image"> -->
+        <!-- <video-player src="https://www.youtube.com/watch?v=J0k0bjiOwtk" class="video-playing"/> -->
       </div>
       <div class="icon-views">
         <div class="icon">
@@ -55,8 +58,20 @@ require('nuxt-video-player/src/assets/css/main.css')
 export default {
   components:{
     Header,
-    VideoPlayer
+    VideoPlayer,
+    VueperSlides,
+    VueperSlide
   },
+  head:{
+        title: `Aethelwulf / Sen'Diabete`,
+        script:[
+            {src:'https://unpkg.com/vue'},
+            {src:'https://unpkg.com/vueperslides'},
+        ],
+        link: [
+            { rel: 'stylesheet', href: 'https://unpkg.com/vueperslides/dist/vueperslides.css' },
+        ]
+    },
   mounted(){
     // Weglot.initialize({
     //     api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
@@ -67,4 +82,10 @@ export default {
 
 <style scoped>
 @import url('~/assets/css/project.css');
+
+.vue-slider-perso{
+  border:solid 2px red !important;
+  width: 100% !important;
+  height: 500px;
+}
 </style>

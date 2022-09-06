@@ -33,6 +33,9 @@
       <Projects/>
     </div>
 
+    <div>
+      <Testimonial/>
+    </div>
     <!-- contact me section -->
     <div id="contact-me">
       <ContactMe/>
@@ -55,13 +58,14 @@ import Me from '~/components/about/me.vue';
 import Projects from '~/components/projects/index.vue';
 import ContactMe from '~/components/contactme/index.vue';
 import Footer from '~/components/footer/index.vue';
+import Testimonial from '~/components/testimonial.vue';
 
 export default Vue.extend({
   transition: {
    name: 'page',
     mode: 'out-in'
   },
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects,ContactMe, Footer },
+  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects, Testimonial, ContactMe, Footer },
   name: 'IndexPage',
   mounted(){
     // Weglot.initialize({
