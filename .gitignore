@@ -95,3 +95,13 @@ package-lock.json
 .vscode
 
 .github
+
+
+dist
+
+
+fly.toml
+
+.dockerignore
+
+Dockerfile
