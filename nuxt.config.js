@@ -1,7 +1,3 @@
-import dotenv from "dotenv";
-dotenv.config();
-
-
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
@@ -46,13 +42,13 @@ export default {
         '@nuxt/typescript-build',
         '@nuxtjs/dotenv',
         '@nuxtjs/axios',
-        // '@nuxtjs/tailwindcss',
+        '@nuxtjs/tailwindcss',
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         // https://go.nuxtjs.dev/bootstrap
-        '@nuxtjs/tailwindcss',
+        // '@nuxtjs/tailwindcss',
         'bootstrap-vue/nuxt',
         'nuxt-fullpage.js',
         '@nuxtjs/axios', ['nuxt-mail', {
@@ -72,7 +68,7 @@ export default {
 
     axios: {
         baseURL: process.env.NODE_ENV === 'development' ?
-            'http://localhost:3000' : 'https://klema.herokuapp.com/',
+            'http://localhost:3000' : 'https://kalidou.herokuapp.com/',
     },
 
     bootstrapVue: {
