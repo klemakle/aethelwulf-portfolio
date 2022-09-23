@@ -55,7 +55,7 @@ a{
   transform: all .35s ease-out;
 }
 .social-network > a img:hover{
-  filter: grayscale(.3);
+  filter: grayscale(.1);
   opacity:.9;
 }
 
