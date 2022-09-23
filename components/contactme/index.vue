@@ -100,7 +100,7 @@ export default {
 }
 
 .contact-me-page .contact-me-photo{
-  width: 50%;
+  width: 40%;
   color: #334961;
   height: auto;
   background-image: url('~/assets/images/about/blob1.png');

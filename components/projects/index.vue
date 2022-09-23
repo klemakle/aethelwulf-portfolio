@@ -49,6 +49,38 @@
           <div class="px-3 py-2 bg-gray-500 hover:bg-indigo-600 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
+        <nuxt-link id="snake-game-id" class="one-project" to="/projects/kele">
+          <div class="project-numero">IA-RL</div>
+          <div class="project-image mx-auto">
+            <img class="mx-auto w-max h-48 border rounded-md border-gray-200" src="~/assets/images/project/snake-game.png" alt="kele-lek">
+          </div>
+          <div class="project-name mt-2">
+            Snake game
+          </div>
+          <div class="project-description py-2">
+            This is the famous snake game made in class for the deep-learning course. It was done with reinforcement learning
+          </div>
+
+          <div class="px-3 py-2 bg-gray-500 hover:bg-blue-500 text-white rounded-3xl text-xs mx-auto">View more</div>
+        </nuxt-link>
+
+        <nuxt-link id="malabe-id" class="one-project" to="/projects/kele">
+          <div class="project-numero">Hackathon</div>
+          <div class="project-image">
+            <img class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/project/malabe.jpg" alt="kele-lek">
+          </div>
+          <div class="project-name mt-2">
+            Malabe
+          </div>
+          <div class="project-description py-2">
+            Kele lek is a culinary web-app where you can share your most delicious recipes.
+          </div>
+
+          <div class="px-3 py-2 bg-gray-500  hover:bg-teal-500 text-white rounded-3xl text-xs mx-auto">View more</div>
+        </nuxt-link>
+
+        
+
         <!-- <div id="kwely-id" class="one-project">
           <div class="project-numero">03</div>
           <div class="project-name">
@@ -159,6 +191,10 @@ export default {
 
 #capla-id{border-top: solid 3px #5a67d8;}
 
+#snake-game-id{border-top: solid 3px #1E90FF;}
+
+#malabe-id{border-top: solid 3px #4AD7B4;}
+
 .view-more{
   text-decoration: underline ;
   cursor: pointer;
@@ -239,7 +275,7 @@ export default {
   font-family: Montserrat-Light;
   font-size: 11pt;
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
   padding: 10px 20px;
   opacity: 1;
   line-height: 1.5rem;

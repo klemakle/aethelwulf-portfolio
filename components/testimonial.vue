@@ -12,7 +12,7 @@
           <p class="leading-relaxed">Mr. Dia is a serious person, very proactive and particularly assiduous and autonomous, who actively participates in the courses and class projects. During his studies as a student
 engineering, he has developed qualities that have enabled him to acquire many skills in the field of
 in the field of computer science.</p>
-          <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
+          <span class="inline-block h-1 w-10 rounded bg-line-testimonial mt-6 mb-4"></span>
           <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ABDOU AZIZ CISS</h2>
           <p class="text-gray-500">Senior Lecturer at EPT</p>
         </div>
@@ -25,7 +25,7 @@ our website is evident in all aspects of the site. We appreciate his attention t
 approach to bringing our new exhibit to life online. I and my teammates, we thank you so much
 for the great job that you have done.
 </p>
-          <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
+          <span class="inline-block h-1 w-10 rounded bg-line-testimonial mt-6 mb-4"></span>
           <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ELHADJI ABDOU SARR</h2>
           <p class="text-gray-500">CEO of Capla</p>
         </div>
@@ -34,9 +34,9 @@ for the great job that you have done.
         <div class="h-full text-center">
           <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="~/assets/images/testimonials/base.jpg">
           <p class="leading-relaxed">
-            Having had to work with Mr Kalidou DIA on quite a few projects, I can attest that he is a serious, hard-working and very disciplined person. Besides that, he knows how to work in a team, how to deal with team members to get the best in everyone. The company that will have Mr DIA in its ranks can consider itself very lucky having him.
+            Having had to work with Mr Kalidou DIA on quite a few projects, I can attest that he is a serious, hard-working and very disciplined person. Besides that, he knows how to work in a team, how to deal with team members to get the best in everyone. The company that will have Mr DIA in its ranks can consider itself very lucky.
           </p>
-          <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>
+          <span class="inline-block h-1 w-10 rounded bg-line-testimonial mt-6 mb-4"></span>
           <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">SERIGNE AMOUYAKAR FALL</h2>
           <p class="text-gray-500">Software Engineer</p>
         </div>
@@ -51,6 +51,10 @@ for the great job that you have done.
 
   .bg-testimonial{
     background-color: #81b2cf1c;
+  }
+
+  .bg-line-testimonial{
+    background-color: #334961;
   }
     .testimonials-title{
         font-family: Montserrat-Regular;

@@ -3,6 +3,9 @@
     <div class="header">
       <Header :resume="false" :projects="true"/>
     </div>
+    <!-- <vueper-slides fade autoplay pause-on-hover >
+      <vueper-slide v-for="i in 5" :key="i" :title="i.toString()" />
+    </vueper-slides> -->
     <div class="project-info">
       <div class="md:mx-12 ">
         <img  class="rounded-md video-playing h-48 md:h-auto object-cover"  src="~/assets/images/sen-diabete.png"/>
@@ -49,12 +52,24 @@
 
 <script>
 import Header from '~/components/header/header.vue';
+import { VueperSlides, VueperSlide } from 'vueperslides'
+import 'vueperslides/dist/vueperslides.css'
+
 export default {
   components:{
     Header,
+    VueperSlides, 
+    VueperSlide
   },
   head:{
         title: `Project`,
+        script: [
+            { type: 'text/javascript', src: 'https://unpkg.com/vue'},
+            { type: 'text/javascript', src: 'https://unpkg.com/vueperslides'}
+        ],
+        link:[
+          {href:"https://unpkg.com/vueperslides/dist/vueperslides.css", rel:"stylesheet"}
+        ]
   },
   mounted(){
   }
