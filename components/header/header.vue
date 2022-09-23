@@ -18,7 +18,7 @@
     <!-- hamburger menu -->
     <div class="menu-btn">
       <!-- <Hamburger/> -->
-      <button id="hamburger-btn" class="hamburger" @click="showMobileMenu">
+      <button id="hamburger-btn" class="hamburger" @click="showMobileMenu" :class="mobileMenuVisible ? 'open': '' ">
           <span class="line hamburger-top"></span>
           <span class="line hamburger-middle"></span>
           <span class="line hamburger-bottom"></span>
@@ -26,8 +26,8 @@
     </div>
 
     <!-- mobile-menu -->
-    <div id="mobile-menu-id" class="mobile-invisible" v-if="mobileMenuVisible">
-      <Mobile v-if="mobileMenuVisible"/>
+    <div id="mobile-menu-id" class="mobile-visible" style="overflow: hidden" scroll="no" v-if="mobileMenuVisible">
+      <Mobile scroll="no"/>
     </div>
   </div>
 </template>
@@ -43,12 +43,12 @@ export default {
   props:['resume', 'projects'],
   data(){
     return{
-      mobileMenuVisible: true
+      mobileMenuVisible: false
     }
   },
   mounted(){
-    this.openMenu;
-    // this.changeActiveLink;
+    // this.openMenu;
+    this.disableScroll();
   },
   computed:{
     openMenu (){
@@ -61,23 +61,27 @@ export default {
         mobile.classList.toggle('mobile-visible');
       })
     },
-    changeActiveLink(){
-      const activeLink = document.querySelector('.active')
-      const items = document.querySelectorAll('.menu-item')
-      items.addEventListener('click', () => {
-        console.log('bonjour', activeLink)
-      }) 
-    }
   },
   watch: {
-    // '$route' () {
-    //   this.mobileMenuVisible = false;
-    // }
+    '$route' () {
+      this.mobileMenuVisible = false;
+    },
+    mobileMenuVisible(){
+      this.disableScroll()
+    }
   },
   methods:{
     showMobileMenu(){
-      this.mobileMenuVisible = true;
+      this.mobileMenuVisible = !this.mobileMenuVisible;
     },
+    disableScroll(){
+      const body = document.querySelector("body")
+      if(this.mobileMenuVisible == true) {
+        body.classList.add("disable-scroll")
+      }else{
+        body.classList.remove("disable-scroll")
+      }
+    }
   }, 
 }
 
@@ -98,6 +102,10 @@ export default {
 @font-face {
   font-family: Ubuntu-Medium;
   src: url("~/assets/fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+.disable-scroll{
+  overflow-y: hidden;
 }
 
 .header{

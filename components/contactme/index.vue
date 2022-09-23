@@ -2,7 +2,7 @@
   <div class="global-contact">
     <div class="contact-me-section bg-gray-100">
       <div class="contact-me-title" data-aos="fade-right" data-aos-duration="1600">
-      Contact
+        Contact
       </div>
       <div class="contact-me-page">
         <div class="contact-form" data-aos="fade-up" data-aos-duration="2400">
