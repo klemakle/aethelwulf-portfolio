@@ -18,11 +18,7 @@ export default {
     header,
     Resume
   },
-  mounted(){
-    // Weglot.initialize({
-    //     api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
-    // });
-  }
+  mounted(){  }
 }
 </script>
 

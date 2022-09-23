@@ -17,9 +17,6 @@ export default {
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         ],
-        script: [
-            { type: 'text/javascript', src: "https://cdn.weglot.com/weglot.min.js" },
-        ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
@@ -48,7 +45,6 @@ export default {
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         // https://go.nuxtjs.dev/bootstrap
-        // '@nuxtjs/tailwindcss',
         'bootstrap-vue/nuxt',
         'nuxt-fullpage.js',
         '@nuxtjs/axios', ['nuxt-mail', {
@@ -68,7 +64,7 @@ export default {
 
     axios: {
         baseURL: process.env.NODE_ENV === 'development' ?
-            'http://localhost:3000' : 'https://kalidou.herokuapp.com/',
+            'http://localhost:3000' : 'https://kalidou.me/'
     },
 
     bootstrapVue: {

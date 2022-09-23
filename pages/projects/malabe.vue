@@ -48,18 +48,12 @@ The team consisted of 4 members: a React developer, an Android developer, a Node
 
 <script>
 import Header from '~/components/header/header.vue';
-import VideoPlayer from 'nuxt-video-player';
-require('nuxt-video-player/src/assets/css/main.css')
 export default {
   components:{
     Header,
     VideoPlayer
   },
-  mounted(){
-    // Weglot.initialize({
-    //     api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
-    // });
-  }
+  mounted(){}
 }
 </script>
 

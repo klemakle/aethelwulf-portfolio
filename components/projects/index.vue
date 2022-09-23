@@ -257,13 +257,26 @@ export default {
 @media (max-width:700px) {
 
   .project-title{
-    font-size: 50pt;
+    font-size: 45pt;
   }
 
   .project-title::after{
-    /* height:11pt; */
+    height:11pt;
     width: 105%;
   }
+
+}
+
+@media (max-width:350px) {
+
+.project-title{
+  font-size: 40pt;
+}
+
+.project-title::after{
+  height:10pt;
+  width: 105%;
+}
 
 }
 </style>

@@ -5,7 +5,7 @@
     </div>
     <div class="project-info">
       <div class="md:mx-12 ">
-        <img  class="rounded-md video-playing h-48 md:h-auto object-cover"  src="../../assets/images/project/capla.png"/>
+        <img  class="rounded-md video-playing h-48 md:h-auto object-cover"  src="~/assets/images/project/capla.png"/>
       </div>
       <div class="icon-views">
         <div class="icon flex flex-col justify-between items-center">

@@ -9,19 +9,6 @@
           <Aethelwulf/>
         </div>
       </div>
-        <!-- <no-ssr>
-          <full-page :options="options" id="fullpage">
-            <div class="section">
-              <kweli/>
-            </div>
-            <div class="section">
-              <kele-lek/>
-            </div>
-          <div class="section">
-            <sen-diabete/>
-          </div>
-          </full-page>
-        </no-ssr> -->
     </div>
 
     <!-- about section -->
@@ -68,11 +55,6 @@ export default Vue.extend({
   },
   components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects, Project,Testimonial, ContactMe, Footer },
   name: 'IndexPage',
-  mounted(){
-    // Weglot.initialize({
-    //     api_key: 'wg_cfddc6afa61331636dfb137bc1b295292'
-    // });
-  }
 })
 </script>
 

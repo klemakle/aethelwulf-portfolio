@@ -272,4 +272,14 @@ export default {
   }
 }
 
+@media (max-width: 350px) { 
+  .about-me-title{
+    font-size: 40pt;
+  }
+
+  .about-me-title::after{
+    height:11pt;
+  }
+}
+
 </style>
