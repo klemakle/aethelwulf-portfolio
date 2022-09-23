@@ -149,8 +149,8 @@ export default {
   width: 400px;
   height: 450px;
   position: relative;
-  -webkit-box-shadow: 0px 0px 10px 3px #dad8d87d; 
-  box-shadow: 0px 0px 10px 3px #dad8d87d;
+  -webkit-box-shadow: 0px 0px 10px 3px #e8e8e88a; 
+  box-shadow: 0px 0px 10px 3px #e8e8e88a;
 }
 
 #kele-lek-id{border-top: solid 3px #e87e51;}
@@ -170,8 +170,8 @@ export default {
 .one-project:hover{
   font-family: Montserrat-Regular;
   background-color: #ffffffd0;
-  box-shadow: 0px 0px 10px 3px #c1c0c07d;
-  -webkit-box-shadow: 0px 0px 10px 3px #c1c0c07d; 
+  box-shadow: 0px 0px 10px 3px #d3d3d36b;
+  -webkit-box-shadow: 0px 0px 10px 3px #d3d3d36b; 
 }
 
 .one-project > .project-numero{

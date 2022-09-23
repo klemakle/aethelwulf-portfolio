@@ -8,9 +8,13 @@
         <div class="contact-form" data-aos="fade-up" data-aos-duration="2400">
         <Formulaire/>
         </div>
-        <div class="contact-me-photo" data-aos="fade-up" data-aos-duration="2000">
-          <div class="call-me">
+        <div class="contact-me-photo flex flex-col justify-between space-y-6 items-center" data-aos="fade-up" data-aos-duration="2000">
+          <div class="call-me self-start">
             <img src="~/assets/images/call-me.png" alt="call me">
+          </div>
+
+          <div>
+            <Social :horizontal="true"/>
           </div>
         </div>
       </div>
@@ -21,9 +25,11 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Formulaire from './formulaire.vue'
+import Formulaire from './formulaire.vue';
+import Social from '../info/social.vue';
+
 export default {
-  components:{ Formulaire},
+  components:{ Formulaire, Social},
   mounted() {
     AOS.init({});
   }

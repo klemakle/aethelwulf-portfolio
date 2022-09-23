@@ -15,20 +15,20 @@
             My name is <span class="gras-text">Kalidou Dia</span>, I am <span class="gras-text">23 years old</span>. I am from Senegal (West Africa).
             I'm passionate about everything related to computer engineering, I love challenges and it's always a joy to solve problems.
           </p>
-          <p>
+          <p class="mt-2">
             I started doing web development in 2017. 
             Currently I am evolving in web application development with the <span class="gras-text">Javascript ecosystem</span>.
           </p>
-          <p>Most projects I developed are based on <span class="gras-text">Node Js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span> or Nest js </p>
-          <p>
-            Today I am still finishing my training in <span class="gras-text">computer engineering</span> at the <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">Polytechnic School of Thies</a>.
+          <p>Most projects I developed are based on <span class="gras-text">Node Js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span> or <span class="gras-text">Nest js</span> </p>
+          <p class="mt-2">
+            Today I am finishing my training in <span class="gras-text">computer engineering</span> at the <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">Polytechnic School of Thies</a>.
             During these last years I was able to work with <span class="gras-text">companies</span> and <span class="gras-text">startups</span> on interesting projects. 
             I'm learning a lot and I'm always learning new things that I'll put to good use. 
           </p>
           <p>
             Besides programming, I'm playing football or basketball, writing poems, listening music or watching movies.
           </p>
-          <NuxtLink to="/resume" class="my-resume"> <span class="fleche">|</span><span class="text">Resume</span></NuxtLink>
+          <NuxtLink to="/resume" class="my-resume mt-4"> <span class="fleche">|</span><span class="text">Resume</span></NuxtLink>
         </div>
       </div>
 

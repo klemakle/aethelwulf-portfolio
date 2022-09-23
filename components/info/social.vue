@@ -1,5 +1,5 @@
 <template>
-  <div class="social">
+  <div :class="horizontal ? 'social hor' : 'social'">
      <div class="social-network">
       <a href="https://twitter.com/ka___lidou" target="blank">
         <img src="~/assets/images/header/twitter.png" alt="twitter">
@@ -20,6 +20,7 @@
 
 <script>
 export default {
+  props:{ horizontal: false}
 
 }
 </script>
@@ -31,6 +32,10 @@ export default {
   gap: 15px;
   position: relative;
   z-index: 15;
+}
+
+.hor{
+  flex-direction: row !important;
 }
 
 a{

@@ -52,6 +52,9 @@ export default {
   components:{
     Header,
   },
+  head:{
+        title: `Project`,
+  },
   mounted(){
   }
 }
