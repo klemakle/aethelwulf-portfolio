@@ -1,7 +1,12 @@
 <template>
+  <div>
     <div class="header">
       <Header/>
     </div>
+    <div>
+      <nuxt-child/>
+    </div>
+  </div>
 </template>
 
 <script>

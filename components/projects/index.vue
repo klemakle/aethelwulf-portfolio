@@ -7,43 +7,46 @@
 
       <div class="projects-page" data-aos="fade-up" data-aos-duration="1900">
         <nuxt-link id="kele-lek-id" class="one-project" to="/projects/kele">
-          <div class="project-numero">01</div>
+          <div class="project-numero">Web-app</div>
           <div class="project-image">
             <img class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/kele-lek.png" alt="kele-lek">
           </div>
-          <div class="project-name mt-4">
+          <div class="project-name mt-2">
             Kele lek
           </div>
           <div class="project-description py-2">
-            Kele lek is a culinary blog where you can share your most delicious recipes. It is a class project counting for the 'NoSQL database' course that I developed alone in 2019.
+            Kele lek is a culinary web-app where you can share your most delicious recipes.
           </div>
+
+          <div class="px-3 py-2 bg-gray-500 hover:bg-orange-600 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
         <nuxt-link id="sen-diabete-id" class="one-project" to="/projects/senDiabete">
-          <div class="project-numero">02</div>
+          <div class="project-numero">Health-tech</div>
           <div class="project-image">
             <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/sen-diabete.png" alt="kele-lek">
           </div>
-          <div class="project-name mt-4">
+          <div class="project-name mt-2">
             Sen diabete
           </div>
           <div class="project-description py-2">
             Sen Diabete is a health-tech that helps patients with diabetes.
           </div>
+          <div class="px-3 py-2 bg-gray-500 hover:bg-blue-800 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
-        <nuxt-link id="kwely-id" class="one-project" to="/projects/capla">
-          <div class="project-numero">03</div>
+        <nuxt-link id="capla-id" class="one-project" to="/projects/capla">
+          <div class="project-numero">Website</div>
           <div class="project-image">
-            <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/malabe.jpg" alt="kele-lek">
+            <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/project/capla.png" alt="Capla">
           </div>
-          <div class="project-name mt-4">
-            Malabe
+          <div class="project-name mt-2">
+            Capla
           </div>
           <div class="project-description py-2">
-          It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates.
-          We presented it at the UNODC hackathon of 2021.
+            CAPLA is a structure that supports professionals and students in the written and oral expression of English.
           </div>
+          <div class="px-3 py-2 bg-gray-500 hover:bg-indigo-600 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
         <!-- <div id="kwely-id" class="one-project">
@@ -152,14 +155,9 @@ export default {
 
 #kele-lek-id{border-top: solid 3px #e87e51;}
 
-#kele-lek-id .view-more{color: #e87e51;}
-
-
 #sen-diabete-id{border-top: solid 3px #5163e8;}
-#sen-diabete-id .view-more{color: #5163e8;}
 
-#kwely-id{border-top: solid 3px #477d80;}
-#kwely-id .view-more{color: #477d80;}
+#capla-id{border-top: solid 3px #5a67d8;}
 
 .view-more{
   text-decoration: underline ;
@@ -180,12 +178,12 @@ export default {
   background-color: #334961;
   padding: 15px 10px 15px 20px;
   font-family: Montserrat-Bold;
-  font-size: 16pt;
+  font-size: 12pt;
   border-radius:4px;
   text-align: right;
   color: #fff;
   position: absolute;
-  top:-25px;
+  top:-30px;
   right: -10px;
   z-index: 12;
 }

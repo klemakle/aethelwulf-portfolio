@@ -76,24 +76,22 @@ body {
 }
 
 .project-info .description .role {
-    font-size: 11pt;
     font-style: italic;
-    color: #8CC2E1;
+    color: #69c8d3;
     font-family: Montserrat-Regular;
 }
 
 .project-info .description .role .role-text {
     color: #fff;
-    font-style: italic;
-    font-weight: 700;
+    font-weight: 100;
     font-family: Montserrat-Regular;
-    background-color: #1685b8;
+    background-color: #69c8d3;
     padding: 5px 10px;
     border-radius: 20px;
 }
 
 .project-info .description .bref-desc {
-    margin: 20px auto;
+    margin: 40px auto;
     font-size: 12pt;
     display: flex;
     flex-direction: column;
@@ -111,6 +109,13 @@ body {
     text-decoration: underline #56adb6;
     font-size: 20pt;
     font-family: Montserrat-Regular;
+}
+
+.tech-text {
+    text-decoration: underline #56adb6;
+    font-size: 20pt;
+    font-family: Montserrat-Regular;
+    font-style: normal;
 }
 
 .bref-desc .tech-skills .skill {

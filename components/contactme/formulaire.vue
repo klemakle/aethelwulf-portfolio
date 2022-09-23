@@ -22,13 +22,13 @@
     <div class="row input-container">
       <div class="col-md-6 col-xs-6 col-sm-12">
           <div class="styled-input">
-            <input type="text" required v-model="fullName"/>
+            <input type="text" required v-model="fullName" />
             <label>Name</label> 
           </div>
         </div>
         <div class="col-md-6 col-xs-6 col-sm-12">
           <div class="styled-input" style="float:right;">
-            <input type="email"  v-model="email" required/>
+            <input type="email"  v-model="email" required />
             <label>Email</label> 
           </div>
         </div>
@@ -94,7 +94,7 @@ export default {
         setTimeout(()=>{
           this.successMessage=false
           this.clearFields();
-        }, 7000)
+        }, 5000)
       }).catch((err) => {
         this.errorMessage = true;
         this.sendingMessage=false;

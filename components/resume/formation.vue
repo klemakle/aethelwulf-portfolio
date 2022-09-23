@@ -8,16 +8,16 @@
 				<div class="content">
 					<h3>High-School Degree</h3>
 					<p>
-						Scientific baccalaureate in S2 series (experimental sciences) at 'College Yavuz Selim Bosphore' with honors.
+						Scientific baccalaureate in S2 series (experimental sciences) at "College Yavuz Selim Bosphore" with honors.
 					</p>
 				</div>
 			</li>
 			<li>
-				<span>November 2017</span>
+				<span>2017-2022</span>
 				<div class="content">
 					<h3>Computer Science</h3>
 					<p>
-						I studied computer and telecom engineering at the Ecole Polytechnique de Thiès (at the end of my training).
+						I studied computer and telecom engineering at the Ecole Polytechnique de Thiès.
 					</p>
 				</div>
 			</li>

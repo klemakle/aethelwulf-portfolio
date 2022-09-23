@@ -9,7 +9,7 @@
       <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
         <div class="h-full text-center">
           <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://i.picsum.photos/id/338/2000/1333.jpg?hmac=-sTSfHkgHcFg1Jdut1v8HTVl9S1cyeMQ0OY_8dj30fY">
-          <p class="leading-relaxed">Mr. Dia is a serious student, very proactive and particularly assiduous and autonomous, who actively participates in the courses and class projects. During his studies as a student
+          <p class="leading-relaxed">Mr. Dia is a serious person, very proactive and particularly assiduous and autonomous, who actively participates in the courses and class projects. During his studies as a student
 engineering, he has developed qualities that have enabled him to acquire many skills in the field of
 in the field of computer science.</p>
           <span class="inline-block h-1 w-10 rounded bg-blue-800 mt-6 mb-4"></span>

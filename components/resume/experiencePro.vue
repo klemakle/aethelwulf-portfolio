@@ -18,12 +18,12 @@
           </div>
         </li>
         <li>
-          <span>Feb 2021 - Apr 2022</span>
+          <span>Feb 2021 - Sept 2022</span>
           <div class="content">
-            <h3>TeamX - GROUP</h3>
-            <p>
-              This experience was my immersion internship of the 4th year of training. 
-              It lasted 8 months during which I worked in 3 projects:
+            <h3 class="mb-2">TeamX - GROUP</h3>
+            <p class="mb-2">
+              This experience was my immersion internship of the 4th and 5th years of formation. 
+              It lasted 8 months, then 6 months during which I worked on 3 projects:
             </p>
                <div> 
                 <div> 1 - Health-tech </div>
@@ -31,13 +31,13 @@
                </div>
 
                <div> 
-                <div>2 - Web-app for safe driving </div>
+                <div>2 - Web-app for driver's training </div>
                 <div class="technos"> <span>Tools :</span>Vue js, Nuxt js, Nuxt-auth, Nest js, MongoDB, Bitbucket, Heroku </div>
                </div>
 
                <div> 
                 <div>3 - E-commerce B2B platform</div>
-                <div class="technos"> <span>Tools :</span>Vue js, Nuxt js, Heroku, Jira, Bitbucket </div>
+                <div class="technos"> <span>Tools :</span>Vue js, Micro-frontend architecture, Jira, Bitbucket </div>
                </div>
           </div>
         </li>

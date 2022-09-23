@@ -18,7 +18,7 @@
     <!-- hamburger menu -->
     <div class="menu-btn">
       <!-- <Hamburger/> -->
-      <button id="hamburger-btn" class="hamburger">
+      <button id="hamburger-btn" class="hamburger" @click="showMobileMenu">
           <span class="line hamburger-top"></span>
           <span class="line hamburger-middle"></span>
           <span class="line hamburger-bottom"></span>
@@ -26,8 +26,8 @@
     </div>
 
     <!-- mobile-menu -->
-    <div id="mobile-menu-id" class="mobile-invisible">
-      <Mobile/>
+    <div id="mobile-menu-id" class="mobile-invisible" v-if="mobileMenuVisible">
+      <Mobile v-if="mobileMenuVisible"/>
     </div>
   </div>
 </template>
@@ -41,6 +41,11 @@ export default {
     Mobile
   },
   props:['resume', 'projects'],
+  data(){
+    return{
+      mobileMenuVisible: true
+    }
+  },
   mounted(){
     this.openMenu;
     // this.changeActiveLink;
@@ -64,7 +69,15 @@ export default {
       }) 
     }
   },
+  watch: {
+    // '$route' () {
+    //   this.mobileMenuVisible = false;
+    // }
+  },
   methods:{
+    showMobileMenu(){
+      this.mobileMenuVisible = true;
+    },
   }, 
 }
 
