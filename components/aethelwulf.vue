@@ -110,7 +110,7 @@ export default {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position:auto;
-  filter: drop-shadow(5px 8px 10px #000);
+  filter: drop-shadow(5px 8px 10px #565656);
 }
 
 .bounce{

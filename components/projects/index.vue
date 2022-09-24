@@ -64,7 +64,7 @@
           <div class="px-3 py-2 bg-gray-500 hover:bg-blue-500 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
-        <nuxt-link id="malabe-id" class="one-project" to="/projects/kele">
+        <nuxt-link id="malabe-id" class="one-project" to="/projects/malabe">
           <div class="project-numero">Hackathon</div>
           <div class="project-image">
             <img class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/project/malabe.jpg" alt="kele-lek">
@@ -73,7 +73,8 @@
             Malabe
           </div>
           <div class="project-description py-2">
-            Kele lek is a culinary web-app where you can share your most delicious recipes.
+            It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates.
+            We presented it at the UNODC hackathon of 2021.
           </div>
 
           <div class="px-3 py-2 bg-gray-500  hover:bg-teal-500 text-white rounded-3xl text-xs mx-auto">View more</div>

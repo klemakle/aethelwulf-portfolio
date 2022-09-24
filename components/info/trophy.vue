@@ -1,7 +1,7 @@
 <template>
    <div class="trophy">
     <img src="~/assets/images/award.png" alt="">
-      <div class="flag-sn">
+      <div class="flag-sn w-full inline-flex justify-center items-center">
         <img src="~/assets/images/senegal2.png" alt="sn-flag"/>
         <span class="afcon">AFCON winners</span>
       </div>
@@ -44,7 +44,7 @@ export default {
   font-weight: 600;
 }
 
-.flag-sn{
+.flag-sn flex {
   width: auto;
   height: auto;
 }
