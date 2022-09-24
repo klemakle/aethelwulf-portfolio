@@ -90,7 +90,7 @@ sw.*
 *.swp
 
 
-package-lock.json
+# package-lock.json
 
 .vscode
 
