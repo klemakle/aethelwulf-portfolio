@@ -1,7 +1,7 @@
 <template>
   <div class="global-resume">
     <div class="header">
-      <Header :resume="true" :projects="false"/>
+      <Header :resume="false" :projects="true" :line_white="true"/>
     </div>
     <div class="resume">
         <Resume/>

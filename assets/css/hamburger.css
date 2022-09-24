@@ -14,6 +14,14 @@
     outline: none;
 }
 
+.line-black {
+    background: #334961;
+}
+
+.line-white {
+    background: rgba(225, 225, 225, 0.827);
+}
+
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
@@ -22,7 +30,6 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: #000;
     transform: rotate(0);
     transition: all .5s ease;
 }

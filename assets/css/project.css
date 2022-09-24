@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 20px;
+    gap: 25px;
     margin-right: 15%;
     margin-top: 15px;
 }
@@ -102,7 +102,7 @@ body {
 .project-info .description .bref-desc p {
     line-height: 1.75rem;
     font-family: Montserrat-Light;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .bref-desc .tech-skills .tech-text {
@@ -142,9 +142,8 @@ body {
     }
     .project-info .description {
         margin: 10px;
-        text-align: justify;
     }
-    .bref-desc .tech-skills .tech-text {
+    .tech-text {
         font-size: 18pt;
     }
     .bref-desc .tech-skills .skill {

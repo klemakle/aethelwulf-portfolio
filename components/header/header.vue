@@ -19,9 +19,9 @@
     <div class="menu-btn">
       <!-- <Hamburger/> -->
       <button id="hamburger-btn" class="hamburger" @click="showMobileMenu" :class="mobileMenuVisible ? 'open': '' ">
-          <span class="line hamburger-top"></span>
-          <span class="line hamburger-middle"></span>
-          <span class="line hamburger-bottom"></span>
+          <span class="hamburger-top line" :class="line_white?'line-white': 'line-black'"></span>
+          <span class="hamburger-middle line" :class="line_white?'line-white': 'line-black'"></span>
+          <span class="hamburger-bottom line" :class="line_white?'line-white': 'line-black'"></span>
       </button>
     </div>
 
@@ -40,7 +40,7 @@ export default {
     Contact,
     Mobile
   },
-  props:['resume', 'projects'],
+  props:['resume', 'projects', 'line_white'],
   data(){
     return{
       mobileMenuVisible: false
@@ -48,7 +48,7 @@ export default {
   },
   mounted(){
     // this.openMenu;
-    this.disableScroll();
+    // this.disableScroll();
   },
   computed:{
     openMenu (){

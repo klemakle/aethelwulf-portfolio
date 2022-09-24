@@ -9,7 +9,7 @@
       <div class="line-skill">Mobile App</div>
       <div class="line-skill">Web Services</div>
       <div class="line-skill">SQL & NoSQL</div>
-      <div class="line-skill">RESTful API</div>
+      <div class="line-skill">REST API</div>
       <div class="line-skill">Machine Learning</div>
       <div class="line-skill">Googling</div>
     </div>
