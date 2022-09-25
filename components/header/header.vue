@@ -18,7 +18,7 @@
     <!-- hamburger menu -->
     <div class="menu-btn">
       <!-- <Hamburger/> -->
-      <button id="hamburger-btn" class="hamburger" @click="showMobileMenu" :class="mobileMenuVisible ? 'open': '' ">
+      <button id="hamburger-btn" class="hamburger" name="hamburger" @click="showMobileMenu" :class="mobileMenuVisible ? 'open': '' ">
           <span class="hamburger-top line" :class="line_white?'line-white': 'line-black'"></span>
           <span class="hamburger-middle line" :class="line_white?'line-white': 'line-black'"></span>
           <span class="hamburger-bottom line" :class="line_white?'line-white': 'line-black'"></span>
