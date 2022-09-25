@@ -73,7 +73,7 @@
             Malabe
           </div>
           <div class="project-description py-2">
-            It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates.
+            It is a project that aims to fight against corruption for administrative documents such as passports.
             We presented it at the UNODC hackathon of 2021.
           </div>
 
