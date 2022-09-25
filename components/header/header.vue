@@ -48,7 +48,7 @@ export default {
   },
   mounted(){
     // this.openMenu;
-    // this.disableScroll();
+    this.disableScroll();
   },
   computed:{
     openMenu (){
