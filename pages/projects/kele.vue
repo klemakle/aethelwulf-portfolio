@@ -5,7 +5,7 @@
     </div>
     <div class="project-info">
       <div class="image">
-        <iframe frameBorder='0' class="video-playing" height='360' webkitallowfullscreen mozallowfullscreen allowfullscreen src="https://www.awesomescreenshot.com/embed?id=8788599&shareKey=47e78f9e9ea38a79f341ffcd9cf3e756"></iframe>
+        <iframe frameBorder='0' class="video-playing" height='360' webkitallowfullscreen mozallowfullscreen allowfullscreen src="https://www.awesomescreenshot.com/embed?id=8788599&shareKey=47e78f9e9ea38a79f341ffcd9cf3e756&info=false"></iframe>
       </div>
       <div class="icon-views">
         <div class="icon flex flex-col md:flex-row md:space-x-2 justify-between items-center">
