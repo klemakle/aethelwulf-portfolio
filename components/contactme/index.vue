@@ -1,6 +1,6 @@
 <template>
   <div class="global-contact">
-    <div class="contact-me-section bg-testimonial">
+    <div class="contact-me-section ">
       <div class="contact-me-title" data-aos="fade-right" data-aos-duration="1600">
         Contact
       </div>
@@ -53,6 +53,10 @@ export default {
 </script>
 
 <style>
+
+  .global-contact{
+    background-color: #81b2cf1c;
+  }
 
 .contact-me-section{
   display: flex;

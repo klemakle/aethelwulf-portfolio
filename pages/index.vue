@@ -13,19 +13,19 @@
 
     <!-- about section -->
     <div id="about">
-      <Me/>
+      <Me class="pt-40"/>
     </div>
     
     <div id="project">
-      <Projects/>
+      <Projects class="pt-10 md:pt-44"/>
     </div>
 
     <div>
-      <Testimonial/>
+      <Testimonial class="pt-10 md:pt-44"/>
     </div>
     <!-- contact me section -->
     <div id="contact-me">
-      <ContactMe/>
+      <ContactMe class="pt-10 md:pt-44"/>
     </div>
 
     <div id="footer">

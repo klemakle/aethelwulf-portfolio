@@ -81,7 +81,7 @@ export default {
 }
 
 .me{
-  margin-top: 20px;
+  background-color:#f7f7f744;
 }
 
 .about-me-title{
@@ -115,13 +115,13 @@ export default {
 }
 
 .tech{
-  margin: 10px auto 10px 0px;
+  margin: 10px auto 0px 0px;
   padding: 20px;
 }
 
 .bg-about{
   padding: 50px 10px;
-  background-color: #81b2cf1c;
+  background-color: #F1F7FA;
 }
 
 .about-me{

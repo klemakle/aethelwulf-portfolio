@@ -72,12 +72,12 @@
           <div class="project-name mt-2">
             Malabe
           </div>
-          <div class="project-description py-2">
+          <div class="project-description pt-0 pb-1 md:py-2">
             It is a project that aims to fight against corruption for administrative documents such as passports.
             We presented it at the UNODC hackathon of 2021.
           </div>
 
-          <div class="px-3 py-2 bg-gray-500  hover:bg-teal-500 text-white rounded-3xl text-xs mx-auto">View more</div>
+          <div class="px-3 pt-1 pb-2 md:py-2 bg-gray-500  hover:bg-teal-500 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
         
@@ -112,6 +112,10 @@ export default {
 </script>
 
 <style>
+.global-project{
+  background-color: #F1F7FA;
+}
+
   a:hover{
     text-decoration: none !important;
     color:#334961;
@@ -171,7 +175,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 40px 2px;
+  margin: 70px 5px;
   gap: 10px;
   opacity:1;
   align-items: flex-start;
