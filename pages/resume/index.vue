@@ -34,7 +34,7 @@ export default {
 }
 
 .resume{
-  margin: 20px  20px  0 20px;
+  margin: 0px  20px  0 20px;
   padding: 0.1rem;
   height: auto;
 }

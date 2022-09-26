@@ -1,10 +1,10 @@
 <template>
   <div class="global-project">
-    <div class="header">
+    <div class="header1">
       <Header :resume="false" :projects="true" :line_white="true"/>
     </div>
-    <div class="rounded-md mt-4 mx:2 md:mx-12">
-      <vueper-slides fade autoplay pause-on-hover bullets-outside :arrows="false"  :slide-ratio="1 / 2" style="z-index:0;">
+    <div class="rounded-md pt-4 mx:2 md:mx-12">
+      <vueper-slides fade autoplay bullets-outside :arrows="false"  :slide-ratio="1 / 2" style="z-index:0;">
         <vueper-slide v-for="(slide,i) in sendiabetePhotos" :image="slide.image" :key="i" />
       </vueper-slides>
     </div>

@@ -114,7 +114,10 @@ export default {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
+  position: fixed;
+  z-index: 20;
+  background-color: #e1e7ee14;
+  backdrop-filter: blur(10px);
 }
 
 .header > .icon{

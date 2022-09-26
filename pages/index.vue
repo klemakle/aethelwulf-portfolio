@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="global-body">
-      <div class="header">
+      <div class="header-nav">
         <Header :resume="false" :projects="false"/>
       </div>
-      <div class="tete">
+      <div class="tete pt-24">
         <div>
           <Aethelwulf/>
         </div>
@@ -71,8 +71,8 @@ body{
   z-index: 0;
 }
 
-.header{
-  background-color: rgba(255, 255, 255, 0.328);
+.header-nav{
+  background-color: #e1e7ee14;
 }
 
 @media (max-width: 500px) { 
