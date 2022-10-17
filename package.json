@@ -21,7 +21,7 @@
         "nuxt-mail": "^3.0.23",
         "vue": "^2.6.14",
         "vue-fullpage.js": "^0.1.7",
-        "vue-server-renderer": "^2.6.14",
+        "vue-server-renderer": "^2.7.13",
         "vue-template-compiler": "^2.6.14",
         "vueperslides": "^2.15.3",
         "webpack": "^4.46.0"
