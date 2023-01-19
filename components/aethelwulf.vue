@@ -11,7 +11,7 @@
           <Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/>
         </div>
         <div class="info-presentation" id="layer-3">
-          <Profession :title="'Freelancer'" :desc="'Available for work'" :end="true"/>
+          <Profession :title="'Freelance'" :desc="'Available for work'" :end="true"/>
         </div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>
         <div class="info-presentation" id="layer-5"><Name/></div>
