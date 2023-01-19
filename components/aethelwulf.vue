@@ -8,10 +8,10 @@
         <div class="photo-kals bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
         <div class="info-presentation" id="layer-2">
-          <Profession :title="'Software Engineer'" :desc="'Fullstack web developer'"/>
+          <Profession :title="'Software Engineer'" :desc="'Fullstack Js developer'"/>
         </div>
         <div class="info-presentation" id="layer-3">
-          <Profession :title="'Freelance'" :desc="'Available for work'" :end="true"/>
+          <Profession :title="'Freelancer'" :desc="'Available for work'" :end="true"/>
         </div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>
         <div class="info-presentation" id="layer-5"><Name/></div>
