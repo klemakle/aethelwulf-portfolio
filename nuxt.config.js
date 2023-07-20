@@ -26,9 +26,7 @@ export default {
 
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [
-        { src: '~/plugins/fullpage', mode: 'client' }
-    ],
+    plugins: [],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
@@ -45,8 +43,8 @@ export default {
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         // https://go.nuxtjs.dev/bootstrap
+        '@nuxtjs/critters',
         'bootstrap-vue/nuxt',
-        'nuxt-fullpage.js',
         '@nuxtjs/axios', ['nuxt-mail', {
             message: {
                 to: 'kalidou1309@gmail.com',
@@ -61,6 +59,14 @@ export default {
             }
         }],
     ],
+
+    critters: {
+        // Options passed directly to critters: https://github.com/GoogleChromeLabs/critters#critters-2
+        config: {
+          // Default: 'media'
+          preload: 'swap',
+        },
+      },
 
     axios: {
         baseURL: process.env.NODE_ENV === 'development' ?

@@ -5,7 +5,7 @@
         <NuxtLink to="/" class="menu-list-item">Home</NuxtLink>
         <NuxtLink to="/#about" class="menu-list-item">About</NuxtLink>
         <NuxtLink to="/#project" class="menu-list-item">Projects</NuxtLink>
-        <NuxtLink to="/resume" class="menu-list-item">Resume</NuxtLink>
+        <a href="https://drive.google.com/file/d/1IVjiYZHTgFnho-ziNBpr0N73jdrvFWDP/view?usp=sharing" class="menu-list-item" target="_blank">Resume</a>
       </div>
     </div>
   </div>

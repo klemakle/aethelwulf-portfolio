@@ -12,23 +12,23 @@
         </div>
         <div class="my-presentation" data-aos="fade-up" data-aos-duration="1800">
           <p>
-            My name is <span class="gras-text">Kalidou Dia</span>, I am <span class="gras-text">23 years old</span>. I am from Senegal (West Africa).
-            I'm passionate about everything related to computer engineering, I love challenges and it's always a joy to solve problems.
+            My name is <span class="gras-text">Kalidou Dia</span>, I am <span class="gras-text">24 years old</span>. I am from Senegal (West Africa).
+            I'm passionate about everything related to software engineering.
           </p>
           <p class="mt-2">
             I started doing web development in 2017. 
-            Currently I am evolving in web application development with the <span class="gras-text">Javascript ecosystem</span>.
+            Currently I am evolving in software development with the <span class="gras-text">Javascript and Spring boot ecosystem</span>.
           </p>
-          <p>Most projects I developed are based on <span class="gras-text">Node Js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span> or <span class="gras-text">Nest js</span> </p>
+          <p>Most projects I developed are based on <span class="gras-text">Nuxt.js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span>, <span class="gras-text">Nest js</span> or <span class="gras-text">Spring boot</span> </p>
           <p class="mt-2">
-            Today I am finishing my training in <span class="gras-text">computer engineering</span> at the <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">Polytechnic School of Thies</a>.
-            During these last years I was able to work with <span class="gras-text">companies</span> and <span class="gras-text">startups</span> on interesting projects. 
-            I'm learning a lot and I'm always learning new things that I'll put to good use. 
+            I have a degree in <span class="gras-text">software engineering and telecommunications</span> from <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">EPT</a>  and I'm actually 
+            working as a software engineer at <a class="gras-text underline-text" href="https://intouchgroup.net/" target="_blank">Intouch group</a> (a company offering digital payment solutions). 
+            I learn a lot and I'm always learning new things, especially in the fields of <span class="gras-text">cybersecurity</span> and <span class="gras-text">creative development.</span>
           </p>
           <p>
             Besides programming, I'm playing football or basketball, writing poems, listening music or watching movies.
           </p>
-          <NuxtLink to="/resume" class="my-resume mt-4"> <span class="fleche">|</span><span class="text">Resume</span></NuxtLink>
+          <a href="https://drive.google.com/file/d/1IVjiYZHTgFnho-ziNBpr0N73jdrvFWDP/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer"> <span class="fleche">|</span><span class="text">Resume</span></a>
         </div>
       </div>
 

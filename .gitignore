@@ -105,3 +105,5 @@ fly.toml
 .dockerignore
 
 Dockerfile
+
+package-lock.json

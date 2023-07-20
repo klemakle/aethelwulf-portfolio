@@ -1,5 +1,5 @@
 <template>
-  <div class="global-resume">
+  <div class="global-resume mt-20">
     <div class="resume-page">
 
       <div class="formation">

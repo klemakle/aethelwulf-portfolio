@@ -4,21 +4,19 @@
      <div class="timeline">
       <ul>
         <li>
-          <span>Aug 2020 - Jan 2021</span>
+          <span>Jan 2023 - Present</span>
           <div class="content">
-            <h3>CRI - EPT</h3>
+            <h3>Intouch Group</h3>
             <p>
-              It was a 6 months internship during which we worked from the beginning to the delivery
-              of a Digital Workspace MVP (ERP) for the Polytechnic School of Thies.
+             I am working as software engineer in core Processing department
             </p>
-            <!-- <div><div class="technos"> <span>Technos :</span>React js, Django, Django-Rest-Framework, MongoDB, Github </div> </div> -->
             <div> 
-              <div class="technos"> <span>Tools :</span>React js, Django, Django-Rest-Framework, MongoDB, Github </div>
+              <div class="technos"> <span>Tools :</span>J2E, Spring boot, MySQL, App engine, Vaadin, Gitlab </div>
             </div>
           </div>
         </li>
         <li>
-          <span>Feb 2021 - Sept 2022</span>
+          <span>Jan 2021 - Sept 2022</span>
           <div class="content">
             <h3 class="mb-2">TeamX - GROUP</h3>
             <p class="mb-2">
@@ -39,6 +37,20 @@
                 <div>3 - E-commerce B2B platform</div>
                 <div class="technos"> <span>Tools :</span>Vue js, Micro-frontend architecture, Jira, Bitbucket </div>
                </div>
+          </div>
+        </li>
+        <li>
+          <span>Aug 2020 - Jan 2021</span>
+          <div class="content">
+            <h3>CRI - EPT</h3>
+            <p>
+              It was a 6 months internship during which we worked from the beginning to the delivery
+              of a Digital Workspace MVP (ERP) for the Polytechnic School of Thies.
+            </p>
+            <!-- <div><div class="technos"> <span>Technos :</span>React js, Django, Django-Rest-Framework, MongoDB, Github </div> </div> -->
+            <div> 
+              <div class="technos"> <span>Tools :</span>React js, Django, Django-Rest-Framework, MongoDB, Github </div>
+            </div>
           </div>
         </li>
       </ul>

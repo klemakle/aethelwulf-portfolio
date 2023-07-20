@@ -13,7 +13,7 @@ body {
 }
 
 .project-info {
-    padding: 40px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,7 +130,7 @@ body {
 
 @media (max-width:700px) {
     .project-info {
-        padding: 20px;
+        padding: 5px;
     }
     .project-info .image {
         width: 100%;

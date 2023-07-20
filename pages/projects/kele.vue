@@ -4,7 +4,7 @@
       <Header :resume="false" :projects="true" :line_white="true"/>
     </div>
     <div class="project-info">
-      <div class="image">
+      <div class="image mt-20">
         <iframe frameBorder='0' class="video-playing" height='360' webkitallowfullscreen mozallowfullscreen allowfullscreen src="https://www.awesomescreenshot.com/embed?id=8788599&shareKey=47e78f9e9ea38a79f341ffcd9cf3e756&info=false"></iframe>
       </div>
       <div class="icon-views">
@@ -16,7 +16,7 @@
       </div>
       <div class="description">
         <div class="role"> 
-          <span class="tech-text text-white">Role</span> &nbsp; < Fullstack developer />
+          <span class="tech-text text-white">Role</span> &nbsp; {{'< Fullstack developer />'}}
         </div>
         <div class="bref-desc">
           <p> Kele lek is a culinary blog where you can share your most delicious recipes.</p>

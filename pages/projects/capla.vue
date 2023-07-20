@@ -4,7 +4,7 @@
       <Header :resume="false" :projects="true" :line_white="true"/>
     </div>
     <div class="project-info">
-      <div class="md:mx-12 ">
+      <div class="md:mx-12 mt-20 ">
         <img  class="rounded-md video-playing h-48 md:h-auto object-cover"  src="~/assets/images/project/capla.png"/>
       </div>
       <div class="icon-views">
@@ -19,7 +19,7 @@
       </div>
       <div class="description">
         <div class="role text-sm md:text-lg"> 
-          <span class="tech-text text-white">Roles</span> &nbsp;< Web developer />
+          <span class="tech-text text-white">Roles</span> &nbsp;{{'< Web developer />'}}
         </div>
         <div class="bref-desc">
           <p> The Center for Practical English Language Learning (CAPLA in french) is a structure that supports professionals in the written and oral expression of English, which is essential in today's working world.</p>

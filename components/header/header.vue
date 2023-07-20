@@ -7,7 +7,7 @@
       <div class="menu-item"> <NuxtLink :class="(resume==false && projects==false)?'active item-link-text':'item-link-text'" to="/" id="cases-header">HOME</NuxtLink></div>
       <div class="menu-item"> <NuxtLink class="item-link-text" to="/#about" id="about-header">ABOUT</NuxtLink></div>
       <div class="menu-item"> <NuxtLink :class="(resume==false && projects==true)?'active item-link-text':'item-link-text'" to="/#project" id="projects-header">PROJECTS</NuxtLink></div>
-      <div class="menu-item"> <NuxtLink :class="(resume==true && projects==false)?'active item-link-text':'item-link-text'" to="/resume" id="resume-header">RESUME</NuxtLink></div>
+      <div class="menu-item"> <a :class="(resume==true && projects==false)?'active item-link-text':'item-link-text'" href="https://drive.google.com/file/d/1IVjiYZHTgFnho-ziNBpr0N73jdrvFWDP/view?usp=sharing" id="resume-header" target="_blank">RESUME</a></div>
     </div>
     <div class="icon-right">
       <NuxtLink to="/#contact-me">

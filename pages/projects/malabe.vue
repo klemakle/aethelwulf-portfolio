@@ -4,7 +4,7 @@
       <Header :resume="false" :projects="true" :line_white="true"/>
     </div>
     <div class="project-info">
-      <div class="md:mx-12 ">
+      <div class="md:mx-12 mt-20">
         <img  class="rounded-md video-playing h-48 md:h-auto object-cover"  src="~/assets/images/project/malabe.jpg"/>
       </div>
       <div class="icon-views">
@@ -15,7 +15,7 @@
       </div>
       <div class="description">
         <div class="role text-sm md:text-lg"> 
-          <span class="tech-text text-white">Role</span>&nbsp;  < Back-end developer />
+          <span class="tech-text text-white">Role</span>&nbsp; {{'< Back-end developer />'}}
         </div>
         <div class="bref-desc">
           <p> It is a project that aims to fight against corruption for the withdrawal of administrative documents such as passports, birth certificates...</p>

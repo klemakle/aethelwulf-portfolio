@@ -38,9 +38,6 @@
 import Vue from 'vue'
 import Aethelwulf from '~/components/aethelwulf.vue'
 import Header from '~/components/header/header.vue'
-import KeleLek from '~/components/projects/keleLek.vue'
-import kweli from '~/components/projects/kweli.vue'
-import SenDiabete from '~/components/projects/senDiabete.vue'
 import Me from '~/components/about/me.vue';
 import Projects from '~/components/projects/index.vue';
 import ContactMe from '~/components/contactme/index.vue';
@@ -53,7 +50,7 @@ export default Vue.extend({
    name: 'page',
     mode: 'out-in'
   },
-  components: { kweli, SenDiabete, KeleLek, Aethelwulf, Header, Me, Projects, Project,Testimonial, ContactMe, Footer },
+  components: { Aethelwulf, Header, Me, Projects, Project,Testimonial, ContactMe, Footer },
   name: 'IndexPage',
 })
 </script>

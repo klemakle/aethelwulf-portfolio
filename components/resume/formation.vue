@@ -15,7 +15,7 @@
 			<li>
 				<span>2017-2022</span>
 				<div class="content">
-					<h3>Computer Science</h3>
+					<h3>Software engineering</h3>
 					<p>
 						I studied computer and telecom engineering at the Ecole Polytechnique de Thiès.
 					</p>

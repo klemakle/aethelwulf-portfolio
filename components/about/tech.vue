@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <div class="tech">Techno</div> -->
     <div class="tech-list">
       <div class="tech-line"> 
         <div class="tech-image"><img src="~/assets/images/technos/javascript.png" alt="Javascript"></div>
@@ -8,44 +7,39 @@
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/html.png" alt="Html"></div>
-        <div class="tech-label">Html</div>
+        <div class="tech-image"><img src="~/assets/images/technos/typescript.png" alt="Typescript"></div>
+        <div class="tech-label">Typescript</div>
       </div>
-
-       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/css.png" alt="Css"></div>
-        <div class="tech-label">CSS</div>
-      </div>
-
+      
       <div class="tech-line"> 
-        <div class="tech-image"><svg class="mx-auto" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="#5F858F" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.667 6C9.177 6 7.623 7.222 7 9.667c.933-1.223 2.023-1.68 3.267-1.375c.71.174 1.217.68 1.778 1.24c.916.912 2 1.968 4.288 1.968c2.49 0 4.044-1.222 4.667-3.667c-.933 1.223-2.023 1.68-3.267 1.375c-.71-.174-1.217-.68-1.778-1.24C15.039 7.056 13.98 6 11.667 6zm-4 6.5c-2.49 0-4.044 1.222-4.667 3.667c.933-1.223 2.023-1.68 3.267-1.375c.71.174 1.217.68 1.778 1.24c.916.912 1.975 1.968 4.288 1.968c2.49 0 4.044-1.222 4.667-3.667c-.933 1.223-2.023 1.68-3.267 1.375c-.71-.174-1.217-.68-1.778-1.24c-.916-.912-1.975-1.968-4.288-1.968z"/></svg>
-        </div>
-        <div class="tech-label">Tailwind</div>
+        <div class="tech-image"><img src="~/assets/images/technos/java.png" alt="Java"></div>
+        <div class="tech-label">Java</div>
       </div>
-
+      
       <div class="tech-line"> 
         <div class="tech-image grayscale"><img src="~/assets/images/technos/node.png" alt="Node"></div>
         <div class="tech-label">Node Js</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/react.png" alt="React"></div>
+        <div class="tech-image grayscale"><img src="~/assets/images/technos/nuxt.png" alt="Nuxt js"></div>
+        <div class="tech-label">Nuxt js</div>
+      </div>
+      
+      <div class="tech-line"> 
+        <div class="tech-image"><img src="~/assets/images/technos/vuejs.png" alt="Vue"></div>
+        <div class="tech-label">Vue</div>
+      </div>
+      
+      
+      <div class="tech-line"> 
+        <div class="tech-image"><img src="~/assets/images/technos/reactjs.png" alt="React"></div>
         <div class="tech-label">React</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/vue.png" alt="Vue"></div>
-        <div class="tech-label">Vue</div>
-      </div>
-
-      <div class="tech-line"> 
-        <div class="tech-image grayscale"><img src="~/assets/images/technos/nuxt.png" alt="Nuxt js"></div>
-        <div class="tech-label">Nuxt js</div>
-      </div>
-
-      <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/expressjs.png" alt="Express"></div>
-        <div class="tech-label">Express</div>
+        <div class="tech-image"><img src="~/assets/images/technos/express.png" alt="Express"></div>
+        <div class="tech-label">Express Js</div>
       </div>
 
       <div class="tech-line"> 
@@ -54,12 +48,12 @@
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/django.png" alt="Django"></div>
-        <div class="tech-label">Django</div>
+        <div class="tech-image"><img src="~/assets/images/technos/spring.png" alt="Spring boot"></div>
+        <div class="tech-label">Spring boot</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image grayscale"><img src="~/assets/images/technos/mongodb.png" alt="Mongo DB"></div>
+        <div class="tech-image"><img src="~/assets/images/technos/mongodb.png" alt="Mongo DB"></div>
         <div class="tech-label">Mongo</div>
       </div>
 
@@ -69,20 +63,24 @@
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image"><img src="~/assets/images/technos/github.png" alt="Github"></div>
-        <div class="tech-label">Github</div>
+        <div class="tech-image"><img src="~/assets/images/technos/gitlab.png" alt="Gitlab"></div>
+        <div class="tech-label">Gitlab</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image grayscale"><img src="~/assets/images/technos/bitbucket1.png" alt="Bitbucket"></div>
+        <div class="tech-image"><img src="~/assets/images/technos/bitbucket.png" alt="Bitbucket"></div>
         <div class="tech-label">Bitbucket</div>
       </div>
 
       <div class="tech-line"> 
-        <div class="tech-image grayscale"><img src="~/assets/images/technos/jira.png" alt="Jira"></div>
-        <div class="tech-label">Jira</div>
+        <div class="tech-image"><img src="~/assets/images/technos/heroku.png" alt="Heroku"></div>
+        <div class="tech-label">Heroku</div>
       </div>
 
+      <div class="tech-line"> 
+        <div class="tech-image"><img src="~/assets/images/technos/gcp.png" alt="Gcp"></div>
+        <div class="tech-label">Google cloud</div>
+      </div>
     </div>
   </div>
 </template>
