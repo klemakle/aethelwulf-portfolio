@@ -166,32 +166,35 @@ export default {
   transition: all .15s ease-in-out;
 }
 .fleche{
-  margin-right:10px ;
+  margin-right:15px ;
   position: relative;
-  font-size: 20pt;
+  font-size: 15pt;
+  margin-bottom: 10px;
   writing-mode: vertical-lr;
   font-weight: 900;
   color:#80a6b0;
   transition: all .25s ease-in-out;
+  transform: rotate(-60deg);
 }
 .fleche::before{
   content: "";
   position: absolute;
-  border-top: solid 1.5px #80a6b0;
-  border-right: solid 1.5px #80a6b0;
-  height: 10px;
-  width: 10px;
-  left: 75%;
-  top: -12%;
+  border-top: solid 3px #80a6b0;
+  border-right: solid 3px #80a6b0;
+  height: 15px;
+  width: 15px;
+  left: 40%;
+  top: -70%;
   transform: rotate(45deg);
   transition: all .15s ease-in-out;
 }
 
 .my-resume:hover .fleche{
-  transform: translateX(10px);
+  /* transform: translateY(5px); */
+  margin-right:10px 
 }
 .my-resume:hover .fleche::before{
-  left: 59%;
+  left: 45%;
   border-top:2px solid #80a6b0;
   border-right:2px solid #80a6b0;
 }
@@ -211,7 +214,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top:40px ; */
 }
 
 .my-photo .cloud-photo{
