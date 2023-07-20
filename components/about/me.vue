@@ -234,7 +234,6 @@ export default {
 }
 
 .my-presentation > p {
-  text-align: justify;
   color: #334961;
   opacity: .8;
   line-height: 18pt;
@@ -246,7 +245,6 @@ export default {
   text-decoration: none;
 }
 
-/* max-width 400px */
 @media (max-width: 500px) { 
   .about-me{
     flex-direction: column;
