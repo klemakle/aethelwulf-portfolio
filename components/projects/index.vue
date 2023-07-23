@@ -49,6 +49,20 @@
           <div class="px-3 py-2 bg-gray-500 hover:bg-indigo-600 text-white rounded-3xl text-xs mx-auto">View more</div>
         </nuxt-link>
 
+        <nuxt-link id="capla-id" class="one-project" to="/projects/transcure">
+          <div class="project-numero">data-viz</div>
+          <div class="project-image">
+            <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="~/assets/images/project/transcure/transcure2.png" alt="Transcure">
+          </div>
+          <div class="project-name mt-2">
+            Transcure
+          </div>
+          <div class="project-description py-2">
+            The project consists of a web application for visualizing data from an Excel file. The data are recordings of mouse tumors.
+          </div>
+          <div class="px-3 py-2 bg-gray-500 hover:bg-purple-800 text-white rounded-3xl text-xs mx-auto">View more</div>
+        </nuxt-link>
+
         <nuxt-link id="snake-game-id" class="one-project" to="/projects/snake">
           <div class="project-numero">IA-RL</div>
           <div class="project-image mx-auto">
