@@ -28,7 +28,10 @@
           <p>
             Besides programming, I'm playing football or basketball, writing poems, listening music or watching movies.
           </p>
-          <a href="https://drive.google.com/file/d/1IVjiYZHTgFnho-ziNBpr0N73jdrvFWDP/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer"> <span class="fleche">|</span><span class="text">Resume</span></a>
+          <a href="https://drive.google.com/file/d/1IVjiYZHTgFnho-ziNBpr0N73jdrvFWDP/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer">
+            <span class="text">Resume PDF</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="#9AB8C1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4H4v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5M9 15L20 4m-5 0h5v5"/></svg>          
+          </a>
         </div>
       </div>
 
@@ -156,6 +159,7 @@ export default {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap:2px;
   cursor: pointer;
 }
 .my-resume .text{
@@ -165,7 +169,7 @@ export default {
   font-size: 12pt;
   transition: all .15s ease-in-out;
 }
-.fleche{
+/* .fleche{
   margin-right:15px ;
   position: relative;
   font-size: 15pt;
@@ -187,21 +191,11 @@ export default {
   top: -70%;
   transform: rotate(45deg);
   transition: all .15s ease-in-out;
-}
+} */
 
-.my-resume:hover .fleche{
-  /* transform: translateY(5px); */
-  margin-right:10px 
-}
-.my-resume:hover .fleche::before{
-  left: 45%;
-  border-top:2px solid #80a6b0;
-  border-right:2px solid #80a6b0;
-}
 .my-resume:hover .text{
   opacity:1;
-  font-family: Montserrat-bold;
-  font-weight: 900;
+  text-decoration: underline;
 }
 
 .my-photo{
