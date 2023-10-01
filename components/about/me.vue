@@ -12,10 +12,6 @@
         </div>
         <div class="my-presentation" data-aos="fade-up" data-aos-duration="1800">
           <p>
-            My name is <span class="gras-text">Kalidou Dia</span>, I am <span class="gras-text">24 years old</span>. I am from Senegal (West Africa).
-            I'm passionate about everything related to software engineering.
-          </p>
-          <p>
             My name is <span class="gras-text">Kalidou Dia</span>, I'm 25 years old. I'm originally from Senegal (West Africa) and I'm currently living in Lyon (France) 
             where I'm doing a specialization in cybersecurity at the <a class="gras-text underline-text" href="https://www.univ-lyon2.fr/" target="_blank">Université Lumière</a>. 
             I'm passionate about everything to do with computers and technology.
