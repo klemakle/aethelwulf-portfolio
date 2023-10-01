@@ -15,14 +15,18 @@
             My name is <span class="gras-text">Kalidou Dia</span>, I am <span class="gras-text">24 years old</span>. I am from Senegal (West Africa).
             I'm passionate about everything related to software engineering.
           </p>
-          <p class="mt-2">
-            I started doing web development in 2017. 
-            Currently I am evolving in software development with the <span class="gras-text">Javascript and Spring boot ecosystem</span>.
+          <p>
+            My name is <span class="gras-text">Kalidou Dia</span>, I'm 25 years old. I'm originally from Senegal (West Africa) and I'm currently living in Lyon (France) 
+            where I'm doing a specialization in cybersecurity at the <a class="gras-text underline-text" href="https://www.univ-lyon2.fr/" target="_blank">Université Lumière</a>. 
+            I'm passionate about everything to do with computers and technology.
           </p>
-          <p>Most projects I developed are based on <span class="gras-text">Nuxt.js</span> with <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span>, <span class="gras-text">Nest js</span> or <span class="gras-text">Spring boot</span> </p>
           <p class="mt-2">
-            I have a degree in <span class="gras-text">software engineering and telecommunications</span> from <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">EPT</a>  and I'm actually 
-            working as a software engineer at <a class="gras-text underline-text" href="https://intouchgroup.net/" target="_blank">Intouch group</a> (a company offering digital payment solutions). 
+            I started doing web development in 2017. I worked in software development with the <span class="gras-text">Javascript and Spring boot ecosystem</span>.
+          </p>
+          <p>Most projects I developed were made with <span class="gras-text">Nuxt.js</span>, <span class="gras-text">Vue.js</span>, <span class="gras-text">Express</span>, <span class="gras-text">Nest js</span> or <span class="gras-text">Spring boot</span> </p>
+          <p class="mt-2">
+            I have a degree in <span class="gras-text">software engineering and telecommunications</span> from <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">EPT</a>  and worked 
+            as a software engineer at <a class="gras-text underline-text" href="https://intouchgroup.net/" target="_blank">Intouch group</a> (a company offering digital payment solutions). 
             I learn a lot and I'm always learning new things, especially in the fields of <span class="gras-text">cybersecurity</span> and <span class="gras-text">creative development.</span>
           </p>
           <p>

@@ -3,7 +3,7 @@
     <div class="location-icon">
       <img src="~/assets/images/location3d.png" alt="">
     </div>
-    <div class="location-text">Dakar, Senegal</div>
+    <div class="location-text">Lyon, France</div>
   </div>
 </template>
 

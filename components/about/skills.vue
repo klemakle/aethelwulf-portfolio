@@ -6,6 +6,7 @@
       <div class="line-skill">Database modelling</div>
       <div class="line-skill">Frontend</div>
       <div class="line-skill">Backend</div>
+      <div class="line-skill">Cybersecurity</div>
       <div class="line-skill">Mobile App</div>
       <div class="line-skill">Web Services</div>
       <div class="line-skill">SQL & NoSQL</div>

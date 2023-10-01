@@ -4,7 +4,7 @@
      <div class="timeline">
       <ul>
         <li>
-          <span>Jan 2023 - Present</span>
+          <span>Jan 2023 - Sept 2023</span>
           <div class="content">
             <h3>Intouch Group</h3>
             <p>
