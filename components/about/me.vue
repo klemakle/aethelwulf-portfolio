@@ -14,7 +14,7 @@
           <p>
             My name is <span class="gras-text">Kalidou Dia</span>, I'm 25 years old. I'm originally from Senegal (West Africa) and I'm currently living in Lyon (France) 
             where I'm doing a specialization in cybersecurity at the <a class="gras-text underline-text" href="https://www.univ-lyon2.fr/" target="_blank">Université Lumière</a>. 
-            I'm passionate about everything to do with computers and technology.
+            I'm passionate about everything related on computers and technology.
           </p>
           <p class="mt-2">
             I started doing web development in 2017. I worked in software development with the <span class="gras-text">Javascript and Spring boot ecosystem</span>.
@@ -26,7 +26,7 @@
             I learn a lot and I'm always learning new things, especially in the fields of <span class="gras-text">cybersecurity</span> and <span class="gras-text">creative development.</span>
           </p>
           <p>
-            Besides programming, I'm playing football or basketball, writing poems, listening music or watching movies.
+            Besides programming, I play football or basketball, writing poems, listening music or watching movies.
           </p>
           <a href="https://drive.google.com/file/d/1IVjiYZHTgFnho-ziNBpr0N73jdrvFWDP/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer">
             <span class="text">Resume PDF</span>
