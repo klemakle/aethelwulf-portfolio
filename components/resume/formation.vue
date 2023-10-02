@@ -4,20 +4,29 @@
     <div class="timeline">
 		<ul>
 			<li>
-				<span>July 2017</span>
+				<span>Sept 2023 - Present</span>
 				<div class="content">
-					<h3>High-School Degree</h3>
+					<h3>IT security</h3>
 					<p>
-						Scientific baccalaureate in S2 series (experimental sciences) at "College Yavuz Selim Bosphore" with honors.
+						Organisation and protection of corporate information systems at Lyon (Université Lumière Lyon 2)
 					</p>
 				</div>
 			</li>
 			<li>
 				<span>2017-2022</span>
 				<div class="content">
-					<h3>Software engineering</h3>
+					<h3>IT and telecommunications engineering</h3>
 					<p>
 						I studied computer and telecom engineering at the Ecole Polytechnique de Thiès.
+					</p>
+				</div>
+			</li>
+			<li>
+				<span>July 2017</span>
+				<div class="content">
+					<h3>High-School Degree</h3>
+					<p>
+						Scientific baccalaureate in S2 series (experimental sciences) at "College Yavuz Selim Bosphore" with honors.
 					</p>
 				</div>
 			</li>
