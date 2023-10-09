@@ -7,7 +7,7 @@
       <div class="experience-pro">
         <ExperiencePro/>
       </div>
-      <a href="https://drive.google.com/file/d/1bDpukklmVZrJLFnXbMkn9VxJewS-k67B/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer self-start">
+      <a href="https://drive.google.com/file/d/1eZJ9_zpVyoTze85SvlfqBJlh7zRrvkz_/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer self-start">
         <span class="text" style="color:#9AB8C1">Resume PDF</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="#9AB8C1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4H4v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5M9 15L20 4m-5 0h5v5"/></svg>          
       </a>
