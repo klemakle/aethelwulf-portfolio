@@ -4,6 +4,7 @@
     <div class="tech-skills">
       <div class="line-skill">Web development</div>
       <div class="line-skill">Database modelling</div>
+      <div class="line-skill">Ethical hacking</div>
       <div class="line-skill">Cybersecurity</div>
       <div class="line-skill">Frontend</div>
       <div class="line-skill">Backend</div>
