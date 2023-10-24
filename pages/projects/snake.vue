@@ -19,14 +19,12 @@
             <span class="tech-text text-white">Role</span> &nbsp; {{'< programmer />'}}
           </div>
           <div class="bref-desc">
-            <p> Kele lek is a culinary blog where you can share your most delicious recipes.</p>
+            <p> This project was done as part of the Deep learning course.</p>
           <p>
-            You can also see other people's recipes and posts and leave a little "like" or comment.
-            You can consult the dishes according to their category (dessert, lunch, meat, vegan, coffee, pastry...) or their author.
+            It consists of setting up a reinforcement learning model for the famous snake game. As the video shows, intelligence learns how to increase its score by discovering the rules throughout the game.
           </p>
           <p>
-            This is a project that I developed alone with a template on which I based myself. It was part of our "NoSQL Database" course and I finished it in less than 2 weeks.
-            It was developed with a monolithic architecture.
+            Through this project, we have understood how a reinforcement learning model works and how to implement it.
           </p>
   
             <div class="tech-skills">
