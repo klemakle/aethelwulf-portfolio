@@ -31,8 +31,7 @@
               <span class="tech-text">Tools</span>
               <span class="skill">Python</span>
               <span class="skill">Pytorch</span>
-              <span class="skill">Express js</span>
-              <span class="skill">Mongo DB</span> 
+              <span class="skill">Steamlit</span>
             </div>
           </div>
         </div>
