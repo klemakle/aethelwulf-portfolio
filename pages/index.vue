@@ -56,6 +56,9 @@ export default Vue.extend({
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 body{
   overflow-x:hidden !important ;
 }
