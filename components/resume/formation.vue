@@ -8,7 +8,7 @@
 				<div class="content">
 					<h3>IT security</h3>
 					<p>
-						Organisation and protection of corporate information systems at Lyon (Université Lumière Lyon 2)
+						Organisation and protection of company information systems at Lyon (Université Lumière Lyon 2)
 					</p>
 				</div>
 			</li>
