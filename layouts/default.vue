@@ -6,15 +6,17 @@
     <div>
       <nuxt-child/>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '~/components/header/header.vue';
+import Footer from '~/components/footer/index.vue';
 
 export default {
   name:'headerLayout',
-  components:{Header}
+  components:{Header, Footer}
 
 }
 </script>

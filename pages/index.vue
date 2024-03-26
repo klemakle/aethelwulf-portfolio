@@ -2,7 +2,7 @@
   <div>
     <div class="global-body">
       <div class="header-nav">
-        <Header :resume="false" :projects="false"/>
+        <!-- <Header :resume="false" :projects="false"/> -->
       </div>
       <div class="tete pt-24">
         <div>
@@ -28,9 +28,9 @@
       <ContactMe class="pt-10 md:pt-44"/>
     </div>
 
-    <div id="footer">
+    <!-- <div id="footer">
       <Footer/>
-    </div>
+    </div> -->
 </div>
 </template>
 

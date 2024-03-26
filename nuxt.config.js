@@ -1,7 +1,7 @@
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
-
+    target: 'static',
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'aethelwulf',
@@ -45,6 +45,7 @@ export default {
         // https://go.nuxtjs.dev/bootstrap
         '@nuxtjs/critters',
         'bootstrap-vue/nuxt',
+        '@nuxt/content',
         '@nuxtjs/axios', ['nuxt-mail', {
             message: {
                 to: 'kalidou1309@gmail.com',

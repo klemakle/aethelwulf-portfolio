@@ -19,7 +19,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1d2937;
+  background-color: #334961;
   color: #fff;
   letter-spacing: 2px;
 }
