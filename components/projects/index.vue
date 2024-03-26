@@ -193,7 +193,7 @@ export default {
   gap: 10px;
   opacity:1;
   align-items: flex-start;
-  background-color: #ffffffab;
+  background-color: #ffffffe0;
   border-radius: 4px;
   padding: 20px 10px;
   transition: all .25s ;
@@ -224,7 +224,7 @@ export default {
 
 .one-project:hover{
   font-family: Montserrat-Regular;
-  background-color: #ffffffd0;
+  background-color: #fffffff3;
   box-shadow: 0px 0px 10px 3px #d3d3d36b;
   -webkit-box-shadow: 0px 0px 10px 3px #d3d3d36b; 
 }
@@ -245,7 +245,7 @@ export default {
 
 .one-project > .project-image{
   filter: grayscale(.1);
-  opacity: .7;
+  opacity: .9;
   transition: all .25s ;
 }
 .one-project:hover .project-image{
