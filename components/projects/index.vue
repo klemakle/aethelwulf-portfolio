@@ -189,7 +189,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 70px 5px;
+  margin: 30px auto;
   gap: 10px;
   opacity:1;
   align-items: flex-start;
