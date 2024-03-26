@@ -8,9 +8,10 @@ author: Kalidou DIA
 
 ![alt text](/img/sql_classic/sql_injection.jpeg#center)
 
+________________________________________________________________
 ## 1. Presentation
 
-### In this tutorial, we'll look at how to exploit an SQL injection vulnerability.
+### In this tutorial, we'll look at how to exploit a SQL injection vulnerability.
 
 The website in question contains a lot of vulnerabilities. In a way, it is a laboratory for exploiting and testing vulnerabilities.
 The vulnerability we are going to describe in the following lines is "SQL injection". More information :[ click here to view](https://www.kaspersky.fr/resource-center/definitions/sql-injection)
@@ -18,24 +19,23 @@ The vulnerability we are going to describe in the following lines is "SQL inject
 
 ![alt text](/img/sql_classic/techno_site.png#center)
 
-Description of interaction with site visitors
-
--  1. We ask the visitor to enter a user id
--  2. The server then returns the "First name" and "Surname" of the corresponding id.
+Description of interaction with website visitors
+<li>1. We ask the visitor to enter a user id</li>
+<li>2. The server then returns the "First name" and "Surname" of the corresponding id.</li>
 <br>
 
 ![alt text](/img/sql_classic/gordon_screen.png#center)
 
-
+________________________________________________________________
 ## 2. How the website works 
 
 ### 2.1 Let's see how the site behaves when you enter values it doesn't expect
-<div style="display:flex; flex-direction:row; justify-content: center; align-items: start;">
-    <div>
+<div class="flex flex-col md:flex-row gap-10 justify-between">
+    <div class="mx-4">
         <p>Enter a character string with quotes instead of an integer</p>
         <img src="/img/sql_classic/coucou.png"/>
     </div>
-    <div>
+    <div class="mx-4">
         <p>The server processes the request correctly and returns a code 200 to say that everything is fine. Which is abnormal.</p>
         <img src="/img/sql_classic/coucou_response.png"/>
     </div>
@@ -45,34 +45,30 @@ Description of interaction with site visitors
 To do this, we're going to guess (thanks to the technology used on this site) the SQL query that is used to retrieve the information displayed.
 After several tests, we deduce that the query in question could look like this:
 
-```SQL
-    SELECT colonne1, colonne2
-    FROM nom_de_la_table 
-    WHERE id = '$id';
+```sql
+SELECT colonne1, colonne2
+FROM nom_de_la_table 
+WHERE id = '$id';
 ```
 The *id* field is our input that has been sent to the server. This is the field we're going to use to change the SQL query.
 
 To do this, we're going to put in a character string that will return all the lines.
-The string in question is as follows: 
-`` ' OR 1=1 -- - ``
+The string in question is as follows:  `` ' OR 1=1 -- - ``
 <p> As a result, the query will be : </p>
 
-```SQL
-    SELECT colonne1, colonne2
-    FROM nom_de_la_table
-    WHERE id = '' OR 1=1 -- - ' ;
+```sql
+SELECT colonne1, colonne2
+FROM nom_de_la_table
+WHERE id = '' OR 1=1 -- - ' ;
 ```
 
-<p> This query will return the rows of the table concerned because the condition 
-
-`` WHERE id='' OR 1=1 `` 
-is always true. The characters "<span style="color:#FF5733">-- -</span>" are used to comment out the rest of the request, which will not be executed.</p>
+This query will return the rows of the table concerned because the condition `` WHERE id='' OR 1=1 `` is always true. The characters "<span style="color:#FF5733">-- -</span>" are used to comment out the rest of the request, which will not be executed.
 
 ![alt text](/img/sql_classic/exploit1.png#center)
 
 The SQL injection passes and the table information is displayed.
 
-
+________________________________________________________________
 ## 3. Extract more information
 
 We are sure that the site is vulnerable to SQL injection.
@@ -81,17 +77,15 @@ Let's try to get some more information.
 ### 3.1 Database version
 
 By running a few tests, we know that there are two columns being requested in the query.
-<p>As a result, our input will take this value :
+As a result, our input will take this value : ``' UNION SELECT NULL,version()-- -``
 
-''`` ' UNION SELECT NULL,version()-- - ``''
-</p>
 
 
 The query will look like this: 
-```SQL
-    SELECT colonne1, colonne2
-    FROM nom_de_la_table
-    WHERE  id = '' UNION SELECT NULL,version()-- - '
+```sql
+SELECT colonne1, colonne2
+FROM nom_de_la_table
+WHERE  id = '' UNION SELECT NULL,version()-- - '
 ```
 
 ``version()`` or ``@@version`` is a system variable found in most SQL databases.
@@ -100,7 +94,7 @@ The query will look like this:
 ![alt text](/img/sql_classic/version.png#center)
 The image above shows that this is a mariaDB.
 
-### 3.2 Database names (schemas)
+### 3.2 Database schemas
 
 Our input here will take the following value: ``' UNION SELECT concat(schema_name),1 from information_schema.schemata -- - ``
 
@@ -156,6 +150,7 @@ We use the ``concat()`` function to format and display as much information as we
 The image below shows the various items of information recovered.
 ![alt text](/img/sql_classic/lines.png#center)
 
+________________________________________________________________
 ## 4. Cracking passwords
 
 Note that the passwords are hashed. The hash used looks like MD5 (32 characters).

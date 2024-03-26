@@ -66,17 +66,37 @@ body {
     font-size: 28px;
     padding-top: 24px ;
     margin-bottom: 24px;
-    color: #1c2836;
+    color: #334961;
 }
+
 .nuxt-content h3 {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 20px;
+    color: #334961;
+}
+
+.nuxt-content h4 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 14px;
+    color: #334961;
+}
+.nuxt-content h5 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 14px;
     color: #334961;
 }
 .nuxt-content p {
     margin-bottom: 20px;
-    font-family: Montserrat-Light;
+    font-family: Montserrat-Regular;
+}
+
+.nuxt-content a {
+    margin-bottom: 20px;
+    font-family: Ubuntu-Medium;
+    color: #334961;
 }
 
 .nuxt-content .nuxt-content-highlight pre{
@@ -84,8 +104,7 @@ body {
 }
 
 .nuxt-content code {
-    background-color: #f7f8fa !important;
-    color: gray !important;
+    background-color: #f7f8fa;
 }
 
 .nuxt-content img[src*='#center'] {

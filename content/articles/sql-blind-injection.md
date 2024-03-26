@@ -4,13 +4,13 @@ description: Learn how to exploit blind or boolean sql injection vulnerability.
 author: Kalidou DIA
 ---
 
-# <center>SQL INJECTION - Blind </center>
+# <center>BLIND SQL INJECTION </center>
 
 ![alt text](/img/sql_blind/sql_blind.webp#center)
 
 
 
-### <center>How to hack website using **Blind Sql injection** vulnerability ?</center>
+### <center>How to hack website using blind sql injection vulnerability ?</center>
 
 
 <div style="text-align: right" class="date-update">
@@ -18,10 +18,11 @@ Last update :  Feb 29, 2024
 </div>
 
 
+----------------------------------------------------------------
 ## A . Context
-___
-It is about how to exploit the "sql injection" vulnerability to retrieve information from the database. 
-We have a website with numerous vulnerabilities. This website is used as a testing and exploitation environment for many vulnerabilities.
+
+It is about how to exploit the "blind sql injection" vulnerability to get information from the database. 
+We have a website with a lot of vulnerabilities. This website is used as a testing and exploitation environment for many vulnerabilities.
 In this section we are going to exploit the **SQL INJECTION (blind)** vulnerability. 
 - In the image below, we can see the return from the server when we give an integer as input. The server replies that the user with ID "2" exists in the database and nothing else.
     
@@ -36,9 +37,9 @@ In this section we are going to exploit the **SQL INJECTION (blind)** vulnerabil
     ![alt text](/img/sql_blind/coucouOR.png#center)
 
 
-## B. Deduction
 ___
-An SQl INJECTION vulnerability is present and the server provides only two responses: 
+## B. Deduction
+A BLIND SQl INJECTION vulnerability is present and the server provides only two responses: 
  - a. The user exists in the database
  - b. The user does not exist in the database
 <br>
@@ -46,8 +47,8 @@ An SQl INJECTION vulnerability is present and the server provides only two respo
 We  suspect that there is a return condition somewhere in the server-side processing, which is poorly implemented. And that's what we're going to exploit to find the contents of the database.
 
 
-## C. Exploitation
 ________________________________
+## C. Exploitation
 
 ```python
 import requests
