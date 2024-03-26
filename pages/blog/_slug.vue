@@ -1,8 +1,8 @@
 <template>
     <article>
-      <div class="container pt-24 pb-16">
+      <div class="container pt-12 pb-16 md:px-44">
 
-        <div class="my-12 md:px-10 mx-auto md:mx-20">
+        <div class="my-12 md:px-40 mx-auto">
           <nuxt-content :document="article" />
         </div>
       </div>

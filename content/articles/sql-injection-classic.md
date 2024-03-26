@@ -4,7 +4,7 @@ description: Learn how to exploit sql injection vulnerability.
 author: Kalidou DIA
 ---
 
-# <center>CLASSIQUE SQL INJECTION - EXPLOIT</center>
+# <center>CLASSIC SQL INJECTION - EXPLOIT</center>
 
 ![alt text](/img/sql_classic/sql_injection.jpeg#center)
 

@@ -11,9 +11,12 @@
                 <div class="blog-image">
                     <img src="/img/sql_classic/sql_injection.jpeg" alt="" class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200">
                 </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-between">
-                    <div class="text-left bg-slate-600 text-gray-50 px-2 py-1 rounded-sm" > #SQL #hack</div>
-                    <div class="text-right">Feb, 29 2024</div>
+                <div class="text-gray-600 mt-2 italic flex flex-row justify-start gap-2">
+                    <div class="text-left bg-slate-600 text-gray-50 px-2 py-1 rounded-sm text-sm" >#SQL</div>
+                    <div class="text-left bg-teal-600 text-gray-50 px-2 py-1 rounded-sm text-sm" >#hack</div>
+                </div>
+                <div class="flex flew-row justify-end">
+                    <div class="text-right italic text-gray-400">Feb, 29 2024</div>
                 </div>
             </nuxt-link>
 
@@ -24,9 +27,14 @@
                 <div class="blog-image">
                     <img src="/img/sql_blind/sql_blind.webp" alt="" class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200">
                 </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-between">
-                    <div class="text-left" > @aethelwulf</div>
-                    <div class="text-right">Feb, 29 2024</div>
+                <div class="text-gray-600 mt-2 italic flex flex-row justify-start gap-2">
+                    <div class="text-left bg-slate-600 text-gray-50 px-2 py-1 rounded-sm text-sm" > #SQL</div>
+                    <div class="text-left bg-teal-600 text-gray-50 px-2 py-1 rounded-sm text-sm" > #hack</div>
+                    <div class="text-left bg-amber-400 text-gray-50 px-2 py-1 rounded-sm text-sm" > #Python</div>
+                </div>
+
+                <div class="flex flew-row justify-end">
+                    <div class="text-right italic text-gray-400">Feb, 29 2024</div>
                 </div>
             </nuxt-link>
 
