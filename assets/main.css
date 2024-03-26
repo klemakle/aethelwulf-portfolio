@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: Ubuntu-Light;
+    src: url("~/assets/fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url("~/assets/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
     font-family: Montserrat-Bold;
     src: url("~/assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
@@ -23,10 +33,6 @@
     src: url("~/assets/fonts/Montserrat/Montserrat-Thin.ttf");
 }
 
-@font-face {
-    font-family: Ubuntu-Light;
-    src: url("~/assets/fonts/Ubuntu/Ubuntu-Light.ttf");
-}
 
 
 
@@ -54,7 +60,7 @@ body {
 
 .nuxt-content h1 {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     font-family: Montserrat-Bold;
     margin-top: 10px;
     margin-bottom: 32px;
@@ -65,32 +71,32 @@ body {
     font-weight: bold;
     font-size: 28px;
     padding-top: 24px ;
-    margin-bottom: 24px;
+    margin-bottom: 2px;
     color: #334961;
 }
 
 .nuxt-content h3 {
     font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #334961;
+    font-size: 22px;
+    margin-bottom: 2px;
+    color: #334961c5;
 }
 
 .nuxt-content h4 {
     font-weight: bold;
-    font-size: 22px;
-    margin-bottom: 14px;
-    color: #334961;
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: #334961b2;
 }
 .nuxt-content h5 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 14px;
-    color: #334961;
+    color: #334961b2;
 }
 .nuxt-content p {
     margin-bottom: 20px;
-    font-family: Montserrat-Regular;
+    font-family: Ubuntu-Regular;
 }
 
 .nuxt-content a {
@@ -119,5 +125,7 @@ body {
 .nuxt-content .date-update{
     font-family: Montserrat-Thin;
     font-style: italic;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    font-size: 14px;
 }

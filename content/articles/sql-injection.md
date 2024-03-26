@@ -8,10 +8,16 @@ author: Kalidou DIA
 
 ![alt text](/img/sql_classic/sql_injection.jpeg#center)
 
+### <center>In this tutorial, we'll look at how to exploit a SQL injection vulnerability.</center>
+<div style="text-align: right" class="date-update">
+Last update :  Feb, 25 2024
+</div>
+
+
 ________________________________________________________________
 ## 1. Presentation
 
-### In this tutorial, we'll look at how to exploit a SQL injection vulnerability.
+
 
 The website in question contains a lot of vulnerabilities. In a way, it is a laboratory for exploiting and testing vulnerabilities.
 The vulnerability we are going to describe in the following lines is "SQL injection". More information :[ click here to view](https://www.kaspersky.fr/resource-center/definitions/sql-injection)
@@ -27,7 +33,7 @@ Description of interaction with website visitors
 ![alt text](/img/sql_classic/gordon_screen.png#center)
 
 ________________________________________________________________
-## 2. How the website works 
+## 2. How the website works ?
 
 ### 2.1 Let's see how the site behaves when you enter values it doesn't expect
 <div class="flex flex-col md:flex-row gap-10 justify-between">
@@ -40,6 +46,7 @@ ________________________________________________________________
         <img src="/img/sql_classic/coucou_response.png"/>
     </div>
 </div>
+<br><br>
 
 ### 2.2 Let's see if the sql injection works.
 To do this, we're going to guess (thanks to the technology used on this site) the SQL query that is used to retrieve the information displayed.
@@ -67,6 +74,7 @@ This query will return the rows of the table concerned because the condition `` 
 ![alt text](/img/sql_classic/exploit1.png#center)
 
 The SQL injection passes and the table information is displayed.
+<br>
 
 ________________________________________________________________
 ## 3. Extract more information
@@ -93,6 +101,7 @@ WHERE  id = '' UNION SELECT NULL,version()-- - '
 
 ![alt text](/img/sql_classic/version.png#center)
 The image above shows that this is a mariaDB.
+<br>
 
 ### 3.2 Database schemas
 
@@ -105,6 +114,7 @@ We can see from the screenshot below that we have 2 comics: **dvwa'** and **info
 The database of interest to us is dvwa
 
 ![alt text](/img/sql_classic/schema.png#center)
+<br>
 
 ### 3.3 Extract tables from the dvwa DB
 
@@ -116,7 +126,7 @@ input  :  <span style = "color : #FF5733 ">
 We can see that the dvwa DB contains two tables: users and guestbook
 
 ![alt text](/img/sql_classic/tables.png#center)
-
+<br>
 
 ### 3.4 Extract columns from users table
 
@@ -136,7 +146,7 @@ The users table columns are :
     <li>failed_login</li>
 
 ![alt text](/img/sql_classic/columns.png#center)
-
+<br>
 
 ### 3.5 Extract all names and passwords
 
@@ -149,6 +159,7 @@ We use the ``concat()`` function to format and display as much information as we
 
 The image below shows the various items of information recovered.
 ![alt text](/img/sql_classic/lines.png#center)
+<br>
 
 ________________________________________________________________
 ## 4. Cracking passwords

@@ -1,85 +1,66 @@
 <template>
     <div class="container py-24">
-
-        
         <div class="flex flex-col gap-x-12 gap-y-10 md:flex-row flex-wrap justify-center items-center">
             
-            <nuxt-link to="/blog/sql-injection" class="blog-card border-1 border-gray-400 rounded-md transition ease-in delay-150 duration-200 bg-slate-100 hover:bg-slate-200 md:w-2/5 h-max py-8 px-4">
-                <div class="blog-title text-black font-bold mb-2 text-center" >
-                   Use SQL Injection to extract informations from database.
+            <nuxt-link class="one-project border-t-4 border-sky-300 " to="/blog/data-viz-elk">
+                <div class="project-image mx-auto">
+                  <img class="w-full h-48 object-cover object-center rounded-md " src="/img/elk/elk_filebeat1.png" alt="elk filebeat">
                 </div>
-                <div class="blog-image">
-                    <img src="/img/sql_classic/sql_injection.jpeg" alt="" class="mx-auto w-9/10 object-fit h-48 rounded-md border-gray-200">
+                <div class="project-name mt-2 text-bold">
+                    Security & data visualization
                 </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-start gap-2">
-                    <div class="text-left bg-slate-600 text-gray-50 px-2 py-1 rounded-sm text-sm" >#SQL</div>
-                    <div class="text-left bg-teal-600 text-gray-50 px-2 py-1 rounded-sm text-sm" >#hack</div>
+                <div class="project-description py-2">
+                    How to configure ELK containers and filebeat to view firewall logs in real time ?
                 </div>
-                <div class="flex flew-row justify-between mt-2 items-end italic">
-                    <div class="text-gray-500 "> 3 min read</div>
+                <div class="flex justify-start gap-4">
+                    <div class="px-2 py-2 bg-gray-700 hover:bg-sky-700 text-white rounded text-xs text-bold">SOC</div>
+                    <div class="px-2 py-2 bg-gray-500 hover:bg-yellow-500 text-white rounded text-xs text-bold">ELK</div>
+                </div>
+                <div class="flex justify-between mt-2 italic w-full  border-t-2 border-gray-300">
+                    <div class="text-gray-500"> 5 min read</div>
+                    <div class="text-right italic text-gray-400">Mar, 10 2024</div>
+                </div>
+            </nuxt-link>
+            
+            <nuxt-link class="one-project border-t-4 border-sky-700" to="/blog/sql-injection">
+                <div class="project-image mx-auto">
+                  <img class="w-full object-cover object-center h-48 rounded-md" src="/img/sql_classic/sql_injection.jpeg" alt="sql injection classic">
+                </div>
+                <div class="project-name mt-2 text-bold">
+                    SQL injection classic
+                </div>
+                <div class="project-description py-2 ">
+                    Use SQL Injection to extract informations from database.
+                </div>
+                <div class="flex justify-start gap-4">
+                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-800 text-white rounded text-xs text-bold">Hack</div>
+                </div>
+                <div class="flex justify-between mt-2 italic w-full border-t-2 border-gray-300">
+                    <div class="text-gray-500"> 3 min read</div>
+                    <div class="text-right italic text-gray-400">Feb, 25 2024</div>
+                </div>
+            </nuxt-link>
+
+            <nuxt-link class="one-project border-t-4 border-gray-700" to="/blog/sql-blind-injection">
+                <div class="project-image mx-auto">
+                  <img class="w-full object-cover object-center h-48 border rounded-md border-gray-200" src="/img/sql_blind/sql_blind.webp" alt="blind sql injection">
+                </div>
+                <div class="project-name mt-2 text-bold">
+                    Blind sql injection
+                </div>
+                <div class="project-description py-2">
+                    How to exploit Blind sql injection vulnerability ?
+                </div>
+                <div class="flex justify-start gap-4">
+                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-800 text-white rounded text-xs text-bold">Hack</div>
+                    <div class="px-2 py-2 bg-gray-600 hover:bg-teal-700 text-white rounded text-xs text-bold">Python</div>
+                </div>
+                <div class="flex justify-between mt-2 italic w-full border-t-2 border-gray-300">
+                    <div class="text-gray-500">8 min read</div>
                     <div class="text-right italic text-gray-400">Feb, 29 2024</div>
                 </div>
             </nuxt-link>
 
-            <nuxt-link to="/blog/sql-blind-injection" class="blog-card border-1 border-gray-400 rounded-md transition ease-in delay-150 duration-200 bg-slate-100 hover:bg-slate-200  md:w-2/5 h-max py-8 px-4">
-                <div class="blog-title text-black font-bold mb-2 text-center">
-                    How to exploit Blind sql injection vulnerability ?
-                </div>
-                <div class="blog-image">
-                    <img src="/img/sql_blind/sql_blind.webp" alt="" class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200">
-                </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-start gap-2">
-                    <div class="text-left bg-slate-600 text-gray-50 px-2 py-1 rounded-sm text-sm" > #SQL</div>
-                    <div class="text-left bg-teal-600 text-gray-50 px-2 py-1 rounded-sm text-sm" > #hack</div>
-                    <div class="text-left bg-amber-400 text-gray-50 px-2 py-1 rounded-sm text-sm" > #Python</div>
-                </div>
-
-                <div class="flex flew-row justify-between mt-2 items-end italic">
-                    <div class="text-gray-500"> 8 min read</div>
-                    <div class="text-right text-gray-400">Feb, 29 2024</div>
-                </div>
-            </nuxt-link>
-
-            <!-- <div class="blog-card border-1 border-gray-400 rounded-md bg-slate-100 hover:bg-slate-200 md:w-2/5 h-max py-10 px-4">
-                <div class="blog-title text-black font-bold mb-2">
-                    How to exploit Sql blind injection vulnerabbility ?
-                </div>
-                <div class="blog-image">
-                    <img src="/img/sql_classic/sql_injection.jpeg" alt="" class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200">
-                </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-between">
-                    <div class="text-left" > @aethelwulf</div>
-                    <div class="text-right">Feb, 29 2024</div>
-                </div>
-            </div>
-
-            <div class="blog-card border-1 border-gray-400 rounded-md bg-slate-100 hover:bg-slate-200 md:w-2/5 h-max py-10 px-4">
-                <div class="blog-title text-black font-bold mb-2">
-                    How to exploit Sql blind injection vulnerabbility ?
-                </div>
-                <div class="blog-image">
-                    <img src="/img/sql_classic/sql_injection.jpeg" alt="" class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200">
-                </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-between">
-                    <div class="text-left" > @aethelwulf</div>
-                    <div class="text-right">Feb, 29 2024</div>
-                </div>
-            </div> -->
-
-            <!-- <div class="blog-card border-1 border-gray-400 rounded-md bg-slate-100 hover:bg-slate-200 md:w-2/5 h-max py-10 px-4">
-                <div class="blog-title text-black font-bold mb-2">
-                    How to exploit Sql blind injection vulnerabbility ?
-                </div>
-                <div class="blog-image">
-                    <img src="/img/sql_classic/sql_injection.jpeg" alt="" class="mx-auto w-9/10 object-cover object-center h-48 border rounded-md border-gray-200">
-                </div>
-                <div class="text-gray-600 mt-2 italic flex flex-row justify-between">
-                    <div class="text-left" > @aethelwulf</div>
-                    <div class="text-right">Feb, 29 2024</div>
-                </div>
-            </div> -->
-
         </div>
-       
     </div>
 </template>
