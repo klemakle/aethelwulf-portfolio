@@ -24,7 +24,7 @@ Our firewall saves logs in a file (/var/log/sise.log).
 
 <br>
 
-## 2. Filebeat and logstash installations
+## 2. Filebeat and logstash installation
 We'll need to run the commands below to get filebeat running properly.
 ```bash
 # pre-config
@@ -47,7 +47,7 @@ export PATH=$PATH:/usr/share/logstash/bin/
 ```
 <br>
 
-### 2.1 Configuration de filebeat
+### 2.1 Filebeat config
 After installing filebeat, we add the following lines to the **filebeat.yml** file
 ```yml
 filebeat.inputs:
@@ -58,8 +58,9 @@ filebeat.inputs:
 output.logstash:
   hosts: ["127.0.0.1:5044"]
 ```
+<br>
 
-### 2.2 Configuring logstash
+### 2.2 Logstash config
 In a **myconf.conf** file that we have created, we put the content below.  
 ```shell
 input {
