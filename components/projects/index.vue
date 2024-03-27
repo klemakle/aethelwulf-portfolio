@@ -64,7 +64,7 @@
         </nuxt-link>
 
         <nuxt-link id="snake-game-id" class="one-project" to="/projects/snake">
-          <div class="project-numero">IA-RL</div>
+          <div class="project-numero">AI-RL</div>
           <div class="project-image mx-auto">
             <img class="mx-auto w-max h-48 border rounded-md border-gray-200" src="~/assets/images/project/snake-game.png" alt="kele-lek">
           </div>
@@ -197,8 +197,8 @@ export default {
   border-radius: 4px;
   padding: 20px 10px;
   transition: all .25s ;
-  width: 400px;
-  height: 450px;
+  width: 320px;
+  height: 480px;
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 3px #e8e8e88a; 
   box-shadow: 0px 0px 10px 3px #e8e8e88a;

@@ -13,9 +13,9 @@
                     Audit d'une app web sur un environnement de test
                 </div>
                 <div class="flex justify-start gap-4">
-                    <div class="px-2 py-2 bg-gray-400 hover:bg-sky-700 text-white rounded text-xs text-bold">Hack</div>
-                    <div class="px-2 py-2 bg-gray-500 hover:bg-cyan-500 text-white rounded text-xs text-bold">Pentest</div>
-                    <div class="px-2 py-2 bg-gray-700 hover:bg-red-500 text-white rounded text-xs text-bold">French</div>
+                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-500  text-white rounded-md text-xs text-bold">Hack</div>
+                    <div class="px-2 py-2 bg-gray-500 hover:bg-cyan-500 text-white rounded-md text-xs text-bold">Pentest</div>
+                    <div class="px-2 py-2 bg-gray-700 hover:bg-sky-700 text-white rounded-md text-xs text-bold">French</div>
                 </div>
                 <div class="flex justify-between mt-2 italic w-full  border-t-2 border-gray-300">
                     <div class="text-gray-500"> 18 min read</div>
@@ -34,8 +34,8 @@
                     How to configure ELK containers and filebeat to view firewall logs in real time ?
                 </div>
                 <div class="flex justify-start gap-4">
-                    <div class="px-2 py-2 bg-gray-700 hover:bg-sky-700 text-white rounded text-xs text-bold">SOC</div>
-                    <div class="px-2 py-2 bg-gray-500 hover:bg-yellow-500 text-white rounded text-xs text-bold">ELK</div>
+                    <div class="px-2 py-2 bg-gray-700 hover:bg-sky-700 text-white rounded-md text-xs text-bold">SOC</div>
+                    <div class="px-2 py-2 bg-gray-500 hover:bg-yellow-500 text-white rounded-md text-xs text-bold">ELK</div>
                 </div>
                 <div class="flex justify-between mt-2 italic w-full  border-t-2 border-gray-300">
                     <div class="text-gray-500"> 5 min read</div>
@@ -54,7 +54,7 @@
                     Use SQL Injection to extract informations from database.
                 </div>
                 <div class="flex justify-start gap-4">
-                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-800 text-white rounded text-xs text-bold">Hack</div>
+                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-800 text-white rounded-md text-xs text-bold">Hack</div>
                 </div>
                 <div class="flex justify-between mt-2 italic w-full border-t-2 border-gray-300">
                     <div class="text-gray-500"> 3 min read</div>
@@ -73,8 +73,8 @@
                     How to exploit Blind sql injection vulnerability ?
                 </div>
                 <div class="flex justify-start gap-4">
-                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-800 text-white rounded text-xs text-bold">Hack</div>
-                    <div class="px-2 py-2 bg-gray-600 hover:bg-teal-700 text-white rounded text-xs text-bold">Python</div>
+                    <div class="px-2 py-2 bg-gray-400 hover:bg-red-800 text-white rounded-md text-xs text-bold">Hack</div>
+                    <div class="px-2 py-2 bg-gray-600 hover:bg-teal-700 text-white rounded-md text-xs text-bold">Python</div>
                 </div>
                 <div class="flex justify-between mt-2 italic w-full border-t-2 border-gray-300">
                     <div class="text-gray-500">8 min read</div>
