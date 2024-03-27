@@ -75,7 +75,8 @@ filter {
 }
 output {
    elasticsearch {
-      hosts => [ "192.168.137.95:9200" ]
+    # 192.168.137.95 is the host ip where elasticsearch runs
+      hosts => [ "192.168.137.95:9200" ] 
 	    action => "index"
 	    index => "sise"
     }
@@ -86,7 +87,7 @@ This file takes as input the logs that logstash receives on port 5044. It then f
 
 The content of the grok filter depends on the logs. We recommend that you use online grok filter tools to obtain a good match of the data.
 
-The file sends the output (filtered and structured logs) to an elasticsearch service running in a conterner on the local machine.
+The file sends the output (filtered and structured logs) to an elasticsearch service running in a container on the local machine (192.168.137.95).
 ![alt text](</img/elk/filter logstash.png>)
 <br>
 
