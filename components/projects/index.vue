@@ -179,7 +179,7 @@ export default {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  flex: 1 1 30%;
+  /*flex: 1 1 25%;*/
   align-items: flex-start;
   background: #fff;
 }
@@ -197,7 +197,7 @@ export default {
   border-radius: 4px;
   padding: 20px 10px;
   transition: all .25s ;
-  width: 320px;
+  width: 340px;
   height: 480px;
   position: relative;
   -webkit-box-shadow: 0px 0px 10px 3px #e8e8e88a; 

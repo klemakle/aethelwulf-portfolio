@@ -69,7 +69,7 @@ export default {
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
-  background: #81B2CF;
+  background: #334961;
   will-change: transform;
   transform: translateY(-4px);
   transition:
