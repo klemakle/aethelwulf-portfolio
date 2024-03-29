@@ -7,7 +7,7 @@ author: Kalidou DIA
 # <center>Security & data viz</center>
 <img src="/img/elk/elk_filebeat1.png#center" alt="archi_elk" width="500"  />
 
-### <center>View firewall logs in real time with ELK ?</center>
+### <center>View firewall logs in real time with ELK</center>
 <div style="text-align: right" class="date-update">
 Last update :  Mar, 10 2024
 </div>
