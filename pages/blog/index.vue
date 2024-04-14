@@ -2,6 +2,25 @@
     <div class="container py-24">
         <div class="flex flex-col gap-2 md:gap-x-12 md:gap-y-10 md:flex-row flex-wrap justify-start items-center">
             
+            <nuxt-link class="one-project border-t-4 border-teal-400 " to="/blog/data-viz-rsyslog">
+                <div class="project-image mx-auto">
+                  <img class="w-full h-48 object-cover object-center rounded-md " src="/img/rsyslog/socanalyst.png" alt="pentest">
+                </div>
+                <div class="project-name mt-2 text-bold">
+                    Data viz with syslog-ng & rsyslog
+                </div>
+                <div class="project-description py-2">
+                    Collect firewall logs in real time and save it in a SQL database.
+                </div>
+                <div class="flex justify-start gap-4">
+                    <div class="px-2 py-2 bg-gray-500 hover:bg-sky-700 text-white rounded-md text-xs text-bold">SOC</div>
+                </div>
+                <div class="flex justify-between mt-2 italic w-full  border-t-2 border-gray-300">
+                    <div class="text-gray-500"> 4 min read</div>
+                    <div class="text-right italic text-gray-400">Apr, 03 2024</div>
+                </div>
+            </nuxt-link>
+            
             <nuxt-link class="one-project border-t-4 border-red-300 " to="/blog/audit-pentest">
                 <div class="project-image mx-auto">
                   <img class="w-full h-48 object-cover object-center rounded-md " src="/img/audit_box/home.png" alt="pentest">
