@@ -2,7 +2,7 @@
     <div class="container py-24">
         <div class="flex flex-col gap-2 md:gap-x-12 md:gap-y-10 md:flex-row flex-wrap justify-start items-center">
             
-            <nuxt-link class="one-project border-t-4 border-teal-400 " to="/blog/data-viz-rsyslog">
+            <nuxt-link class="one-project border-t-4 border-green-400 " to="/blog/data-viz-rsyslog">
                 <div class="project-image mx-auto">
                   <img class="w-full h-48 object-cover object-center rounded-md " src="/img/rsyslog/socanalyst.png" alt="pentest">
                 </div>
