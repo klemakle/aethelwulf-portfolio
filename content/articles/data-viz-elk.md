@@ -2,6 +2,18 @@
 title: Data visualisation - Security
 description: Visualization of firewall logs in real time.
 author: Kalidou DIA
+img : /img/elk/elk_filebeat1.png
+date: 2024-03-10
+read: 5
+updated: Mar, 10 2024
+border: border-sky-300
+tags:
+  - 
+    name: SOC
+    class: bg-gray-500 hover:bg-sky-700
+  - 
+    name: ELK
+    class: bg-gray-600 hover:bg-yellow-500
 ---
 
 # <center>Security & data viz</center>
@@ -110,7 +122,6 @@ FROM ubuntu
 
 RUN apt update
 RUN apt-get -y install openssh-server iptables 
-RUN apt install rsyslog -y
 RUN apt install apt-transport-https gnupg2 uuid-runtime pwgen curl dirmngr -y
 RUN apt install openjdk-11-jre-headless -y
 RUN apt install sudo vim wget file  -y
@@ -142,7 +153,6 @@ FROM ubuntu
 
 RUN apt update
 RUN apt-get -y install openssh-server iptables 
-RUN apt install rsyslog -y
 RUN apt install apt-transport-https gnupg2 uuid-runtime pwgen curl dirmngr -y
 RUN apt install openjdk-11-jre-headless -y
 RUN apt install sudo vim wget file  -y

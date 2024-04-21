@@ -1,7 +1,19 @@
 ---
-title: SQL Injection
-description: Learn how to exploit blind or boolean sql injection vulnerability.
+title: Blind SQL Injection
+description: How to exploit blind sql injection vulnerability.
 author: Kalidou DIA
+date: 2024-02-29
+img: /img/sql_blind/sql_blind.webp
+updated: Feb, 29 2024
+read: 8
+border: border-gray-700
+tags:
+  - 
+    name: Hack
+    class: bg-gray-400 hover:bg-red-800
+  - 
+    name: Python
+    class: bg-gray-600 hover:bg-teal-700
 ---
 
 # <center>BLIND SQL INJECTION </center>
@@ -65,7 +77,7 @@ url = "http://vulnerable.website"
 ```
 <br>
 
-**Function that allows us to perform brute force**
+**Function that allows us to perform brute force with python**
 ```python
 def send_request_with_wordlist(path_to_wordlist, beginnig_of_sql_request, end_of_sql_request):
     info_found = []

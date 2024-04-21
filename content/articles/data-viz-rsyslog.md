@@ -3,6 +3,14 @@ title: Syslog - security data visualization
 description: Collect firewall logs in real time and save it in database
 author: Kalidou DIA
 img : /img/rsyslog/socanalyst.png
+date: 2024-04-13
+read: 4
+updated: Apr, 13 2024
+border: border-green-400
+tags:
+  - 
+    name: SOC
+    class: bg-gray-500 hover:bg-sky-700
 ---
 
 # <center>Syslog - Rsyslog config</center>

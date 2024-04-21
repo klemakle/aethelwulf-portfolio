@@ -3,7 +3,7 @@
     <div class="header">
       <Header/>
     </div>
-    <div>
+    <div >
       <nuxt-child/>
     </div>
     <Footer />

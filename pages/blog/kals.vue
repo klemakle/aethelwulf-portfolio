@@ -28,9 +28,9 @@
                 </nuxt-link>
             </div>
         </div>
-        <div v-if="articles.length==0" class="flex flex-col text-slate-600 gap-6 justify-center items-center my-2 h-vh">
+        <div v-if="articles.length==0" class="flex flex-col text-slate-600 gap-6 justify-center items-center my-5">
           <img src="/img/not_found/emoji.png">
-          <p>Article not found !!</p>
+          <p>Not Found !!</p>
         </div>
     </div>
 </template>

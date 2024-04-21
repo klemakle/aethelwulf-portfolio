@@ -1,7 +1,16 @@
 ---
 title: SQL Injection
-description: Learn how to exploit sql injection vulnerability.
+description: How to exploit sql injection vulnerability.
 author: Kalidou DIA
+date: 2024-02-25
+updated: Feb, 25 2024
+img: /img/sql_classic/sql_injection.jpeg
+read: 5
+border: border-sky-700
+tags:
+  - 
+    name: Hack
+    class: bg-gray-400 hover:bg-red-800
 ---
 
 # <center>CLASSIC SQL INJECTION - EXPLOIT</center>
