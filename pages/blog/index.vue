@@ -53,9 +53,9 @@ export default {
           .fetch()
         }else {
           this.articles = await this.$content('articles')
-          .without ('body')
           .limit(3)
           .search(searchQuery)
+          .sortBy('createdAt', 'desc')
           .fetch()
         }
       }
