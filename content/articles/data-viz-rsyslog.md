@@ -11,7 +11,7 @@ img : /img/rsyslog/socanalyst.png
 
 ### <center>Collect firewall logs in real time with rsyslog & syslog-ng</center>
 <div style="text-align: right" class="date-update">
-Last update :  Mar, 31 2024
+Last update :  Apr, 13 2024
 </div>
 
 ## Presentation

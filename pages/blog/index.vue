@@ -17,7 +17,7 @@
                 </div>
                 <div class="flex justify-between mt-2 italic w-full  border-t-2 border-gray-300">
                     <div class="text-gray-500"> 4 min read</div>
-                    <div class="text-right italic text-gray-400">Apr, 03 2024</div>
+                    <div class="text-right italic text-gray-400">Apr, 13 2024</div>
                 </div>
             </nuxt-link>
             
