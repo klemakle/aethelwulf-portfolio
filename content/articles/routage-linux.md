@@ -5,7 +5,7 @@ author: Kalidou DIA
 ---
 
 # <center>Routing Linux</center>
-<img src="/img/routing/archi1.png#center" alt="archi_elk" width="500"  />
+<img src="/img/routing/archi1.png#center" alt="archi_elk" width="600"  />
 
 ### <center>Configure restricted connections between VM</center>
 <div style="text-align: right" class="date-update">

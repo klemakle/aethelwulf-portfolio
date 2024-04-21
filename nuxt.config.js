@@ -3,7 +3,14 @@ export default {
     ssr: false,
     target: 'static',
     generate: {
-        routes: ['/blog/audit-pentest', '/blog/**']
+        routes: [
+            '/blog/audit-pentest', 
+            '/blog/audit-pentest',
+            '/blog/data-viz-elk',
+            '/blog/data-viz-rsyslog',
+            '/blog/sql-injection',
+            '/blog/sql-blind-injection'
+        ]
     },
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
