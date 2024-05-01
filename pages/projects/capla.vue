@@ -53,10 +53,8 @@ export default {
     Header,
   },
   head:{
-        title: `Project`,
+    title: `Capla`,
   },
-  mounted(){
-  }
 }
 </script>
 

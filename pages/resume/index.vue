@@ -18,6 +18,11 @@ export default {
     header,
     Resume
   },
+  head() {
+    return {
+      title: "Resume"
+    };
+  },
   mounted(){  }
 }
 </script>

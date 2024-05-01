@@ -43,7 +43,7 @@
   import Header from '~/components/header/header.vue';
   export default {
     head:{
-          title: `Project`,
+          title: `Snake RL`,
     },
     components:{
       Header,

@@ -46,7 +46,7 @@
 import Header from '~/components/header/header.vue';
 export default {
   head:{
-        title: `Project`,
+        title: `Kele lek`,
   },
   components:{
     Header,

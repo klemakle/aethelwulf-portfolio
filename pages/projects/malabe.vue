@@ -51,6 +51,9 @@ The team consisted of 4 members: a React developer, an Android developer, a Node
 import Header from '~/components/header/header.vue';
 export default {
   components:{Header},
+  head:{
+    title: `Malabe`,
+  },
 }
 </script>
 

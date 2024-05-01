@@ -51,7 +51,7 @@ export default {
     }
   },
   head:{
-        title: `Project`,
+        title: `Transcure`,
         script: [
             { type: 'text/javascript', src: 'https://unpkg.com/vue'},
             { type: 'text/javascript', src: 'https://unpkg.com/vueperslides'}
