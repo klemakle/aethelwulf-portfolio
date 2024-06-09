@@ -9,7 +9,8 @@ export default {
             '/blog/data-viz-elk',
             '/blog/data-viz-rsyslog',
             '/blog/sql-injection',
-            '/blog/sql-blind-injection'
+            '/blog/sql-blind-injection',
+            '/blog/linux-ha'
         ]
     },
     // Global page headers: https://go.nuxtjs.dev/config-head

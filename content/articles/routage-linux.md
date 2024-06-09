@@ -6,10 +6,11 @@ img: /img/routing/archi1.png
 date: 2024-04-21
 updated: Apr, 21 2024
 read: 2
+border: border-blue-300
 tags:
   - 
     name: Network
-    class: bg-gray-800 hover:bg-cyan-800
+    class: bg-gray-500 hover:bg-cyan-800
 ---
 
 # <center>Routing Linux</center>

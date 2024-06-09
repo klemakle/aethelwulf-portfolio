@@ -6,7 +6,7 @@ img : /img/rsyslog/socanalyst.png
 date: 2024-04-13
 read: 4
 updated: Apr, 13 2024
-border: border-green-400
+border: border-green-500
 tags:
   - 
     name: SOC

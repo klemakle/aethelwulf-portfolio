@@ -10,7 +10,7 @@
 
         <div class=" flex flex-col gap-2 md:gap-x-12 md:gap-y-10 md:flex-row flex-wrap justify-start items-center" v-if="articles">
             <div v-for="article of articles" :key="article.slug">
-                <nuxt-link  :class="'one-project border-t-4 '+ article.border " :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+                <nuxt-link  :class="'one-project border-t-4 '+ article.border + '' " :to="{ name: 'blog-slug', params: { slug: article.slug } }">
                     <div class="project-image mx-auto">
                         <img class="w-full h-48 object-cover object-center rounded-md " :src="article.img" :alt="article.title">
                     </div>
