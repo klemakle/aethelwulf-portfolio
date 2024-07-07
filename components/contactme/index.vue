@@ -110,7 +110,7 @@ export default {
   background-image: url('~/assets/images/about/blob1.png');
   background-repeat: no-repeat;
   background-position: 40% 50%;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;

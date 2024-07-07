@@ -8,11 +8,11 @@
         <div class="photo-kals bounce" id="parallax" ></div> 
         <div class="info-presentation" id="layer-1"><Location/></div>
         <div class="info-presentation" id="layer-2">
-          <Profession :title="'Software Engineer'" :desc="'Fullstack Js developer'"/>
+          <Profession :title="'Software Engineer'" :desc="'Fullstack developer'"/>
         </div>
         <div class="info-presentation cursor-pointer" id="layer-3">
         <a href="https://www.univ-lyon2.fr/master-2-informatique-organisation-et-protection-des-systemes-dinformation-dans-les-entreprises-opsie" target="_blank">
-          <Profession :title="'Cybersecurity'" :desc="'OPSIE master at Lyon'" :end="true"/>
+          <Profession :title="'Cybersecurity'" :desc="'OPSIE @ Lyon | Micropole'" :end="true"/>
         </a>
         </div>
         <div class="info-presentation" id="layer-4"><Trophy/></div>

@@ -12,21 +12,23 @@
         </div>
         <div class="my-presentation" data-aos="fade-up" data-aos-duration="1800">
           <p>
-            My name is <span class="gras-text">Kalidou Dia</span>, I'm 25 years old. I'm from Senegal (West Africa) and I'm currently living in Lyon (France) 
-            where I'm doing a specialization in cybersecurity at <a class="gras-text underline-text" href="https://www.univ-lyon2.fr/" target="_blank">Université Lumière</a>. 
+            My name is <span class="gras-text">Kalidou Dia</span>, I'm 25 years old. I'm from Senegal (West Africa) and I'm currently living in Lyon (France).
+            <!-- where I'm doing a specialization in cybersecurity at <a class="gras-text underline-text" href="https://www.univ-lyon2.fr/" target="_blank">Université Lumière</a>.  -->
             I'm passionate about everything related on computers and technology.
           </p>
           <p class="mt-2">
-            I started doing web development in 2017. I have worked in software development with <span class="gras-text">Spring boot and the Javascript ecosystem </span>.
+            I started doing web development in 2017. I have worked in software development with <span class="gras-text">Spring boot and Javascript ecosystem </span>.
           </p>
-          <p>Most projects I developed were made with <span class="gras-text">Nuxt.js</span>, <span class="gras-text">Vue.js</span> and <span class="gras-text">Express</span>, <span class="gras-text">Nest js</span> or <span class="gras-text">Spring boot</span> </p>
+          <!-- <p>Most projects I developed were made with <span class="gras-text">Nuxt.js</span>, <span class="gras-text">Vue.js</span> and <span class="gras-text">Express</span>, <span class="gras-text">Nest js</span> or <span class="gras-text">Spring boot</span> </p> -->
           <p class="mt-2">
             I have a degree in <span class="gras-text">software engineering and telecommunications</span> from <a class="gras-text underline-text" href="https://ept.sn/" target="_blank">EPT</a>  and worked 
             as a software engineer at <a class="gras-text underline-text" href="https://intouchgroup.net/" target="_blank">Intouch group</a> (a company offering digital payment solutions). 
-            I learn a lot and I'm always learning new things, especially in the fields of <span class="gras-text">cybersecurity</span> and <span class="gras-text">creative development.</span>
+           <br>
+            I'm currently specializing in IT security and working as a cybersecurity consultant for an ESN (<a class="gras-text underline-text" href="https://www.micropole.com/" target="_blank">Micropole</a>) based in Paris.
+            <!-- I learn a lot and I'm always learning new things, especially in the fields of <span class="gras-text">cybersecurity</span> and <span class="gras-text">creative development.</span> -->
           </p>
           <p>
-            Besides programming, I play football or basketball, writing poems, listening music and discovering new artists.
+            Besides professionnal work, I love playing football, basketball, writing poems, listening music and discovering new artists.
           </p>
           <a href="https://drive.google.com/file/d/1eZJ9_zpVyoTze85SvlfqBJlh7zRrvkz_/view?usp=sharing" target="_blank" class="my-resume mt-4 pointer">
             <span class="text">See my resume in PDF</span>
@@ -204,7 +206,7 @@ export default {
   background-image: url('~/assets/images/about/blob1.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
